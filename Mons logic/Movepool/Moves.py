@@ -26,7 +26,7 @@ class attack:
      "key": ,
         
       },
-  3: {
+      3: {
     "name": "Scorch",
     "type": ,
     "description": ,
