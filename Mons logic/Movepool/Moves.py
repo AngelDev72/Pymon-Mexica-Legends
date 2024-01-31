@@ -9,12 +9,13 @@ class attack:
       1: {
      "name": "Veno Drop",
      "type": ,
-    "description": "",
-    "power": 90,
-    "accuracy": 85,
-    "usage": 15,
-    "key": ,
-  },
+     "description": "",
+     "power": 90,
+     "accuracy": 85,
+     "usage": 15,
+     "key": ,
+        
+      },
   2: {
     "name": "Earthquake",
     "type": ,
