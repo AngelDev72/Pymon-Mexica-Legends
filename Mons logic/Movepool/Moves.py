@@ -16,15 +16,16 @@ class attack:
      "key": ,
         
       },
-  2: {
-    "name": "Earthquake",
-    "type": ,
-    "description": ,
-    "power": 100,
-    "accuracy": 1,
-    "usage": 15,
-    "key": ,
-  },
+      2: {
+     "name": "Earthquake",
+     "type": ,
+     "description": ,
+     "power": 100,
+     "accuracy": 1,
+     "usage": 15,
+     "key": ,
+        
+      },
   3: {
     "name": "Scorch",
     "type": ,
