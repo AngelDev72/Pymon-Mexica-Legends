@@ -4,7 +4,7 @@ from Mons logic import Stats
 
 
 class attack:
-def physical():
+  def physical():
 moves = {
   1: {
     "name": "Veno Drop",
