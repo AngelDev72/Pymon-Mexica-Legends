@@ -17,8 +17,8 @@ class attack:
         
       },
       2: {
-     "name": "Earthquake",
-     "type": ,
+        "name": "Earthquake",
+        "type": ,
      "description": ,
      "power": 100,
      "accuracy": 1,
@@ -27,7 +27,7 @@ class attack:
         
       },
       3: {
-    "name": "Scorch",
+        "name": "Scorch",
     "type": ,
     "description": ,
     "power": 50,
