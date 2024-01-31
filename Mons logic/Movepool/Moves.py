@@ -1,7 +1,7 @@
 import pygame
 import sys
 from Mons logic import Stats
-from Stats import Types as Tp
+
 
 class attack:
   def physical():
