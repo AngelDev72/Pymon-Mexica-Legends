@@ -1,10 +1,10 @@
 import pygame as pg
 import sys
+from enum import Enum
 
-class attack:
-  def physical():
-    attacks = {
-      1: {
+class attack(Enum):
+  def physical(self):
+    Veno_Drop = {
         "name": "Veno Drop",
         "type": ,
         "description": "",
@@ -12,7 +12,7 @@ class attack:
         "accuracy": 85,
         "usage": 15,
       },
-      2: {
+    Earthquake = {
         "name": "Earthquake",
         "type": ,
         "description": ,
@@ -21,7 +21,7 @@ class attack:
         "usage": 15,
         "effect": 
       },
-      3: {
+    Scorch = {
         "name": "Scorch",
         "type": ,
         "description": ,
@@ -30,15 +30,15 @@ class attack:
         "usage": 20,
         "effect": 
       },
-      4: {
+    Chop = {
         "name": "Chop",
-        "type": fighting,
+        "type": "Fighting",
         "description": ,
         "power": 75,
         "accuracy": 85,
         "usage": 15,
       },
-      5: {
+    Wing_Strike = {
         "name": "Wing Strike",
         "type": ,
         "description": ,
@@ -46,16 +46,16 @@ class attack:
         "accuracy": 90,
         "usage": 15,
       },
-      6: {
+    Leech = {
         "name": "Leech",
-        "type": bug,
+        "type": "Bug",
         "description": ,
         "power": 55,
         "accuracy": 85,
         "usage": 20,
         "effect": #restores 1/8 the damage inflicted 
       },
-      7: {
+    Bite = {
         "name": "Bite",
         "type": ,
         "description": ,
@@ -63,7 +63,7 @@ class attack:
         "accuracy": 90,
         "usage": 15,
       },
-      8: {
+    Water_Stride = {
         "name": "Water Stride",
         "type": ,
         "description": "The user charges at the foe with enough force to walk over water.",
@@ -71,7 +71,7 @@ class attack:
         "accuracy": 90,
         "usage": 15,
       },
-      9: {
+    Draco_Slash = {
         "name": "Draco Slash",
         "type": ,
         "description": ,
@@ -79,7 +79,7 @@ class attack:
         "accuracy": 90,
         "usage": 15,
       },
-      10: {
+    Flame_Rush = {
         "name": "Flame Rush",
         "type": ,
         "description": ,
@@ -87,7 +87,7 @@ class attack:
         "accuracy": 85,
         "usage": 10,
       },
-      11: {
+    Frost_Rush = {
         "name": "Frost Rush",
         "type": ,
         "description": ,
@@ -95,7 +95,7 @@ class attack:
         "accuracy": 85,
         "usage": 10,
       },
-      12: {
+    Avalanche = {
         "name": "Avalanche",
         "type": ,
         "description": ,
@@ -104,7 +104,7 @@ class attack:
         "usage": 15,
         "effect": 
       },
-      13: {
+    Veno_Fang = {
         "name": "Veno Fang",
         "type": ,
         "description": ,
@@ -112,17 +112,19 @@ class attack:
         "accuracy": 90,
         "usage": 15,
       },
-      14: {
-        "name": "",
+    Stone_Blade = {
+        "name": "Stone Blade",
         "type": ,
         "description": ,
-        "power": ,
-        "accuracy": ,
-        "usage": ,
+        "power": 85,
+        "accuracy": 80,
+        "usage": 15,
       },
+    Frost_Blade = {
+        
     }
     
-  def special():
+  def special(self):
     sp_attks = {
       1: {
         "name": "Fright",
@@ -142,29 +144,43 @@ class attack:
       }
     }
   
-class defense:
-  def defend():
+class defense(Enum):
+  def defend(self):
     barriers = {
       
     }
 
-class status:
-  def increase():
+class status(Enum):
+  def increase(self):
     boosts = {
       
     }
     
-  def lower():
+  def lower(self):
     lower = {
       
     }
     
   
-class stats:
-  def condition ():
-    conditions = {
-      1: {
+class stats(Enum):
+  def condition (self):
+    Burn = {
         "name": "Burn",
-        "effect": #deals damage each turn taken,
-      }
+        "effect": #deals damage every 30s, reduces attack and may cause flinch(if flinched, 15s deley to recover)
+        }
+    Freeze = {
+        "name": "Freeze",
+        "effect": #freezes the target for certian amount of time, after defrost target's speed falls 30s
+    }
+    Paralyze = {
+        "name": "Paralyze",
+        "effect": #paralizes the target, low chance to attack
+    }
+    Confusion = {
+        "name": "Confused",
+        "effect": #swaps the movementent keys for 60s, 50% chance to hit itself 
+    }
+    Sleep = {
+        "name": "Sleep",
+        "effect": #makes the target fall into a deep sleep, 10% to awake while in battle. 90s to wake up after battle.
     }
