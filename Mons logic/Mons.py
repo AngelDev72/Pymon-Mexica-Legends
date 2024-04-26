@@ -4,594 +4,594 @@ from enum import Enum
 
 
 class Mons(Enum):
-  Leaflet = {
-    "name" :"Leaflet",
-    "type" : "Grass",
-    "stats" : { 
-      "Hp" : 150,
-      "Attack" : 68,
-      "Defense" : 70,
-      "Sp_Atk" : 85,
-      "Sp_Def" : 80,
-      "Speed" : 118
-      
+    Leaflet = {
+        "name": "Leaflet",
+        "type": "Grass",
+        "stats": { 
+            "Hp": 160,
+            "Attack": 78,
+            "Defense": 80,
+            "Sp_Atk": 85,
+            "Sp_Def": 90,
+            "Speed": 118
+            
+        }
+        
     }
-    
-  }
-  Floraleaf = {
-    "name" : "Floraleaf",
-    "type" : "Grass",
-    "stats" : {
-      "Hp" : 160,
-      "Attack" 73:,
-      "Defense" 75:,
-      "Sp_Atk" : 93,
-      "Sp_Def" : 88,
-      "Speed" : 125
-      
+    Floraleaf = {
+        "name: "Floraleaf",
+        "type": "Grass",
+        "stats": {
+            "Hp": 170,
+            "Attack":  83,
+            "Defense": 85,
+            "Sp_Atk": 100,
+            "Sp_Def": 98,
+            "Speed": 125
+            
+        }
+        
     }
-    
-  }
-  Vinyldra = {
-    "name" : "Vinyldra",
-    "type" : [
-      "Grass", 
-      "Dragon"
-      ],
-    "stats" : {
-      "Hp" : 170,
-      "Attack" : 88,
-      "Defense" : 88,
-      "Sp_Atk" : 115,
-      "Sp_Def" : 100,
-      "Speed" : 130
-      
+    Vinyldra = {
+        "name": "Vinyldra",
+        "type": [
+            "Grass", 
+            "Dragon"
+            ],
+        "stats": {
+            "Hp": 180,
+            "Attack": 98,
+            "Defense": 98,
+            "Sp_Atk": 120,
+            "Sp_Def": 110,
+            "Speed": 130
+            
+        }
+        
     }
-    
-  }
-  Flamepup = {
-    "name" : "Flamepup",
-    "type" : "Fire",
-    "stats" : {
-      "Hp" : 155,
-      "Attack" : 70,
-      "Defense" : 60,
-      "Sp_Atk" : 65,
-      "Sp_Def" : 60,
-      "Speed" : 100
-      
+    Flamepup = {
+        "name": "Flamepup",
+        "type": "Fire",
+        "stats": {
+            "Hp": 165,
+            "Attack": 78,
+            "Defense": 60,
+            "Sp_Atk": 75,
+            "Sp_Def": 70,
+            "Speed": 100
+            
+        }
+        
     }
-    
-  }
-  Blazejaw = {
-    "name" : "Blazejaw",
-    "type" : "Fire",
-    "stats" : {
-      "Hp" : 165,
-      "Attack" : 85,
-      "Defense" : 74,
-      "Sp_Atk" : 80,
-      "Sp_Def" : 74,
-      "Speed" : 115
-      
+    Blazejaw = {
+        "name": "Blazejaw",
+        "type": "Fire",
+        "stats": {
+            "Hp": 175,
+            "Attack": 90,
+            "Defense": 84,
+            "Sp_Atk": 90,
+            "Sp_Def": 84,
+            "Speed": 115
+            
+        }
+        
     }
-    
-  }
-  Inferchomp = {
-    "name" : "Inferchomp",
-    "type" : [
-      "Fire", 
-      "Beast"
-      ],
-    "stats" : {
-      "Hp" : 175,
-      "Attack" : 100,
-      "Defense" : 88,
-      "Sp_Atk" : 95,
-      "Sp_Def" : 93,
-      "Speed" : 123
-      
+    Inferchomp = {
+        "name": "Inferchomp",
+        "type": [
+            "Fire", 
+            "Beast"
+        ],
+        "stats": {
+            "Hp": 185,
+            "Attack": 110,
+            "Defense": 98,
+            "Sp_Atk": 105,
+            "Sp_Def": 103,
+            "Speed": 123
+            
+        }
+        
     }
-    
-  }
-  Mudlope {
-    "name" : "Mudlope",
-    "type" : "Water",
-    "stats" : {
-      "Hp" : 163,
-      "Attack" : 73,
-      "Defense" : 75,
-      "Sp_Atk" : 75,
-      "Sp_Def" : 78,
-      "Speed" : 90
-      
+    Mudlope = {
+        "name": "Mudlope",
+        "type": "Water",
+        "stats": {
+            "Hp": 173,
+            "Attack": 83,
+            "Defense": 85,
+            "Sp_Atk": 85,
+            "Sp_Def": 88,
+            "Speed": 90
+            
+        }
+        
     }
-    
-  }
-  Mudskipper = {
-    "name" : "Mudskipper",
-    "type" : "Water",
-    "stats" : {
-      "Hp" : 174,
-      "Attack" : 83,
-      "Defense" : 85,
-      "Sp_Atk" : 85,
-      "Sp_Def" : 88,
-      "Speed" : 105
-      
+    Mudskipper = {
+        "name": "Mudskipper",
+        "type": "Water",
+        "stats": {
+            "Hp": 184,
+            "Attack": 93,
+            "Defense": 95,
+            "Sp_Atk": 95,
+            "Sp_Def": 98,
+            "Speed": 105
+            
+        }
+        
     }
-    
-  }
-  Quakelotl {
-    "name" : "Quakelotl",
-    "type" : [
-      "Water",
-      "Ground"
-      ],
-    "stats" : {
-      "Hp" : 190,
-      "Attack" : 100,
-      "Defense" : 95,
-      "Sp_Atk" : 103,
-      "Sp_Def" : 100,
-      "Speed" : 115
-      
+    Quakelotl = {
+        "name": "Quakelotl",
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "stats": {
+            "Hp": 200,
+            "Attack": 110,
+            "Defense": 105,
+            "Sp_Atk": 113,
+            "Sp_Def": 110,
+            "Speed": 115
+            
+        }
+        
     }
-    
-  }
-  Breezowl = {
-    "name" : "Breezowl",
-    "type" : "Flying",
-    "stats" : {
-      "Hp" : 154,
-      "Attack" : 65,
-      "Defense" : 65,
-      "Sp_Atk" : 60,
-      "Sp_Def" : 63,
-      "Speed" : 100
-      
+     Breezowl = {
+        "name": "Breezowl",
+        "type": "Flying",
+        "stats": {
+            "Hp": 164,
+            "Attack": 70,
+            "Defense": 75,
+            "Sp_Atk": 70,
+            "Sp_Def": 63,
+            "Speed": 100
+            
+        }
+        
     }
-    
-  }
-  Gustwing = {
-    "name" : "Gustwing",
-    "type" : "Flying",
-    "stats" : {
-      "Hp" : 162,
-      "Attack" : 75,
-      "Defense" : 73,
-      "Sp_Atk" : 73,
-      "Sp_Def" : 75,
-      "Speed" : 118
-      
-      }
-    
-  }
-  Cyclohawk = {
-    "name" : "Cyclohawk",
-    "type" : [
+    Gustwing = {
+        "name": "Gustwing",
+        "type": "Flying",
+        "stats": {
+            "Hp": 172,
+            "Attack": 85,
+            "Defense": 83,
+            "Sp_Atk": 83,
+            "Sp_Def": 85,
+            "Speed": 118
+            
+        }
+        
+    }
+    Cyclohawk = {
+    "name": "Cyclohawk",
+    "type": [
       "Flying",
       "Electric"
       ],
-    "stats" : {
-      "Hp" : 172,
-      "Attack" : 90,
-      "Defense" : 85,
-      "Sp_Atk" : 100,
-      "Sp_Def" : 88,
-      "Speed" : 140
+    "stats": {
+      "Hp": 185,
+      "Attack": 100,
+      "Defense": 95,
+      "Sp_Atk": 110,
+      "Sp_Def": 98,
+      "Speed": 145
       
     }
     
   }
   Rochling = {
-    "name" : "Rochling",
-    "type" : "Bug",
-    "stats" : {
-      "Hp" : 130,
-      "Attack" : 65,
-      "Defense" : 65,
-      "Sp_Atk" : 60,
-      "Sp_Def" : 65,
-      "Speed" : 105
+    "name": "Rochling",
+    "type": "Bug",
+    "stats": {
+      "Hp": 140,
+      "Attack": 65,
+      "Defense": 65,
+      "Sp_Atk": 60,
+      "Sp_Def": 65,
+      "Speed": 105
       
     }
     
   }
   Shedroch = {
-    "name" : "Shedroch",
-    "type" : "Bug",
-    "stats" : {
-      "Hp" : 160,
-      "Attack" : 80,
-      "Defense" : 50,
-      "Sp_Atk" : 75,    
-      "Sp_Def" : 50,
-      "Speed" : 118
+    "name": "Shedroch",
+    "type": "Bug",
+    "stats": {
+      "Hp": 170,
+      "Attack": 80,
+      "Defense": 50,
+      "Sp_Atk": 75,    
+      "Sp_Def": 50,
+      "Speed": 118
       
     }
     
   }
   Beheroch = {
-    "name" : "Beheroch",
-    "type" : [
+    "name": "Beheroch",
+    "type": [
       "Bug", 
       "Dark"
       ],
-    "stats" : {
-      "Hp" : 195,
-      "Attack" : 115,
-      "Defense" : 110,
-      "Sp_Atk" : 110,
-      "Sp_Def" : 110,
-      "Speed" : 135
+    "stats": {
+      "Hp": 195,
+      "Attack": 120,
+      "Defense": 114,
+      "Sp_Atk": 115,
+      "Sp_Def": 113,
+      "Speed": 140
       
     }
     
   }
   Kickora = {
-    "name" : "Kickora",
-    "type" : [
+    "name": "Kickora",
+    "type": [
       "Fighting",
       "Flying"
       ],
-    "stats" : {
-      "Hp" : 175,
-      "Attack" : 100,
-      "Defense" : 95,
-      "Sp_Atk" : 85,
-      "Sp_Def" : 88,
-      "Speed" : 115
+    "stats": {
+      "Hp": 185,
+      "Attack": 110,
+      "Defense": 95,
+      "Sp_Atk": 85,
+      "Sp_Def": 98,
+      "Speed": 115
       
     }
     
   }
   Siphonbite = {
-    "name" : "Siphonbite",
-    "type" : "Dark",
-    "stats" : {
-      "Hp" : 158,
-      "Attack" : 70,
-      "Defense" : 85,
-      "Sp_Atk" : 70,
-      "Sp_Def" : 85,
-      "Speed" : 100
+    "name": "Siphonbite",
+    "type": "Dark",
+    "stats": {
+      "Hp": 168,
+      "Attack": 70,
+      "Defense": 85,
+      "Sp_Atk": 70,
+      "Sp_Def": 85,
+      "Speed": 100
       
     }
     
   }
   Souldevoir = {
-    "name" : "Souldevoir",
-    "type" : [
+    "name": "Souldevoir",
+    "type": [
       "Dark",
       "Beast"
     ],
-    "stats" : {
-      "Hp" : 190,
-      "Attack" : 85,
-      "Defense" : 100,
-      "Sp_Atk" : 95,
-      "Sp_Def" : 100,
-      "Speed" : 120
+    "stats": {
+      "Hp": 190,
+      "Attack": 85,
+      "Defense": 100,
+      "Sp_Atk": 95,
+      "Sp_Def": 100,
+      "Speed": 120
       
     }
     
   }
   Essenfest = {
-    "name" : "Essenfest",
-    "type" : [
+    "name": "Essenfest",
+    "type": [
       "Dark",
       "Beast"
       ],
     "stats" : {
-      "Hp" : 180,
-      "Attack" : 100,
-      "Defense" : 98,
-      "Sp_Atk" : 90,
-      "Sp_Def" : 95,
-      "Speed" : 122
+      "Hp": 180,
+      "Attack": 100,
+      "Defense": 98,
+      "Sp_Atk": 90,
+      "Sp_Def": 95,
+      "Speed": 122
       
     }
     
   }
   Sparkitt = {
-    "name" : "Sparkitt",
-    "type" : "Electric",
-    "stats" : {
-      "Hp" : 155,
-      "Attack" : 75,
-      "Defense" : 68,
-      "Sp_Atk" : 80,
-      "Sp_Def" : 80,
-      "Speed" : 115
+    "name": "Sparkitt",
+    "type": "Electric",
+    "stats": {
+      "Hp": 165,
+      "Attack": 75,
+      "Defense": 68,
+      "Sp_Atk": 80,
+      "Sp_Def": 80,
+      "Speed": 115
       
     }
     
   }
   Joltflash = {
-    "name" : "Joltflash",
-    "type" : "Electric",
-    "stats" : {
-      "Hp" : 175,
-      "Attack" : 85,
-      "Defense" : 80,
-      "Sp_Atk" : 105,
-      "Sp_Def" : 110,
-      "Speed" : 130
+    "name": "Joltflash",
+    "type": "Electric",
+    "stats": {
+      "Hp": 175,
+      "Attack": 85,
+      "Defense": 80,
+      "Sp_Atk": 105,
+      "Sp_Def": 110,
+      "Speed": 130
       
     }
     
   }
   Luminara {
-    "name" : "Luminara",
-    "type" : [
+    "name": "Luminara",
+    "type": [
       "Water",
       "Dark"
       ],
-    "stats" : {
-      "Hp" : 170,
-      "Attack" : 100,
-      "Defense" : 88,
-      "Sp_Atk" : 95,
-      "Sp_Def" : 93,
-      "Speed" : 110
+    "stats": {
+      "Hp": 170,
+      "Attack": 100,
+      "Defense": 88,
+      "Sp_Atk": 95,
+      "Sp_Def": 93,
+      "Speed": 110
       
     }
     
   }
   Thundhoof = {
-    "name" : "Thundhoof",
-    "type" : [
+    "name": "Thundhoof",
+    "type": [
       "Electric",
       "Fairy"
       ],
-    "stats" : {
-      "Hp" : 175,
-      "Attack" : 93,
-      "Defense" : 95,
-      "Sp_Atk" : 100,
-      "Sp_Def" : 92,
-      "Speed" : 110
+    "stats": {
+      "Hp": 175,
+      "Attack": 93,
+      "Defense": 95,
+      "Sp_Atk": 100,
+      "Sp_Def": 92,
+      "Speed": 110
       
     }
     
   }
   Swoopscar = {
-    "name" : "Swoopscar",
-    "type" : [
+    "name": "Swoopscar",
+    "type": [
       "Bug",
       "Flying"
       ],
-    "stats" : {
-      "Hp" : 170,
-      "Attack" : 95,
-      "Defense" : 90,
-      "Sp_Atk" : 90,
-      "Sp_Def" : 100,
-      "Speed" : 102
+    "stats": {
+      "Hp": 170,
+      "Attack": 95,
+      "Defense": 90,
+      "Sp_Atk": 90,
+      "Sp_Def": 100,
+      "Speed": 102
     
     }
     
   }
   Sandove = {
-    "name" : "Sandove",
-    "type" : [
+    "name": "Sandove",
+    "type": [
       "Ground",
       "Flying"
       ],
-    "stats" : {
-      "Hp" : 165,
-      "Attack" : 98,
-      "Defense" : 88,
-      "Sp_Atk" : 92,
-      "Sp_Def" : 93,
-      "Speed" : 105
+    "stats": {
+      "Hp": 165,
+      "Attack": 98,
+      "Defense": 88,
+      "Sp_Atk": 92,
+      "Sp_Def": 93,
+      "Speed": 105
       
     }
     
   }
   Dunebeak = {
-    "name" : "Dunebeak",
-    "type" : [
+    "name": "Dunebeak",
+    "type": [
       "Ground",
       "Flying"
       ],
-    "stats" : {
-      "Hp" : 180,
-      "Attack" : 105,
-      "Defense" : 95,
-      "Sp_Atk" : 107,
-      "Sp_Def" : 99,
-      "Speed" : 112
+    "stats": {
+      "Hp": 180,
+      "Attack": 105,
+      "Defense": 95,
+      "Sp_Atk": 107,
+      "Sp_Def": 99,
+      "Speed": 112
     
     }
     
   }
   Mossclaw = {
-    "name" : "Mossclaw",
-    "type" : "Grass",
-    "stats" : {
-      "Hp" : 168,
-      "Attack" : 83,
-      "Defense" : 85,
-      "Sp_Atk" : 83,
-      "Sp_Def" : 92,
-      "Speed" : 102
+    "name": "Mossclaw",
+    "type": "Grass",
+    "stats": {
+      "Hp": 168,
+      "Attack": 83,
+      "Defense": 85,
+      "Sp_Atk": 83,
+      "Sp_Def": 92,
+      "Speed": 102
       
     }
     
   }
   Thornpaw = {
-    "name" : "Thornpaw",
-    "type" : "Grass",
-    "stats" : {
-      "Hp" : 183,
-      "Attack" : 110,
-      "Defense" : 90,
-      "Sp_Atk" : 98,
-      "Sp_Def" : 102,
-      "Speed" : 112
+    "name": "Thornpaw",
+    "type": "Grass",
+    "stats": {
+      "Hp": 183,
+      "Attack": 110,
+      "Defense": 90,
+      "Sp_Atk": 98,
+      "Sp_Def": 102,
+      "Speed": 112
       
     }
     
   }
   Spectrora = {
-    "name" : "Spectrora",
-    "type" : [
+    "name": "Spectrora",
+    "type": [
       "Ghost",
       "Flying"
       ],
-    "stats" : {
-      "Hp" : 187,
-      "Attack" : 91,
-      "Defense" : 90,
-      "Sp_Atk" : 105,
-      "Sp_Def" : 102,
-      "Speed" : 112
+    "stats": {
+      "Hp": 187,
+      "Attack": 91,
+      "Defense": 90,
+      "Sp_Atk": 105,
+      "Sp_Def": 102,
+      "Speed": 112
       
     }
     
   }
   Tulehag = {
-    "name" : "Tulehag",
-    "type" : [
+    "name": "Tulehag",
+    "type": [
       "Ghost",
       "Grass"
       ],
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "stats": {
+      "Hp": 170,
+      "Attack": 100,
+      "Defense": 88,
+      "Sp_Atk": 90,
+      "Sp_Def": 90,
+      "Speed": 98
       
     }
     
   }
   Mistlion = {
-    "name" : "Mistlion",
-    "type" : "Ice",
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "name": "Mistlion",
+    "type": "Ice",
+    "stats": {
+      "Hp": 170,
+      "Attack": 80,
+      "Defense": 90,
+      "Sp_Atk": 85,
+      "Sp_Def": 90,
+      "Speed": 90
       
     }
     
   }
   Hazeleo = {
-    "name" : "Hazeleo",
-    "type" : [
+    "name": "Hazeleo",
+    "type": [
       "Ice",
       "Steel"
       ],
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "stats": {
+      "Hp": 188,
+      "Attack" : 98,
+      "Defense" : 100,
+      "Sp_Atk" : 100,
+      "Sp_Def" : 103,
+      "Speed" : 100
       
     }
     
   }
   Stormlion = {
-    "name" : "Stormlion"
-    "type" : "Electric",
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "name": "Stormlion"
+    "type": "Electric",
+    "stats": {
+      "Hp": 172,
+      "Attack" : 83,
+      "Defense" : 88,
+      "Sp_Atk" : 90,
+      "Sp_Def" : 88,
+      "Speed" : 95
       
     }
     
   }
-  Roarstom {
-    "name" : "Roarstom",
-    "type" : [
+  Roarstom  = {
+    "name": "Roarstom",
+    "type": [
       "Electric",
       "Steel"
       ],
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "stats": {
+      "Hp": 185,
+      "Attack": 95,
+      "Defense": 100,
+      "Sp_Atk": 103,
+      "Sp_Def": 98,
+      "Speed": 106
       
     }
     
   }
   Floracorn = {
-    "name" : "Floracorn",
-    "type" : [
+    "name": "Floracorn",
+    "type": [
       "Fairy",
       "Flying"
       ],
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "stats": {
+      "Hp": 188,
+      "Attack": 85,
+      "Defense": 90,
+      "Sp_Atk": 98,
+      "Sp_Def": 100,
+      "Speed": 99
       
     }
     
   }
   Verdantus = {
-    "name" : "Verdantus",
-    "type" : [
+    "name": "Verdantus",
+    "type": [
       "Grass",
       "Poison"
       ],
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "stats": {
+      "Hp": 190,
+      "Attack" : 105,
+      "Defense" : 100,
+      "Sp_Atk": 105,
+      "Sp_Def": 100,
+      "Speed": 110
       
     }
     
   }
   Electray = {
-    "name" : "Electray",
-    "type" : [
+    "name": "Electray",
+    "type": [
       "Electric",
       "Water"
       ],
-    "stats" :{
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "stats":{
+      "Hp": 195,
+      "Attack": 80,
+      "Defense": 95,
+      "Sp_Atk": 110,
+      "Sp_Def": 100,
+      "Speed": 109
       
     }
     
   }
   Frostpaw = {
-    "name" : "Frostpaw",
-    "type" : "Ice",
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+    "name": "Frostpaw",
+    "type": "Ice",
+    "stats": {
+      "Hp": 170,
+      "Attack" : 75,
+      "Defense" : 85,
+      "Sp_Atk" : 83,
+      "Sp_Def" : 88,
+      "Speed" : 90
       
     }
     
@@ -600,12 +600,12 @@ class Mons(Enum):
     "name" : "Hailclaw",
     "type" : "Ice",
     "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+      "Hp" : 185,
+      "Attack" : 85,
+      "Defense" : 98,
+      "Sp_Atk" : 100,
+      "Sp_Def" : 100,
+      "Speed" : 105
       
     }
     
@@ -617,12 +617,12 @@ class Mons(Enum):
       "Water"
       ],
     "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
+      "Hp" : 168,
+      "Attack" : 73,
+      "Defense" : 72,
+      "Sp_Atk" : 75,
+      "Sp_Def" : 74,
+      "Speed" : 85
       
     }
     
@@ -1583,35 +1583,34 @@ class Mons(Enum):
     }
     
   }
-  Serpentix = {
-    "name" : "Serpentix",
-    "type" : [
-      "Dragon",
-      "Fairy"
-      ],
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
-      
+    Serpentix = {
+        "name" : "Serpentix",
+        "type" : [
+            "Dragon",
+            "Fairy"
+            ],
+        "stats": {
+            "Hp": 245,
+            "Attack": 145,
+            "Defense" : 140,
+            "Sp_Atk" : 150,
+            "Sp_Def" : 145,
+            "Speed" : 150
+            
+        }
+        
     }
-    
-  }
-  Shadow = {
-    "name" : "Shadow",
-    "type" : "Ghost",
-    "stats" : {
-      "Hp" : ,
-      "Attack" : ,
-      "Defense" : ,
-      "Sp_Atk" : ,
-      "Sp_Def" : ,
-      "Speed" :
-      
+    Shadow = {
+        "name" : "Shadow",
+        "type" : "Ghost",
+        "stats" : {
+            "Hp": 235,
+            "Attack": 140,
+            "Defense": 130,
+            "Sp_Atk": 145,
+            "Sp_Def": 135,
+            "Speed": 135
+            
+        }
+        
     }
-    
-  }
-  }
