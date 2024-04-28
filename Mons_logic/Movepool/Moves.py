@@ -2,7 +2,7 @@ import pygame as pg
 import sys
 from enum import Enum
 
-class attack(Enum):
+class Attack(Enum):
   def physical(self):
     Veno_Drop = {
         "name": "Veno Drop",
@@ -144,13 +144,13 @@ class attack(Enum):
       }
     }
   
-class defense(Enum):
+class Defense(Enum):
   def defend(self):
     barriers = {
       
     }
 
-class status(Enum):
+class Status(Enum):
   def increase(self):
     boosts = {
       
@@ -162,7 +162,7 @@ class status(Enum):
     }
     
   
-class stats(Enum):
+class Stats(Enum):
   def condition (self):
     Burn = {
         "name": "Burn",
