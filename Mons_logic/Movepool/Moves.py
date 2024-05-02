@@ -11,7 +11,7 @@ class Attack(Enum):
         "power": 90,
         "accuracy": 85,
         "usage": 15,
-      },
+      }
     Earthquake = {
         "name": "Earthquake",
         "type": ,
@@ -20,7 +20,153 @@ class Attack(Enum):
         "accuracy": 1,
         "usage": 15,
         "effect": 
-      },
+      }
+    Chop = {
+        "name": "Chop",
+        "type": "Fighting",
+        "description": ,
+        "power": 75,
+        "accuracy": 85,
+        "usage": 15,
+      }
+    Wing_Strike = {
+        "name": "Wing Strike",
+        "type": ,
+        "description": ,
+        "power": 70,
+        "accuracy": 90,
+        "usage": 15,
+      }
+    Leech = {
+        "name": "Leech",
+        "type": "Bug",
+        "description": ,
+        "power": 55,
+        "accuracy": 85,
+        "usage": 20,
+        "effect": #restores 1/8 the damage inflicted 
+      }
+    Bite = {
+        "name": "Bite",
+        "type": ,
+        "description": ,
+        "power": 65,
+        "accuracy": 90,
+        "usage": 15,
+      }
+    Water_Stride = {
+        "name": "Water Stride",
+        "type": ,
+        "description": [
+            "The user charges at the foe with enough force to walk over water."
+            ],
+        "power": 95,
+        "accuracy": 90,
+        "usage": 15,
+      }
+    Draco_Slash = {
+        "name": "Draco Slash",
+        "type": ,
+        "description": ,
+        "power": 95,
+        "accuracy": 90,
+        "usage": 15,
+      }
+    Flame_Rush = {
+        "name": "Flame Rush",
+        "type": ,
+        "description": ,
+        "power": 100,
+        "accuracy": 85,
+        "usage": 10,
+      }
+    Frost_Rush = {
+        "name": "Frost Rush",
+        "type": ,
+        "description": ,
+        "power": 100,
+        "accuracy": 85,
+        "usage": 10,
+      }
+    Avalanche = {
+        "name": "Avalanche",
+        "type": ,
+        "description": ,
+        "power": 95,
+        "accuracy": 90,
+        "usage": 15,
+        "effect": #changes type depanding on the terrain. 30% chance to make the target flinch
+      }
+    Veno_Fang = {
+        "name": "Veno Fang",
+        "type": ,
+        "description": ,
+        "power": 70,
+        "accuracy": 90,
+        "usage": 15,
+      }
+    Stone_Blade = {
+        "name": "Stone Blade",
+        "type": ,
+        "description": ,
+        "power": 85,
+        "accuracy": 80,
+        "usage": 15,
+      }
+    Frost_Blade = {
+        "name": "Frost Blade",
+        "type": ,
+        "description": ,
+        "power": 85,
+        "accuracy": 80,
+        "usage": 15,
+    }
+    Vine_Lash = {
+        "name": "",
+        "type": ,
+        "description": ,
+        "power": ,
+        "accuracy": ,
+        "usage": ,
+    }
+    Headbutt = {
+        "name": "Headbutt",
+        "type": ,
+        "description": ,
+        "power": 85,
+        "accuracy": 80,
+        "usage": 20,
+        "effect": #25% chance to make the target flinch
+        
+    }
+    Leaf_Scythe = {
+        "name": "Leaf Scythe",
+        "type": ,
+        "description": ,
+        "power": 90,
+        "accuracy": 85,
+        "usage": 15,
+    }
+    Ice_Fist = {
+        "name": "",
+        "type": ,
+        "description": ,
+        "power": ,
+        "accuracy": ,
+        "usage": ,
+    }
+    
+  def special(self):
+    
+    Fright= {
+        "name": "Fright",
+        "type": Ghost,
+        "description": ,
+        "power": 50,
+        "accuracy": 100,
+        "usage": 15,
+        
+    },
     Scorch = {
         "name": "Scorch",
         "type": ,
@@ -30,119 +176,6 @@ class Attack(Enum):
         "usage": 20,
         "effect": 
       },
-    Chop = {
-        "name": "Chop",
-        "type": "Fighting",
-        "description": ,
-        "power": 75,
-        "accuracy": 85,
-        "usage": 15,
-      },
-    Wing_Strike = {
-        "name": "Wing Strike",
-        "type": ,
-        "description": ,
-        "power": 70,
-        "accuracy": 90,
-        "usage": 15,
-      },
-    Leech = {
-        "name": "Leech",
-        "type": "Bug",
-        "description": ,
-        "power": 55,
-        "accuracy": 85,
-        "usage": 20,
-        "effect": #restores 1/8 the damage inflicted 
-      },
-    Bite = {
-        "name": "Bite",
-        "type": ,
-        "description": ,
-        "power": 65,
-        "accuracy": 90,
-        "usage": 15,
-      },
-    Water_Stride = {
-        "name": "Water Stride",
-        "type": ,
-        "description": "The user charges at the foe with enough force to walk over water.",
-        "power": 95,
-        "accuracy": 90,
-        "usage": 15,
-      },
-    Draco_Slash = {
-        "name": "Draco Slash",
-        "type": ,
-        "description": ,
-        "power": 95,
-        "accuracy": 90,
-        "usage": 15,
-      },
-    Flame_Rush = {
-        "name": "Flame Rush",
-        "type": ,
-        "description": ,
-        "power": 100,
-        "accuracy": 85,
-        "usage": 10,
-      },
-    Frost_Rush = {
-        "name": "Frost Rush",
-        "type": ,
-        "description": ,
-        "power": 100,
-        "accuracy": 85,
-        "usage": 10,
-      },
-    Avalanche = {
-        "name": "Avalanche",
-        "type": ,
-        "description": ,
-        "power": 95,
-        "accuracy": 90,
-        "usage": 15,
-        "effect": 
-      },
-    Veno_Fang = {
-        "name": "Veno Fang",
-        "type": ,
-        "description": ,
-        "power": 70,
-        "accuracy": 90,
-        "usage": 15,
-      },
-    Stone_Blade = {
-        "name": "Stone Blade",
-        "type": ,
-        "description": ,
-        "power": 85,
-        "accuracy": 80,
-        "usage": 15,
-      },
-    Frost_Blade = {
-        
-    }
-    
-  def special(self):
-    sp_attks = {
-      1: {
-        "name": "Fright",
-        "type": Ghost,
-        "description": ,
-        "power": 50,
-        "accuracy": 100,
-        "usage": 15,
-      },
-      2: {
-        "name":
-        "type":
-        "description": 
-        "power":
-        "accuracy":
-        "usage":
-      }
-    }
   
 class Defense(Enum):
   def defend(self):
@@ -184,3 +217,9 @@ class Stats(Enum):
         "name": "Sleep",
         "effect": #makes the target fall into a deep sleep, 10% to awake while in battle. 90s to wake up after battle.
     }
+        "name": "",
+        "type": ,
+        "description": ,
+        "power": ,
+        "accuracy": ,
+        "usage": ,
