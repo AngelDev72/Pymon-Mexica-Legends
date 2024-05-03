@@ -194,7 +194,66 @@ class Attack(Enum):
         "usage": 15,
         "effect": #destroys special barriers and cancels their effects
     }
-        
+        Dragon_Fist = {
+            "name": "Dragon Fist",
+            "type": "Dragon",
+            "description": ,
+            "power": 75,
+            "accuracy": 80,
+            "usage": 20,
+        }
+        Meteor_Strike = {
+            "name": "Metor Strike",
+            "type": "Rock",
+            "description": ,
+            "power": 95,
+            "accuracy": 95,
+            "usage": 15,
+            "effect": #the closer the target to the impact, the greater the damage, user takes damage too
+        }
+        Metal_Blade = {
+            "name": "Metal Blade",
+            "type": "Steel",
+            "description": ,
+            "power": 80,
+            "accuracy": 85,
+            "usage": 15,
+        }
+        Mystic_Blade = {
+            "name": "Mystic Balde",
+            "type": "Fairy",
+            "description": ,
+            "power": 80,
+            "accuracy": 85,
+            "usage": 15,
+        }
+        Volt_Strike = {
+            "name": "Volt Strike",
+            "type": "Electric",
+            "description": ,
+            "power": 80,
+            "accuracy": 85,
+            "usage": 15,
+            "effect": # the user takes damage, 10% chance to Paralyze
+        }
+        Electro_Blade = {
+            "name": "Electro Blade",
+            "type": "Electric",
+            "description": ,
+            "power": 80,
+            "accuracy": 85,
+            "usage": 15,
+            "effect": # 10% chance to Paralyze
+        }
+        Electro_Wing = {
+            "name": "Electro Wing",
+            "type": "Electric",
+            "description": ,
+            "power": 75,
+            "accuracy": 85,
+            "usage": 15,
+            "effect": # 15% chance to flinch or Paralyze
+        }
 
     def special(self):
         Fright= {
@@ -241,7 +300,7 @@ class Attack(Enum):
             "power": 100,
             "accuracy": 1,
             "usage": 10,
-            "effect": #hits everything on the field except the user, 40% chanche to cuase Confusion
+            "effect": #hits everything on the field except the user, 40% chance to cuase Confusion
         }
         Twister = {
             "name": "Twister",
@@ -269,6 +328,59 @@ class Attack(Enum):
             "accuracy": 90,
             "usage": 10,
             "effect": #freezes the target, hits in a certain range
+        }
+        Draco_Breath = {
+            "name": "Draco Breath",
+            "type": "Dragon",
+            "description": ,
+            "power": 90,
+            "accuracy": 90,
+            "usage": 15,
+        }
+        Stellarium = {
+            "name": "Stellarium",
+            "type": "Normal",
+            "description": ,
+            "power": 75,
+            "accuracy": 1,
+            "usage": 15,
+            
+        }
+        Mystic_Shine = {
+            "name": "Mystic Shine",
+            "type": "Fairy",
+            "description": ,
+            "power": 90,
+            "accuracy": 1,
+            "usage": 10,
+            "effect": #10% chance to lowrer the targets accuracy
+        }
+        Glacial_Wind = {
+            "name": "Galcial Wind",
+            "type": ,
+            "description": ,
+            "power": 50,
+            "accuracy": 90,
+            "usage": 20,
+            "effect": #reduces the targets speed 10%, 5% chance of Freeze. hits in certain area except if used on icy fields
+        }
+        Heat_Wave = {
+            "name": " Heat Wave",
+            "type": ,
+            "description": ,
+            "power": 70,
+            "accuracy": 90,
+            "usage": 20,
+            "effect": # hits the targwt on a certain range. 10% chance to cause a Burn
+        }
+        Thunder_Storm = {
+            "name": "Thunder Storm",
+            "type": "Electric",
+            "description": ,
+            "power": 100,
+            "accuracy": 90,
+            "usage": 10,
+            "effect": # if raining accuracy = 1. 15% chance to Paralyze
         }
 
 class Defense(Enum):
@@ -313,6 +425,14 @@ class Stats(Enum):
             "usage": 20,
             "effect":#raises the users Special Defense
         }
+        Fairy_Light = {
+            "name": "Fairy Light",
+            "type": "Fairy",
+            "description": ,
+            "usage": 15,
+            "effect": # heightens the users Special attack and Special Defense 10%. lowers the enemy accuracy 5%
+        }
+        
 
     def lower(self):
         Growl = {
@@ -331,6 +451,14 @@ class Stats(Enum):
             "usage": 20,
             "effect": #lowers the targets accuracy 10%, hits in a certain range
             
+        }
+        Glance = {
+            "name": "Glance",
+            "type": ,
+            "description": ,
+            "accuracy": 90,
+            "usage": 20,
+            "effect": #reduces the foes Defense 10%
         }
 
 
