@@ -215,16 +215,16 @@ class Attack(Enum):
             "name": "Metal Blade",
             "type": "Steel",
             "description": ,
-            "power": 80,
-            "accuracy": 85,
+            "power": 85,
+            "accuracy": 80,
             "usage": 15,
         }
         Mystic_Blade = {
             "name": "Mystic Balde",
             "type": "Fairy",
             "description": ,
-            "power": 80,
-            "accuracy": 85,
+            "power": 85,
+            "accuracy": 80,
             "usage": 15,
         }
         Volt_Strike = {
@@ -240,8 +240,8 @@ class Attack(Enum):
             "name": "Electro Blade",
             "type": "Electric",
             "description": ,
-            "power": 80,
-            "accuracy": 85,
+            "power": 85,
+            "accuracy": 80,
             "usage": 15,
             "effect": # 10% chance to Paralyze
         }
@@ -254,6 +254,23 @@ class Attack(Enum):
             "usage": 15,
             "effect": # 15% chance to flinch or Paralyze
         }
+        Necro_Blade = {
+            "name": "Necro Blade",
+            "type": "Dark",
+            "description": ,
+            "power": 85,
+            "accuracy": 80,
+            "usage": 15,
+        }
+        Errie_Blade = {
+            "name": "Errie Blade",
+            "type": "Ghost",
+            "description": ,
+            "power": 85,
+            "accuracy": 80,
+            "usage": 15,
+        }
+        
 
     def special(self):
         Fright= {
@@ -384,69 +401,70 @@ class Attack(Enum):
         }
 
 class Field(Enum):
-    Over_Grow = {
-        "name": "Over Grow",
-        "type": "Grass",
-        "description": ,
-        "usage": 5,
-        "effect": # creates an ancient forest terrain, boosts Grass, Bug, Beast and Fairy types moves 13%
-    }
-    Blizzard = {
-        "name": "Blizzard",
-        "type": "Ice",
-        "description": ,
-        "usage": 5,
-        "effect": # summons a hailstorm that creates en icy field. boosts Ice type moves 13%
-    }
-    Hurracaine = {
-        "name": "Hurracaine",
-        "type": "Water",
-        "description": ,
-        "usage": 5,
-        "effect": # summons a hurricane. bossts Water, Electric and Flying moves 13%
-    }
-    Oasis = {
-        "name": "Oasis",
-        "type": "Psychic",
-        "description": ,
-        "usage": 5,
-        "effect": # creates a peaceful place for meditaion. boosts Psychic and Fighting moves 13%
-    }
-    Errie_Mist = {
-        "name": "Errie Mist",
-        "type": "Ghost",
-        "description": ,
-        "usage": 5,
-        "effect": # summons a mysterious fog that covers all. boosts Ghost and Dark type moves 13%
-    }
-    Mine = {
-        "name": "Mine",
-        "type": "Rock",
-        "description": ,
-        "usage": 5,
-        "effect": # creates a mining site. boosts Steel and Rock type moves 13%
-    }
-    Harsh_Land = {
-        "name": "Harsh Land",
-        "type": "Fire",
-        "description": ,
-        "usage": 5,
-        "effect": # creates a desolate land. boosts Fire, Ground and Dragon type moves 13%. 
-    }
-    Swamps = {
-        "name": "Swamps",
-        "type": "Poison",
-        "description": ,
-        "usage": 5,
-        "effect": # creates a swampy land. boosts Poison type moves 13%
-    }
-    Obstaculum = {
-        "name": "Obstaculum",
-        "type": "Normal",
-        "description": ,
-        "usage": 5,
-        "effect": # let's the user adapt to the terrain. boosts users Normal type moves 13% and speed 10%
-    }
+    def terrain(self):
+        Over_Grow = {
+            "name": "Over Grow",
+            "type": "Grass",
+            "description": ,
+            "usage": 5,
+            "effect": # creates an ancient forest terrain, boosts Grass, Bug, Beast and Fairy types moves 13%
+            }
+        Blizzard = {
+            "name": "Blizzard",
+            "type": "Ice",
+            "description": ,
+            "usage": 5,
+            "effect": # summons a hailstorm that creates en icy field. boosts Ice type moves 13%
+            }
+        Hurracaine = {
+            "name": "Hurracaine",
+            "type": "Water",
+            "description": ,
+            "usage": 5,
+            "effect": # summons a hurricane. bossts Water, Electric and Flying moves 13%
+            }
+        Oasis = {
+            "name": "Oasis",
+            "type": "Psychic",
+            "description": ,
+            "usage": 5,
+            "effect": # creates a peaceful place for meditaion. boosts Psychic and Fighting moves 13%
+            }
+        Errie_Mist = {
+            "name": "Errie Mist",
+            "type": "Ghost",
+            "description": ,
+            "usage": 5,
+            "effect": # summons a mysterious fog that covers all. boosts Ghost and Dark type moves 13%
+            }
+        Mine = {
+            "name": "Mine",
+            "type": "Rock",
+            "description": ,
+            "usage": 5,
+            "effect": # creates a mining site. boosts Steel and Rock type moves 13%
+            }
+        Harsh_Land = {
+            "name": "Harsh Land",
+            "type": "Fire",
+            "description": ,
+            "usage": 5,
+            "effect": # creates a desolate land. boosts Fire, Ground and Dragon type moves 13%.
+            }
+        Swamps = {
+            "name": "Swamps",
+            "type": "Poison",
+            "description": ,
+            "usage": 5,
+            "effect": # creates a swampy land. boosts Poison type moves 13%
+            }
+        Obstaculum = {
+            "name": "Obstaculum",
+            "type": "Normal",
+            "description": ,
+            "usage": 5,
+            "effect": # let's the user adapt to the terrain. boosts users Normal type moves 13% and speed 10%
+            }
 
 class Defense(Enum):
     def shield(self):
