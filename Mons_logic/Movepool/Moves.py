@@ -270,7 +270,15 @@ class Attack(Enum):
             "accuracy": 80,
             "usage": 15,
         }
-        
+        Whirl_Blade = {
+            "name": "Whirl Blade",
+            "type": "Flying",
+            "description": ,
+            "power": 85,
+            "accuracy": 95,
+            "usage": 15,
+            "effect": # the user spreads it's arms wide open and starts spinning around. hits in a range of 1 block around the user
+        }
 
     def special(self):
         Fright= {
@@ -399,6 +407,34 @@ class Attack(Enum):
             "usage": 10,
             "effect": # if raining accuracy = 1. 15% chance to Paralyze
         }
+        Kinnesis = {
+            "name": "Kinnesis",
+            "type": "Psychic",
+            "description": ,
+            "power": 100,
+            "accuracy": 95,
+            "usage": 10,
+            "effect": # grabs the target at a certain range 
+        }
+        Jolt = {
+            "name": "Jolt",
+            "type": "Electric",
+            "description": ,
+            "power": 45,
+            "accuracy": 90,
+            "usage": 25,
+            "effect": # hits in a certain range. 15% chance to Paralyze
+        }
+        Electro_Ball = {
+            "name": "Electro Ball",
+            "type": "Electric",
+            "description": ,
+            "power": 75,
+            "accuracy": 90,
+            "usage": 20,
+            "effect": # hits in a certain range
+        }
+        
 
 class Field(Enum):
     def terrain(self):

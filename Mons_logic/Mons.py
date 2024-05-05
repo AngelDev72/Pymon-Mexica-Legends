@@ -229,6 +229,49 @@ class Mons(Enum):
         }
         
     }
+    Normulin = {
+        "name": "Normulin",
+        "type": "Normal",
+        "stats": {
+            "Hp": 170,
+            "Attack": 70,
+            "Defense": 72,
+            "Sp_Atk": 60,
+            "Sp_Def": 75,
+            "Speed": 70
+        
+    }
+    
+  }
+    Normuza = {
+        "name": "Normuza",
+        "type": "Normal",
+        "stats": {
+            "Hp": 180,
+            "Attack": 85,
+            "Defense": 88,
+            "Sp_Atk": 72,
+            "Sp_Def": 85,
+            "Speed": 80
+            
+        }
+    }
+    Normine = {
+        "name": "Normine",
+        "type": [
+            "Normal",
+            "Steel"
+            ]
+        "stats": {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
     Kickora = {
         "name": "Kickora",
         "type": [
@@ -293,6 +336,45 @@ class Mons(Enum):
             
         }
         
+    }
+    Coatliris = {
+        "name" : "Coatliris",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Coatluz = {
+        "name" : "Coatluz",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Coatlum = {
+        "name" : "Coatlum",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
     }
     Sparkitt = {
         "name": "Sparkitt",
@@ -373,7 +455,7 @@ class Mons(Enum):
         }
         
     }
-     Sandove = {
+    Sandove = {
         "name": "Sandove",
         "type": [
             "Ground",
@@ -406,6 +488,45 @@ class Mons(Enum):
             
         }
         
+    }
+    Coyol = {
+        "name" : "Coyol",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Coyoba = {
+        "name" : "Coyoba",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Coyestro = {
+        "name" : "Coyestro",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
     }
     Mossclaw = {
         "name": "Mossclaw",
@@ -451,6 +572,45 @@ class Mons(Enum):
             
         }
         
+    }
+    Tucaro = {
+        "name" : "Tucaro",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Tucanor = {
+        "name" : "Tucanor",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Tucanix = {
+        "name" : "Tucanix",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
     }
     Tulehag = {
         "name": "Tulehag",
@@ -564,6 +724,84 @@ class Mons(Enum):
             
         }
         
+    }
+    Iguar = {
+        "name" : "Iguar",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Igualis = {
+        "name" : "Igualis",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Iguarex = {
+        "name" : "Iguarex",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Camix = {
+        "name" : "Camix",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Camillo = {
+        "name" : "Camillo",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Camaximo = {
+        "name" : "Camaximo",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
     }
     Electray = {
         "name": "Electray",
@@ -779,6 +1017,45 @@ class Mons(Enum):
             
         }
         
+    }
+    Tlacota = {
+        "name" : "Tlacota",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Tlacotor = {
+        "name" : "Tlacotor",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Tlacoguard = {
+        "name" : "Tlacoguard",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
     }
     Fangrend = {
         "name" : "Fangrend",
@@ -1003,6 +1280,84 @@ class Mons(Enum):
         }
         
     }
+    Vena = {
+        "name" : "Vena",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Venatus = {
+        "name" : "Venatus",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Venomalo = {
+        "name" : "Venomalo",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Ratil = {
+        "name" : "Ratil",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Ratal = {
+        "name" : "Ratal",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Ratonar = {
+        "name" : "raton",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
     Crysantis = {
         "name" : "Crysantis",
         "type" : [
@@ -1081,6 +1436,45 @@ class Mons(Enum):
             
         }
         
+    }
+    Colibin = {
+        "name" : "Colibin",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Colibra = {
+        "name" : "Colibra",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
+    }
+    Colibrio = {
+        "name" : "Colibrio",
+        "type" : "Normal",
+        "stats" : {
+            "Hp" : ,
+            "Attack" : ,
+            "Defense" : ,
+            "Sp_Atk" : ,
+            "Sp_Def" : ,
+            "Speed" :
+            
+        }
     }
     Zyephblade = {
         "name" : "Zyephblade",
