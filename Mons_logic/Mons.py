@@ -263,12 +263,12 @@ class Mons(Enum):
             "Steel"
             ]
         "stats": {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+            "Hp": 195,
+            "Attack" : 100,
+            "Defense" : 105,
+            "Sp_Atk" : 85,
+            "Sp_Def" : 110,
+            "Speed" : 90
             
         }
     }
@@ -338,41 +338,41 @@ class Mons(Enum):
         
     }
     Coatliris = {
-        "name" : "Coatliris",
-        "type" : "Normal",
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "name": "Coatliris",
+        "type": "Normal",
+        "stats": {
+            "Hp": ,
+            "Attack": ,
+            "Defense": ,
+            "Sp_Atk": ,
+            "Sp_Def": ,
+            "Speed":
             
         }
     }
     Coatluz = {
-        "name" : "Coatluz",
-        "type" : "Normal",
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "name": "Coatluz",
+        "type": "Normal",
+        "stats": {
+            "Hp": ,
+            "Attack": ,
+            "Defense": ,
+            "Sp_Atk": ,
+            "Sp_Def": ,
+            "Speed":
             
         }
     }
     Coatlum = {
-        "name" : "Coatlum",
-        "type" : "Normal",
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "name": "Coatlum",
+        "type": "Normal",
+        "stats": {
+            "Hp": ,
+            "Attack": ,
+            "Defense": ,
+            "Sp_Atk": ,
+            "Sp_Def": ,
+            "Speed":
             
         }
     }
@@ -491,7 +491,10 @@ class Mons(Enum):
     }
     Coyol = {
         "name" : "Coyol",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Ground"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -504,7 +507,10 @@ class Mons(Enum):
     }
     Coyoba = {
         "name" : "Coyoba",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Ground"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -517,7 +523,10 @@ class Mons(Enum):
     }
     Coyestro = {
         "name" : "Coyestro",
-        "type" : "Normal",
+        "type" : [
+            "Dark",
+            "Ground"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -575,7 +584,10 @@ class Mons(Enum):
     }
     Tucaro = {
         "name" : "Tucaro",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Flying"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -588,7 +600,10 @@ class Mons(Enum):
     }
     Tucanor = {
         "name" : "Tucanor",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Flying"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -601,7 +616,10 @@ class Mons(Enum):
     }
     Tucanix = {
         "name" : "Tucanix",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Flying"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -727,7 +745,10 @@ class Mons(Enum):
     }
     Iguar = {
         "name" : "Iguar",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Grass"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -740,7 +761,10 @@ class Mons(Enum):
     }
     Igualis = {
         "name" : "Igualis",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Grass"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -753,7 +777,10 @@ class Mons(Enum):
     }
     Iguarex = {
         "name" : "Iguarex",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Dragon"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -766,7 +793,10 @@ class Mons(Enum):
     }
     Camix = {
         "name" : "Camix",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Grass"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -779,7 +809,10 @@ class Mons(Enum):
     }
     Camillo = {
         "name" : "Camillo",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Grass"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -792,7 +825,10 @@ class Mons(Enum):
     }
     Camaximo = {
         "name" : "Camaximo",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Grass"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1046,7 +1082,10 @@ class Mons(Enum):
     }
     Tlacoguard = {
         "name" : "Tlacoguard",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Fighting"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1282,7 +1321,10 @@ class Mons(Enum):
     }
     Vena = {
         "name" : "Vena",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Grass"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1295,7 +1337,10 @@ class Mons(Enum):
     }
     Venatus = {
         "name" : "Venatus",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Psychic"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1308,7 +1353,10 @@ class Mons(Enum):
     }
     Venomalo = {
         "name" : "Venomalo",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Dark"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1439,7 +1487,10 @@ class Mons(Enum):
     }
     Colibin = {
         "name" : "Colibin",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Flying"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1452,7 +1503,10 @@ class Mons(Enum):
     }
     Colibra = {
         "name" : "Colibra",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Flying"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1465,7 +1519,10 @@ class Mons(Enum):
     }
     Colibrio = {
         "name" : "Colibrio",
-        "type" : "Normal",
+        "type" : [
+            "Normal",
+            "Flying"
+            ]
         "stats" : {
             "Hp" : ,
             "Attack" : ,
