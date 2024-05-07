@@ -339,40 +339,48 @@ class Mons(Enum):
     }
     Coatliris = {
         "name": "Coatliris",
-        "type": "Normal",
+        "type": [
+            "Normal",
+            "Ground"
+            ]
         "stats": {
-            "Hp": ,
-            "Attack": ,
-            "Defense": ,
-            "Sp_Atk": ,
-            "Sp_Def": ,
-            "Speed":
+            "Hp": 165,
+            "Attack": 75,
+            "Defense": 70,
+            "Sp_Atk": 65,
+            "Sp_Def": 70,
+            "Speed": 90
             
         }
     }
     Coatluz = {
         "name": "Coatluz",
-        "type": "Normal",
+        "type": [
+            "Normal",
+            "Ground"
+            ]
         "stats": {
-            "Hp": ,
-            "Attack": ,
-            "Defense": ,
-            "Sp_Atk": ,
-            "Sp_Def": ,
-            "Speed":
+            "Hp": 175,
+            "Attack": 88,
+            "Defense": 83,
+            "Sp_Atk": 75,
+            "Sp_Def": 80,
+            "Speed": 103
             
         }
     }
     Coatlum = {
         "name": "Coatlum",
-        "type": "Normal",
+        "type": [
+            "Normal",
+            "Ground"]
         "stats": {
-            "Hp": ,
-            "Attack": ,
-            "Defense": ,
-            "Sp_Atk": ,
-            "Sp_Def": ,
-            "Speed":
+            "Hp": 190,
+            "Attack": 103,
+            "Defense": 95,
+            "Sp_Atk": 90,
+            "Sp_Def": 95,
+            "Speed": 113
             
         }
     }
@@ -508,7 +516,7 @@ class Mons(Enum):
     Coyoba = {
         "name" : "Coyoba",
         "type" : [
-            "Normal",
+            "Dark",
             "Ground"
             ]
         "stats" : {
