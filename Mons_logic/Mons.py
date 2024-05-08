@@ -1963,47 +1963,47 @@ class Mons(Enum):
             "Psychic",
             "Fighting"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 235,
+            "Attack": 145,
+            "Defense": 135,
+            "Sp_Atk": 145,
+            "Sp_Def": 140,
+            "Speed": 140
             
         }
         
     }
     Novastrike = {
-        "name" : "Novastrike",
-        "type" : [
+        "name": "Novastrike",
+        "type": [
             "Fire",
             "Flying"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 230,
+            "Attack" : 138,
+            "Defense" : 145,
+            "Sp_Atk" : 140,
+            "Sp_Def" : 145,
+            "Speed" : 140
             
         }
         
     }
     Feralstorm = {
-        "name" : "Feralstorm",
-        "type" : [
+        "name": "Feralstorm",
+        "type": [
             "Beast",
             "Electric"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 200,
+            "Attack": 145,
+            "Defense": 140,
+            "Sp_Atk": 145,
+            "Sp_Def": 142,
+            "Speed": 160
             
         }
         
@@ -2015,12 +2015,12 @@ class Mons(Enum):
             "Dark"
             ],
         "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+            "Hp" : 240,
+            "Attack" : 155,
+            "Defense" : 135,
+            "Sp_Atk" : 150,
+            "Sp_Def" : 140,
+            "Speed" : 145
             
         }
         
@@ -2032,12 +2032,12 @@ class Mons(Enum):
             "Psychic"
             ],
         "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+            "Hp": 240,
+            "Attack": 130,
+            "Defense": 140,
+            "Sp_Atk": 155,
+            "Sp_Def": 140,
+            "Speed": 145
       
     }
     
