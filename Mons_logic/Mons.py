@@ -803,7 +803,7 @@ class Mons(Enum):
         "name" : "Camix",
         "type" : [
             "Normal",
-            "Grass"
+            "Bug"
             ]
         "stats" : {
             "Hp" : ,
@@ -819,7 +819,7 @@ class Mons(Enum):
         "name" : "Camillo",
         "type" : [
             "Normal",
-            "Grass"
+            "Bug"
             ]
         "stats" : {
             "Hp" : ,
@@ -835,7 +835,7 @@ class Mons(Enum):
         "name" : "Camaximo",
         "type" : [
             "Normal",
-            "Grass"
+            "Bug"
             ]
         "stats" : {
             "Hp" : ,
@@ -1825,66 +1825,66 @@ class Mons(Enum):
         
     }
     Teratot = {
-        "name" : "Teratot",
-        "type" : [
+        "name": "Teratot",
+        "type": [
             "Ground",
             "Rock"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 175,
+            "Attack": 85,
+            "Defense": 90,
+            "Sp_Atk": 80,
+            "Sp_Def": 85,
+            "Speed": 80
             
         }
         
     }
     Terraforge = {
-        "name" : "Terraforge",
-        "type" : [
+        "name": "Terraforge",
+        "type": [
             "Ground",
             "Grass"
             ],  
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 190,
+            "Attack": 95,
+            "Defense": 100,
+            "Sp_Atk": 90,
+            "Sp_Def": 98,
+            "Speed": 94
             
         }
         
     }
     Gaialith = {
-        "name" : "Gaialith",
-        "type" : [
+        "name": "Gaialith",
+        "type": [
             "Ground",
             "Psychic"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 210,
+            "Attack": 110,
+            "Defense": 120,
+            "Sp_Atk": 125,
+            "Sp_Def": 115,
+            "Speed": 115
             
         }
         
     }
     Teraguard = {
-        "name" : "Teraguard",
-        "type" : "Ground",
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "name": "Teraguard",
+        "type": "Ground",
+        "stats": {
+            "Hp": 170,
+            "Attack": 85,
+            "Defense": 88,
+            "Sp_Atk": 85,
+            "Sp_Def": 88,
+            "Speed": 90
             
         }
         
@@ -1895,13 +1895,13 @@ class Mons(Enum):
             "Ground",
             "Fighting"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 193,
+            "Attack": 125,
+            "Defense": 110,
+            "Sp_Atk": 90,
+            "Sp_Def": 95,
+            "Speed": 100
             
         }
         
@@ -1912,13 +1912,13 @@ class Mons(Enum):
             "Fighting",
             "Steel"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 205,
+            "Attack": 140,
+            "Defense": 135,
+            "Sp_Atk": 100,
+            "Sp_Def": 110,
+            "Speed": 115
             
         }
         
@@ -1930,29 +1930,29 @@ class Mons(Enum):
             "Dragon"
             ],
         "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+            "Hp": 185,
+            "Attack": 125,
+            "Defense": 125,
+            "Sp_Atk": 90,
+            "Sp_Def": 90,
+            "Speed":95
             
         }
         
     }
     Terrascale = {
-        "name" : "Terrascale",
-        "type" : [
+        "name": "Terrascale",
+        "type": [
             "Dragon",
             "Steel"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 200,
+            "Attack": 135,
+            "Defense": 145,
+            "Sp_Atk": 100,
+            "Sp_Def": 100,
+            "Speed": 105
             
         }
         
