@@ -445,7 +445,15 @@ class Attack(Enum):
         }
         EM_Storm = {
             "name": " EM Storm",
-            "type": "",
+            "type": "Electric",
+            "description": ,
+            "power": ,
+            "accuracy": ,
+            "usage": ,
+        }
+        EMP_Cannon = {
+            "name": " EMP Cannon",
+            "type": "Steel",
             "description": ,
             "power": ,
             "accuracy": ,
