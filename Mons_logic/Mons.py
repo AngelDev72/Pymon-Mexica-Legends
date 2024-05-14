@@ -1813,13 +1813,13 @@ class Mons(Enum):
             "Fairy",
             "Psychic"
             ],
-        "stats" : {
-            "Hp" : 205,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : 145,
-            "Sp_Def" : 135,
-            "Speed" :
+        "stats": {
+            "Hp": 205,
+            "Attack": 100,
+            "Defense": 130,
+            "Sp_Atk": 145,
+            "Sp_Def": 135,
+            "Speed": 115
             
         }
         

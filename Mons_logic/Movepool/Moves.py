@@ -445,19 +445,21 @@ class Attack(Enum):
         }
         EM_Storm = {
             "name": " EM Storm",
-            "type": "Electric",
+            "type":  "",# adjusts to the users type, Electric/Steel
             "description": ,
-            "power": ,
-            "accuracy": ,
-            "usage": ,
+            "power": 120,
+            "accuracy": 1,
+            "usage": 5,
+            "effect": # effect varies to the users type
         }
         EMP_Cannon = {
             "name": " EMP Cannon",
             "type": "Steel",
             "description": ,
-            "power": ,
-            "accuracy": ,
-            "usage": ,
+            "power": 110,
+            "accuracy": 1,
+            "usage": 7,
+            "effect": # locks the targets tile to ensure the hit
         }
 
 class Field(Enum):
@@ -537,6 +539,13 @@ class Defense(Enum):
             "effect": #negates damage, stat reduction or status inflection.
             
         }
+        Aura_Veil = {
+            "name": "Aura Veil",
+            "type": "Fairy",
+            "description": ,
+            "usage": 20,
+            "effect": #protects the user from stat and status conditions
+        }
 
 class Stats(Enum):
     def increase(self):
@@ -554,13 +563,6 @@ class Stats(Enum):
             "usage": 20,
             "effect": #raises the users defense 10%
             }
-        Aura_Veil = {
-            "name": "Aura Veil",
-            "type": "Fairy",
-            "description": ,
-            "usage": 20,
-            "effect": #protects the user from stat and status conditions
-        }
         Light_Wall = {
             "name": "Light Wall",
             "type": ,
