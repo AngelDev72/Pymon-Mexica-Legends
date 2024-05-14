@@ -382,7 +382,7 @@ class Attack(Enum):
         }
         Glacial_Wind = {
             "name": "Galcial Wind",
-            "type": ,
+            "type": "Ice",
             "description": ,
             "power": 50,
             "accuracy": 90,
@@ -411,7 +411,7 @@ class Attack(Enum):
             "name": "Kinnesis",
             "type": "Psychic",
             "description": ,
-            "power": 100,
+            "power": 90,
             "accuracy": 95,
             "usage": 10,
             "effect": # grabs the target at a certain range 
@@ -434,7 +434,23 @@ class Attack(Enum):
             "usage": 20,
             "effect": # hits in a certain range
         }
-        
+        Gifted_Mind = {
+            "name": "Gifted Mind",
+            "type": "Psychic",
+            "description": ,
+            "power": 110,
+            "accuracy": 95,
+            "usage": 7,
+            "efect": # when used against Steel types it is super effective
+        }
+        EM_Storm = {
+            "name": " EM Storm",
+            "type": "",
+            "description": ,
+            "power": ,
+            "accuracy": ,
+            "usage": ,
+        }
 
 class Field(Enum):
     def terrain(self):

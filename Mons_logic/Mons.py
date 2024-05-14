@@ -1814,11 +1814,11 @@ class Mons(Enum):
             "Psychic"
             ],
         "stats" : {
-            "Hp" : ,
+            "Hp" : 205,
             "Attack" : ,
             "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
+            "Sp_Atk" : 145,
+            "Sp_Def" : 135,
             "Speed" :
             
         }
