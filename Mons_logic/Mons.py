@@ -503,13 +503,13 @@ class Mons(Enum):
             "Normal",
             "Ground"
             ]
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": 165,
+            "Attack": 75,
+            "Defense": ,
+            "Sp_Atk": ,
+            "Sp_Def": ,
+            "Speed": 
             
         }
     }
@@ -1791,18 +1791,18 @@ class Mons(Enum):
         
     }
     Galepetal {
-        "name" : "Galepetal",
-        "type" : [
+        "name": "Galepetal",
+        "type": [
             "Fairy",
             "Psychic"
             ],
-        "stats" : {
-            "Hp" : ,
-            "Attack" : ,
-            "Defense" : ,
-            "Sp_Atk" : ,
-            "Sp_Def" : ,
-            "Speed" :
+        "stats": {
+            "Hp": ,
+            "Attack": ,
+            "Defense": ,
+            "Sp_Atk": ,
+            "Sp_Def": ,
+            "Speed": 105
             
         }
         

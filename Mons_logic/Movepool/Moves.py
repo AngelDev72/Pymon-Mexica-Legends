@@ -279,6 +279,15 @@ class Attack(Enum):
             "usage": 15,
             "effect": # the user spreads it's arms wide open and starts spinning around. hits in a range of 1 block around the user
         }
+        Magnetic_Fist = {
+            "name": "Magnetic Fist",
+            "type": "Steel",
+            "description": ,
+            "power": 85,
+            "accuracy": 85,
+            "usage": 15,
+            "effect": # when close enough to Steel types it won't miss
+        }
 
     def special(self):
         Fright= {
