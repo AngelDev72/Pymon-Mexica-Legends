@@ -1,6 +1,7 @@
 import sys
 import pygame as pg
 from enum import Enum
+from Mons_logic.Mons import Mons
 
 class Map(Enum):
     #cities
@@ -8,37 +9,37 @@ class Map(Enum):
         "name": "Tenochtitlán",
         "theme": 
         
-    },
+    }
     Tlalocan = {
         "name": "Tlalocan",
         "theme": 
         
-    },
+    }
     Teotihuacan = {
         "name": "Teotihuacán",
         "theme": 
         
-    },
+    }
     Xochimilco = {
         "name": "Xochimilco",
         "theme": 
         
-    },
+    }
     Chichen_Itza = {
         "name": "Chichén Itzá",
         "theme": 
         
-    },
+    }
     Tlatelolco = {
         "name": "Tlatelolco",
         "theme":
         
-    },
+    }
     Cuzco = {
         "name": "Cuzco",
         "theme": 
         
-    },
+    }
     Tenayuca = {
         "name": "Tenayuca",
         "theme" :
@@ -213,8 +214,14 @@ class Temple(Enum):
             "Fire",
             "Fighting"
             ],
-        "Leader": "Tonatiuh"
-        
+        "Leader": "Tonatiuh",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Kickora,
+            Scorpinch,
+            Brawlion
+            ]
     }
     # Tlalocan
     Rain_Temple = {
@@ -223,8 +230,14 @@ class Temple(Enum):
             "Water", 
             "Electric"
             ], 
-        "Leader": "Atl"
-        
+        "Leader": "Atl",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Aqualith,
+            Frostcub,
+            Electray
+            ]
     }
     # Teotihuacan
     Pyramid_Temple = {
@@ -233,8 +246,15 @@ class Temple(Enum):
             "Rock",
             "Ground"
             ], 
-        "Leader": "Itzpapalotl"
-        
+        "Leader": "Itzpapalotl",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Shadeimp,
+            Granitear,
+            Tuskdrill,
+            Terraforge
+            ]
     }
     #Xochimilco
     Gardens_Temple = {
@@ -243,8 +263,15 @@ class Temple(Enum):
             "Grass", 
             "Poison"
             ],
-        "Leader": "Xochiquetzal"
-        
+        "Leader": "Xochiquetzal",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Plaguefly,
+            Veloscale,
+            Terrathorn,
+            Verdantus
+            ]
     }
     # Chichen Itza
     Snake_Temple = {
@@ -253,8 +280,17 @@ class Temple(Enum):
             "Dragon", 
             "Steel"
             ], 
-        "Leader": "Quetzalcoatl"
-        
+        "Leader": "Quetzalcoatl",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Hazeleo,
+            Roarstom,
+            Zyephblade,
+            Plesyodrake,
+            Velocydrake,
+            Terrascale
+            ]
     }
     #Tlatelolco
     Plazas_Temple = {
@@ -263,8 +299,16 @@ class Temple(Enum):
             "Fairy", 
             "Psychic"
             ], 
-        "Leader": "Cihuacoatl"
-        
+        "Leader": "Cihuacoatl",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Thundhoof,
+            Whimsiren,
+            Wavelet,
+            Xtabay,
+            Glitterose
+            ]
     }
     #Cuzco
     Mountain_Temple = {
@@ -273,16 +317,33 @@ class Temple(Enum):
             "Beast", 
             "Ice"
             ],
-        "Leader": "Inti"
-        
+        "Leader": "Inti",
+        "Temple Diciple": [
+            ],
+        "Leaders team": [
+            Aquadon,
+            Essenfest,
+            Chillber,
+            Crysantis,
+            Fangrend
+            ]
     }
     #Tenayuca
-    Ryins_Temple = {
+    Ruins_Temple = {
         "name": "Ruins Temple", 
         "Type": [
             "Dark",
             "Ghost"
             ], 
         "Leader": "Tlalocatl"
-        
+        "Temple Diciple": [
+            ]
+        "Leaders team": [
+            Webbing,
+            Nightmane,
+            Souldevoir,
+            Spectrora,
+            Vexweav,
+            Beheroach
+            ]
     }
