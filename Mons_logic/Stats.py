@@ -3,25 +3,25 @@ import pygame
 from Mons import Mons
 
 class Stats:
-  def __init__(self, hp, attack, defense, speed, sp_attk, sp_def, accuracy, evasion):
-    self.hp = []
-    self.attack = []
-    self.defense = []
-    self.speed = []
-    self.sp_attk = []
-    self.sp_def = []
-    self.accuracy = []
-    self.evasion = []
+    def __init__(self, hp, attack, defense, speed, sp_attk, sp_def, accuracy, evasion):
+        self.hp = []
+        self.attack = []
+        self.defense = []
+        self.speed = []
+        self.sp_attk = []
+        self.sp_def = []
+        self.accuracy = []
+        self.evasion = []
 
-  def set_stats(self, stats):
-    self.hp = Hp
-    self.attack = Attack
-    self.defense = Defense
-    self.speed = Speed
-    self.sp_attk = Special_Attack
-    self.sp_def = Special_Defense
-    self.accuracy = Accuracy
-    self.evasion = Evasion
+    def set_stats(self, stats):
+        self.hp = Hp
+        self.attack = Attack
+        self.defense = Defense
+        self.speed = Speed
+        self.sp_attk = Special_Attack
+        self.sp_def = Special_Defense
+        self.accuracy = Accuracy
+        self.evasion = Evasion
 
 class Type:
     Types = [
