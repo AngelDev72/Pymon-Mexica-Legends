@@ -3,8 +3,7 @@ import pygame as pg
 from enum import Enum
 from Mons_logic.Mons import Mons
 
-class Map(Enum):
-    #cities
+class Cities(Enum):
     Tenochtitlan = {
         "name": "Tenochtitlán",
         "theme": 
@@ -46,7 +45,7 @@ class Map(Enum):
         
     }
     
-    #towns
+class Towns(Enum):
     Tepoztlan = {
         "name": "Tepoztlán",
         "theme": 
@@ -98,7 +97,7 @@ class Map(Enum):
         
     }
     
-    # Main Routes
+class Main_routes(Enum):
     Blossom_Path = {
         "name":"Blossom Path",
         "theme": 
@@ -150,7 +149,7 @@ class Map(Enum):
         
     }
     
-  # Secondary Routes
+class Side_routes(Enum):
     Isle_of_Dolls = {
         "Isle of Dolls",
         "theme":
@@ -177,7 +176,7 @@ class Map(Enum):
         
     }
     
-    # Caves
+class Caves(Enum):
     Secret_Chasm {
         "Secret Chasm",
         "theme":
@@ -204,8 +203,6 @@ class Map(Enum):
         
     }
     
-    
-#Buildings
 class Temple(Enum):
     # Tenochtitlan
     Sun_Temple = {
