@@ -1,6 +1,6 @@
 import sys
 import pygame
-from Mons import Mons
+from enum import Enum
 
 class Stats:
     def __init__(self, hp, attack, defense, speed, sp_attk, sp_def, accuracy, evasion):
@@ -23,20 +23,190 @@ class Stats:
         self.accuracy = Accuracy
         self.evasion = Evasion
 
-class Type:
-    Types = [
-        "Grass",
-        "Fire",
-        "Water",
-        "Bug",
-        "Flying",
-        "Poison",
-        "Electric",
-        "Rock",
-        "Normal",
-        "Ground",
-        "Psychic",
-        "Ice",
+class Types(Enum):
+    Grass = {
+        "Type": "Grass",
+        "Weakness": [
+            "Fire",
+            "Flying",
+            "Bug",
+            "Ice"],
+        "Strong": [
+            "Rock",
+            "Ground",
+            "Water"],
+        "Weak": []
+        "Nuetral": []
+        
+    }
+    Fire = {
+        "Type": "Fire",
+        "Weakness": [
+            "Water",
+            "Rock",
+            "Ground"],
+        "Strong": [
+            "Grass",
+            "Bug",
+            "Ice",
+            "Steel",
+            "Beast"],
+        "Weak": []
+        "Neutral": []
+        
+    }
+    Water = {
+        "Type": "Water",
+        "Weakness": [
+            "Grass",
+            "Electric"
+            ],
+        "Strong": [
+            "Fire",
+            "Rock",
+            "Ground"],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Bug = {
+        "Type": "Bug",
+        "Weakness": [
+            "Fire",
+            "Flying",
+            "Rock"],
+        "Strong": [
+            "Grass",
+            "Psychic",
+            "Dark"],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Flying = {
+        "Type": "Flying",
+        "Weakness": [
+            "Electric",
+            "Ice",
+            "Rock"
+            ],
+        "Strong": [
+            "Grass",
+            "Bug",
+            "Fighting"
+            ],
+        "Weak": [],
+        "Neutral": [],
+        "Imune": [
+            "Ground"
+            ]
+        
+    }
+    Poison = {
+        "Type": "Poison",
+        "Weakness": [
+            "Ground",
+            "Psychic"
+            ],
+        "Strong": [
+            "Grass",
+            "Fairy"
+            ],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Electric = {
+        "Type": "Electric",
+        "Weakness": [
+            "Ground"],
+        "Strong": [
+            "Water",
+            "Flying",
+            "Beast"
+            ],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Rock = {
+        "Type":"Rock",
+        "Weakness": [
+            "Grass",
+            "Water",
+            "Ground",
+            "Fighting",
+            "Steel"
+            ],
+        "Strong": [
+            "Fire",
+            "Bug",
+            "Flying",
+            "Ice"],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Normal = {
+        "Type": "Normal",
+        "Weakness": [
+            "Fighting"
+            ],
+        "Strong": [],
+        "Weak": [
+            "Rock",
+            "Steel"
+            ],
+        "Neutral": []
+        "Imune": [
+            "Ghost"
+            ]
+        
+    }
+    Ground = {
+        "Type": "Ground",
+        "Weakness": [
+            "Grass",
+            "Water",
+            "Ice"
+            ],
+        "Strong": [
+            "Fire",
+            "Electric",
+            "Rock",
+            "Steel"
+            ],
+        "Weak": [],
+        "Neutral": [],
+        "Imune": [
+            "Electric"
+            ]
+        
+    }
+    Psychic = {
+        "Type":"Psychic",
+        "Weakness": [
+            "Bug",
+            "Ghost",
+            "Dark",
+            "Beast"
+            ],
+        "Strong": [
+            "Poison",
+            "Fighting"
+            ],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Ice = {
+        "Type": "Ice",
+        "Weakness": [
+            "Fire",
+            "Rock",
+            "Fighting",
+            "Steel"
+            ]
         "Fighting",
         "Dragon",
         "Ghost",
@@ -48,21 +218,22 @@ class Type:
     def __init__(self, type_name):
         self.type = pymon_type
         self.strong = []
+        self.weakness = []
         self.weak = []
         self.neutral = []
 
-    def set_relations(self, strong, weak, neutral):
+    def set_relations(self, strong, weak, neutral, weakness):
         self.strong = strong
         self.weak = weak
         self.neutral = neutral
+        self.weakness = weakness
 
 class Hold:
     def hold(self, hold):
-
+        self.hold = hold
 
 class Catch_rate:
     def catch_rate(self, catch):
-
 
 class Pymmon_stats:
     def __init__(self, name, pymon_type, level, stats, types, hold, experience = 0,):
