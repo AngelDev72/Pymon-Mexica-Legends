@@ -30,13 +30,33 @@ class Types(Enum):
             "Fire",
             "Flying",
             "Bug",
-            "Ice"],
+            "Poison",
+            "Ice"
+            ],
         "Strong": [
             "Rock",
             "Ground",
             "Water"],
-        "Weak": []
-        "Nuetral": []
+        "Weak": [
+            "Fire",
+            "Poison",
+            "Bug",
+            "Steel",
+            "Flying",
+            "Dragon",
+            "Grass",
+            "Beast"
+            ]
+        "Nuetral": [
+            "Normal",
+            "Dark",
+            "Ghost",
+            "Fighting",
+            "Psychic",
+            "Electric",
+            "Ice",
+            "Fairy"
+            ]
         
     }
     Fire = {
@@ -51,8 +71,23 @@ class Types(Enum):
             "Ice",
             "Steel",
             "Beast"],
-        "Weak": []
-        "Neutral": []
+        "Weak": [
+            "Fire",
+            "Water",
+            "Rock",
+            "Dragon",
+            ]
+        "Neutral": [
+            "Normal",
+            "Ground",
+            "Ghost",
+            "Electric",
+            "Dark",
+            "Fairy",
+            "Fighting",
+            "Flying",
+            "Psychic"
+            ]
         
     }
     Water = {
@@ -247,12 +282,127 @@ class Types(Enum):
         "Neutral": []
         
     }
-        "Ghost",
-        "Dark",
-        "Steel",
-        "Fairy",
-        "Beast"
-        ]
+    Ghost = {
+        "Type": "Ghost",
+        "Weakness": [
+            "Ghost",
+            "Dark"
+            ],
+        "Strong": [
+            "Ghost",
+            "Psychic"
+            ],
+        "Weak": [
+            "Dark"
+            ],
+        "Neutral": [
+            ],
+        "Imune": [
+            "Normal",
+            "Fighting"
+            ]
+        
+    }
+    Dark = {
+        "Type": "Dark",
+        "Weakness": [
+            "Bug",
+            "Fighting",
+            "Fairy"
+            ],
+        "Strong": [
+            "Ghost",
+            "Psychic"
+            ],
+        "Weak": [
+            "Fairy",
+            "Fighting"
+            ],
+        "Neutral": []
+        
+    }
+    Steel = {
+        "Type": "Steel",
+        "Weakness": [
+            "Fire",
+            "Fighting",
+            "Ground"
+            ],
+        "Strong": [
+            "Ice",
+            "Rock",
+            "Fairy",
+            "Beast"
+            ],
+        "Weak": [
+            "Fire",
+            "Water",
+            "Electric"
+            ],
+        "Neutral": [],
+        "Imune": [
+            "Poison"
+            ]
+        
+    }
+    Fairy = {
+        "Type": "Fairy",
+        "weakness": [
+            "Steel",
+            "Poison",
+            "Beast"
+            ],
+        "Strong": [
+            "Dragon",
+            "Fighting",
+            "Dark"
+            ],
+        "Weak": [
+            "Fire",
+            "Poison",
+            "Steel",
+            "Bug"
+            ],
+        "Neutral": [],
+        "Imune": [
+            "Dragon"
+            ]
+        
+    }
+    Beast = {
+        "Type": "Beast",
+        "Weakness": [
+            "Fire",
+            "Fighting",
+            "Steel",
+            "Electric"
+            ],
+        "Strong": [
+            "Psychic",
+            "Fairy",
+            "Normal",
+            "Rock"
+            ],
+        "Weak": [
+            "Fire",
+            "Steel",
+            "Beast"
+            ],
+        "Neutral": [
+            "Dark",
+            "Bug",
+            "Ice",
+            "Water",
+            "Flying",
+            "Electric",
+            "Grass",
+            "Dragon",
+            "Ghost",
+            "Ground"
+            ]
+        
+    }
+    
     def __init__(self, type_name):
         self.type = pymon_type
         self.strong = []
