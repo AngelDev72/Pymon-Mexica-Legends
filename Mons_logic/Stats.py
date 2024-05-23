@@ -206,9 +206,47 @@ class Types(Enum):
             "Rock",
             "Fighting",
             "Steel"
-            ]
-        "Fighting",
-        "Dragon",
+            ],
+        "Strong": [
+            "Grass",
+            "Flying",
+            "Ground",
+            "Dragon"
+            ],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Fighting = {
+        "Type": "Fighting",
+        "Weakness": [
+            "Psychic",
+            "Flying",
+            "Fairy"],
+        "Strong": [
+            "Normal",
+            "Rock",
+            "Ice",
+            "Dark"
+            ],
+        "Weak": [],
+        "Neutral": []
+        
+    }
+    Dragon = {
+        "Type": "Dragon",
+        "Weakness": [
+            "Dragon",
+            "Ice",
+            "Fairy"
+            ],
+        "Strong": [
+            "Dragon"
+            ],
+        "Weak": [],
+        "Neutral": []
+        
+    }
         "Ghost",
         "Dark",
         "Steel",
