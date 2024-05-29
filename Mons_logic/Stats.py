@@ -127,7 +127,8 @@ class Types(Enum):
         "Weakness": [
             "Fire",
             "Flying",
-            "Rock"
+            "Rock",
+            "Ice"
             ],
         "Strong": [
             "Grass",
@@ -264,7 +265,8 @@ class Types(Enum):
             "Fire",
             "Bug",
             "Flying",
-            "Ice"],
+            "Ice"
+            ],
         "Weak": [
             "Ground",
             "Steel",
@@ -367,8 +369,26 @@ class Types(Enum):
             "Poison",
             "Fighting"
             ],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Psychic",
+            "Beast"
+            ],
+        "Neutral": [
+            "Grass",
+            "Fire",
+            "Water",
+            "Bug",
+            "Electric",
+            "Rock",
+            "Normal",
+            "Flying",
+            "Steel",
+            "Fairy",
+            "Dragon",
+            "Ghost",
+            "Ice",
+            "Ground"
+            ]
         
     }
     Ice = {
@@ -383,10 +403,26 @@ class Types(Enum):
             "Grass",
             "Flying",
             "Ground",
-            "Dragon"
+            "Dragon",
+            "Bug"
             ],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Water",
+            "Fire",
+            "Steel",
+            "Ice"
+            ],
+        "Neutral": [
+            "Electric",
+            "Rock",
+            "Psychic",
+            "Ghost",
+            "Beast",
+            "Dark",
+            "Fighting",
+            "Fairy",
+            "Normal"
+            ]
         
     }
     Fighting = {
@@ -394,15 +430,31 @@ class Types(Enum):
         "Weakness": [
             "Psychic",
             "Flying",
-            "Fairy"],
+            "Fairy"
+            ],
         "Strong": [
             "Normal",
             "Rock",
             "Ice",
-            "Dark"
+            "Dark",
+            "Beast",
+            "Steel"
             ],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Poison",
+            "Flying",
+            "Psychic",
+            "Bug"
+            ],
+        "Neutral": [
+            "Grass",
+            "Fire",
+            "Water",
+            "Ground",
+            "Electric",
+            "Dragon",
+            "Fighting"
+            ]
         
     }
     Dragon = {
@@ -415,8 +467,26 @@ class Types(Enum):
         "Strong": [
             "Dragon"
             ],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Steel"
+            ],
+        "Neutral": [
+            "Normal",
+            "Grass",
+            "Fire",
+            "Water",
+            "Bug",
+            "Poison",
+            "Flying",
+            "Electric",
+            "Rock",
+            "Ground",
+            "Psychic",
+            "Fighting",
+            "Ghost",
+            "Dark",
+            "Beast"
+            ]
         
     }
     Ghost = {
@@ -433,6 +503,21 @@ class Types(Enum):
             "Dark"
             ],
         "Neutral": [
+            "Grass",
+            "Fire",
+            "Water",
+            "Bug",
+            "Flying",
+            "Rock",
+            "Ground",
+            "Poison",
+            "Electric",
+            "Fighting"
+            "Ice",
+            "Dragon",
+            "Fairy",
+            "Steel",
+            "Beast"
             ],
         "Imune": [
             "Normal",
@@ -453,10 +538,27 @@ class Types(Enum):
             ],
         "Weak": [
             "Fairy",
-            "Fighting"
+            "Fighting",
+            "Beast",
+            "Dark"
             ],
-        "Neutral": []
-        
+        "Neutral": [
+            "Grass",
+            "Fire",
+            "Water",
+            "Bug",
+            "Flying",
+            "Electric",
+            "Rock",
+            "Ground",
+            "Dragon",
+            "Ice",
+            "Normal",
+            "Steel"
+            ]
+        "Immune": [
+            "Psychic"
+            ]
     }
     Steel = {
         "Type": "Steel",
