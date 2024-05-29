@@ -470,6 +470,16 @@ class Attack(Enum):
             "usage": 7,
             "effect": # locks the targets tile to ensure the hit
         }
+        Sonic_Palm = {
+            "name": "Sonic Palm",
+            "type": "Fighting",
+            "description": ,
+            "power": 60,
+            "accuracy": 1,
+            "usage": 20,
+            "effect": # 10% chance to cuase Confusion
+        }
+        
 
 class Field(Enum):
     def terrain(self):

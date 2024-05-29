@@ -64,7 +64,8 @@ class Types(Enum):
         "Weakness": [
             "Water",
             "Rock",
-            "Ground"],
+            "Ground"
+            ],
         "Strong": [
             "Grass",
             "Bug",
@@ -100,8 +101,25 @@ class Types(Enum):
             "Fire",
             "Rock",
             "Ground"],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Water",
+            "Grass",
+            "Dragon"
+            ],
+        "Neutral": [
+            "Normal",
+            "Electric",
+            "Beast",
+            "Fairy",
+            "Psychic",
+            "Bug",
+            "Ghost",
+            "Fighting",
+            "Ice",
+            "Dark",
+            "Steel",
+            "Flying"
+            ]
         
     }
     Bug = {
@@ -109,13 +127,32 @@ class Types(Enum):
         "Weakness": [
             "Fire",
             "Flying",
-            "Rock"],
+            "Rock"
+            ],
         "Strong": [
             "Grass",
             "Psychic",
-            "Dark"],
-        "Weak": [],
-        "Neutral": []
+            "Dark"
+            ],
+        "Weak": [
+            "Poison",
+            "Fire",
+            "Steel",
+            "Ghost",
+            "Dragon",
+            "Beast",
+            "Flying",
+            "Fighting",
+            "Ground"
+            ],
+        "Neutral": [
+            "Bug",
+            "Water",
+            "Electric",
+            "Fairy",
+            "Normal",
+            "Ice"
+            ]
         
     }
     Flying = {
@@ -130,9 +167,26 @@ class Types(Enum):
             "Bug",
             "Fighting"
             ],
-        "Weak": [],
-        "Neutral": [],
-        "Imune": [
+        "Weak": [
+            "Electric",
+            "Steel",
+            "Rock",
+            ],
+        "Neutral": [
+            "Fire",
+            "Water",
+            "Ice",
+            "Ground",
+            "Normal",
+            "Psychic",
+            "Dark",
+            "Ghost",
+            "Dragon",
+            "Fairy",
+            "Beast",
+            "Flying"
+            ],
+        "Immune": [
             "Ground"
             ]
         
@@ -147,21 +201,54 @@ class Types(Enum):
             "Grass",
             "Fairy"
             ],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Ground",
+            "Poison",
+            "Ghost",
+            "Rock"
+            ],
+        "Neutral": [
+            "Fire"
+            "Water",
+            "Bug",
+            "Flying",
+            "Dark",
+            "Normal",
+            "Dragon",
+            "Electric",
+            "Fighting"
+            ]
         
     }
     Electric = {
         "Type": "Electric",
         "Weakness": [
-            "Ground"],
+            "Ground"
+            ],
         "Strong": [
             "Water",
             "Flying",
             "Beast"
             ],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Grass",
+            "Electric",
+            "Dragon",
+            ],
+        "Neutral": [
+            "Fire",
+            "Bug",
+            "Rock",
+            "Ghost",
+            "Normal",
+            "Psychic",
+            "Fighting",
+            "Dark",
+            "Steel"
+            "Poison",
+            "Fairy",
+            "Ice"
+            ]
         
     }
     Rock = {
@@ -178,22 +265,57 @@ class Types(Enum):
             "Bug",
             "Flying",
             "Ice"],
-        "Weak": [],
-        "Neutral": []
+        "Weak": [
+            "Ground",
+            "Steel",
+            "Fighting",
+            "Poison",
+            "Beast"
+            ],
+        "Neutral": [
+            "Grass",
+            "Water",
+            "Normal",
+            "Dark",
+            "Dragon",
+            "Psychic",
+            "Fairy",
+            "Electric",
+            "Rock",
+            "Ghost"
+            ]
         
     }
     Normal = {
         "Type": "Normal",
         "Weakness": [
-            "Fighting"
+            "Fighting",
+            "Beast"
             ],
-        "Strong": [],
+        "Strong": [
+            ],
         "Weak": [
             "Rock",
             "Steel"
             ],
-        "Neutral": []
-        "Imune": [
+        "Neutral": [
+            "Normal",
+            "Grass",
+            "Fire",
+            "Water",
+            "Bug",
+            "Flying",
+            "Fighting",
+            "Psychic",
+            "Electric",
+            "Ground",
+            "Dragon",
+            "Fairy",
+            "Dark",
+            "Beast",
+            "Ice"
+            ]
+        "Immune": [
             "Ghost"
             ]
         
@@ -211,7 +333,10 @@ class Types(Enum):
             "Rock",
             "Steel"
             ],
-        "Weak": [],
+        "Weak": [
+            "Grass",
+            "Bug"
+            ],
         "Neutral": [],
         "Imune": [
             "Electric"
@@ -404,7 +529,7 @@ class Types(Enum):
     }
     
     def __init__(self, type_name):
-        self.type = pymon_type
+        self.type = []
         self.strong = []
         self.weakness = []
         self.weak = []
@@ -423,7 +548,7 @@ class Hold:
 class Catch_rate:
     def catch_rate(self, catch):
 
-class Pymmon_stats:
+class Pymon_stats:
     def __init__(self, name, pymon_type, level, stats, types, hold, experience = 0,):
         self.name = name
         self.type = pymon_type
