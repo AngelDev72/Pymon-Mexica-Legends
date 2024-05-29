@@ -337,7 +337,19 @@ class Types(Enum):
             "Grass",
             "Bug"
             ],
-        "Neutral": [],
+        "Neutral": [
+            "Water",
+            "Normal",
+            "Ghost",
+            "Ice",
+            "Ground",
+            "Dragon",
+            "Dark",
+            "Beast",
+            "Fighting",
+            "Fairy",
+            "Psychic"
+            ],
         "Imune": [
             "Electric"
             ]
