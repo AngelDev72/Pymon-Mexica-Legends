@@ -576,9 +576,22 @@ class Types(Enum):
         "Weak": [
             "Fire",
             "Water",
-            "Electric"
+            "Electric",
+            "Steel"
             ],
-        "Neutral": [],
+        "Neutral": [
+            "Normal",
+            "Grass",
+            "Bug",
+            "Flying",
+            "Fighting",
+            "Ground",
+            "Dark",
+            "Psychic",
+            "Ghost",
+            "Dragon",
+            "Poison"
+            ],
         "Imune": [
             "Poison"
             ]
@@ -600,9 +613,22 @@ class Types(Enum):
             "Fire",
             "Poison",
             "Steel",
-            "Bug"
+            "Bug",
+            "Beast"
             ],
-        "Neutral": [],
+        "Neutral": [
+            "Grass",
+            "Water",
+            "Electric",
+            "Normal",
+            "Psychic",
+            "Ghost",
+            "Rock",
+            "Ground",
+            "Flying",
+            "Ice",
+            "Fairy"
+            ],
         "Imune": [
             "Dragon"
             ]
