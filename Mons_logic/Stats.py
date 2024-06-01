@@ -668,18 +668,14 @@ class Types(Enum):
         
     }
     
-    def __init__(self, type_name):
-        self.type = []
-        self.strong = []
-        self.weakness = []
-        self.weak = []
-        self.neutral = []
+    def __init__(self, relations):
+        self.type = relations["Type"]
+        self.strong = relations["Strong"]
+        self.weakness = relations["Weakness"]
+        self.weak = relations["Weak"]
+        self.neutral = relations["Nuetral"]
+        self.immune = relations["Immune"]
 
-    def set_relations(self, strong, weak, neutral, weakness):
-        self.strong = strong
-        self.weak = weak
-        self.neutral = neutral
-        self.weakness = weakness
 
 class Hold:
     def hold(self, hold):
