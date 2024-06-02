@@ -679,7 +679,7 @@ class Types(Enum):
 
 class Hold:
     def hold(self, hold):
-        self.hold = hold
+        self.hold = held_item
 
 class Catch_rate:
     def catch_rate(self, catch):

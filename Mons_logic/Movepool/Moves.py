@@ -40,7 +40,7 @@ class Attack(Enum):
             "accuracy": 85,
             "usage": 20,
             "effect": #restores 1/8 the damage inflicted 
-      }
+        }
         Bite = {
             "name": "Bite",
             "type": ,
@@ -97,7 +97,7 @@ class Attack(Enum):
             "accuracy": 90,
             "usage": 15,
             "effect": #changes type depanding on the terrain. 30% chance to make the target flinch
-      }
+        }
         Veno_Fang = {
             "name": "Veno Fang",
             "type": ,
@@ -106,94 +106,93 @@ class Attack(Enum):
             "accuracy": 90,
             "usage": 15,
             "effect": #15% chance to Poison the target
-      }
+        }
         Stone_Blade = {
-        "name": "Stone Blade",
-        "type": ,
-        "description": ,
-        "power": 85,
-        "accuracy": 80,
-        "usage": 15,
-      }
+            "name": "Stone Blade",
+            "type": ,
+            "description": ,
+            "power": 85,
+            "accuracy": 80,
+            "usage": 15,
+        }
         Frost_Blade = {
-        "name": "Frost Blade",
-        "type": ,
-        "description": ,
-        "power": 85,
-        "accuracy": 80,
-        "usage": 15,
-        "effect": #15% chance to freeze the target
-    }
+            "name": "Frost Blade",
+            "type": ,
+            "description": ,
+            "power": 85,
+            "accuracy": 80,
+            "usage": 15,
+            "effect": #15% chance to freeze the target
+        }
         Vine_Lash = {
-        "name": "Vine Lash",
-        "type": ,
-        "description": ,
-        "power": 75,
-        "accuracy": 90,
-        "usage": 20,
-        "effect": #hits the target within a certain range
-    }
+            "name": "Vine Lash",
+            "type": ,
+            "description": ,
+            "power": 75,
+            "accuracy": 90,
+            "usage": 20,
+            "effect": #hits the target within a certain range
+        }
         Headbutt = {
-        "name": "Headbutt",
-        "type": ,
-        "description": ,
-        "power": 85,
-        "accuracy": 80,
-        "usage": 20,
-        "effect": #25% chance to make the target flinch
-        
-    }
+            "name": "Headbutt",
+            "type": ,
+            "description": ,
+            "power": 85,
+            "accuracy": 80,
+            "usage": 20,
+            "effect": #25% chance to make the target flinch
+        }
         Leaf_Scythe = {
-        "name": "Leaf Scythe",
-        "type": ,
-        "description": ,
-        "power": 90,
-        "accuracy": 85,
-        "usage": 15
-    }
+            "name": "Leaf Scythe",
+            "type": ,
+            "description": ,
+            "power": 90,
+            "accuracy": 85,
+            "usage": 15
+        }
         Ice_Fist = {
-        "name": "Ice Fist",
-        "type": ,
-        "description": ,
-        "power": 80,
-        "accuracy": 80,
-        "usage": 15,
-        "effect": #20% chance to Freeze the target
-    }
+            "name": "Ice Fist",
+            "type": ,
+            "description": ,
+            "power": 80,
+            "accuracy": 80,
+            "usage": 15,
+            "effect": #20% chance to Freeze the target
+        }
         Scratch = {
-        "name": "Scratch",
-        "type": ,
-        "description": ,
-        "power": 40,
-        "accuracy": 80,
-        "usage": 20
-    }
+            "name": "Scratch",
+            "type": ,
+            "description": ,
+            "power": 40,
+            "accuracy": 80,
+            "usage": 20
+        }
         Tackle = {
-        "name": "Tackle",
-        "type": ,
-        "description": ,
-        "power": 40,
-        "accuracy": 80,
-        "usage": 20
-    }
+            "name": "Tackle",
+            "type": ,
+            "description": ,
+            "power": 40,
+            "accuracy": 80,
+            "usage": 20
+        }
         Multi_Scratch = {
-        "name": "Multi Scratch",
-        "type": ,
-        "description": ,
-        "power": 20,
-        "accuracy": 80,
-        "usage": 25,
-        "effect": #may hit the target up to 6 times
-    }
+            "name": "Multi Scratch",
+            "type": ,
+            "description": ,
+            "power": 20,
+            "accuracy": 80,
+            "usage": 25,
+            "effect": #may hit the target up to 6 times
+        }
         Shatter = {
-        "name": "Shatter",
-        "type": "Fighting",
-        "description": ,
-        "power": 80,
-        "accuracy": 80,
-        "usage": 15,
-        "effect": #destroys special barriers and cancels their effects
-    }
+            "name": "Shatter",
+            "type": "Fighting",
+            "description": ,
+            "power": 80,
+            "accuracy": 80,
+            "usage": 15,
+            "effect": #destroys special barriers and cancels their effects
+        }
         Dragon_Fist = {
             "name": "Dragon Fist",
             "type": "Dragon",
@@ -292,7 +291,7 @@ class Attack(Enum):
     def special(self):
         Fright= {
             "name": "Fright",
-            "type": Ghost,
+            "type": "Ghost",
             "description": ,
             "power": 50,
             "accuracy": 1,
@@ -301,7 +300,7 @@ class Attack(Enum):
         }
         Scorch = {
             "name": "Scorch",
-            "type": ,
+            "type": "Fire",
             "description": ,
             "power": 50,
             "accuracy": 80,
@@ -311,7 +310,7 @@ class Attack(Enum):
         }
         Veno_Drop = {
             "name": "Veno Drop",
-            "type": ,
+            "type": "Poison",
             "description": "",
             "power": 90,
             "accuracy": 85,
@@ -320,7 +319,7 @@ class Attack(Enum):
         }
         Flame_Gulf = {
             "name": "Falme Gulf",
-            "type": ,
+            "type": "Fire",
             "description": ,
             "power": 95,
             "accuracy": 90,
@@ -329,7 +328,7 @@ class Attack(Enum):
         }
         Cyclone = {
             "name": "Cyclone",
-            "type": ,
+            "type": "Flying",
             "description": ,
             "power": 100,
             "accuracy": 1,
@@ -400,7 +399,7 @@ class Attack(Enum):
         }
         Heat_Wave = {
             "name": " Heat Wave",
-            "type": ,
+            "type": "Fire",
             "description": ,
             "power": 70,
             "accuracy": 90,
@@ -414,7 +413,7 @@ class Attack(Enum):
             "power": 100,
             "accuracy": 90,
             "usage": 10,
-            "effect": # if raining accuracy = 1. 15% chance to Paralyze
+            "effect": # if raining accuracy = 1, 15% chance to Paralyze
         }
         Kinnesis = {
             "name": "Kinnesis",
@@ -479,7 +478,6 @@ class Attack(Enum):
             "usage": 20,
             "effect": # 10% chance to cuase Confusion
         }
-        
 
 class Field(Enum):
     def terrain(self):
@@ -624,7 +622,6 @@ class Stats(Enum):
             "usage": 20,
             "effect": #reduces the foes Defense 10%
         }
-
 
 class Status(Enum):
     def condition (self):
