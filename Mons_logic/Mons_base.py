@@ -1,7 +1,7 @@
 import sys
 import pygame
 from enum import Enum
-from Stats import Stats, Types, Hold, Catch_rate, Pymon_stats
+from Stats import Stats, Types
 
 class Mons(Enum):
     Leaflet = {
