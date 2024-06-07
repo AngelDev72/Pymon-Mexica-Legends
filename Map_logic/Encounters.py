@@ -5,52 +5,29 @@ from Mons_logic.Mons_base import Mons
 from Maps import Map
 
 class Route_Encounters(Enum):
-    Starter = {
+    Starters = [
         "Leaflet",
         "Flamepup", 
         "Mudlope"
-        
-    }
-
-    6: [
-      "",
-      ""
-      ],
-    7: [
-      "",
-      ""
-      ],  
-    8: [
-      "",
-      ""
-      ],
-    9: [
-      "",
-      ""
-      ],
-    #Static: 
-    10: [
-      "Embstrike",
-      "Aurostride",
-      "Crysantis"
-      ],
-    #Special_Gift
-    11: ["", "", ""],
-    #Legendary
-    12: [
-      "Astralynx",
-      "Novastrike", 
-      "Feralstorm"
-      ],
-    #Special_condition
-    13: [
-      "Aqualith",
-      "Veloscale",
-      "Solaris", 
-      "Lunaryx", 
-      "Shadow"
-      ]
-  }
+        ]
+    Static = [
+        "Embstrike",
+        "Aurostride",
+        "Crysantis"
+        ]
+    Special_Gift = []
+    Legendary = [
+        "Astralynx",
+        "Novastrike", 
+        "Feralstorm"
+        ]
+    Special_condition = [
+        "Aqualith",
+        "Veloscale",
+        "Solaris", 
+        "Lunaryx", 
+        "Shadow"
+        ]
 
     def __init__(self, starter_index):
         if starter_index < 0 or starter_index >= len(self.starters):
