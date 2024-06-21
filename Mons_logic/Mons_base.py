@@ -7,6 +7,7 @@ class Mons(Enum):
     Leaflet = {
         "name": "Leaflet",
         "type": "Grass",
+        "level": [],
         "stats": { 
             "Hp": 160,
             "Attack": 78,
@@ -21,6 +22,7 @@ class Mons(Enum):
     Floraleaf = {
         "name: "Floraleaf",
         "type": "Grass",
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack":  83,
@@ -38,6 +40,7 @@ class Mons(Enum):
             "Grass", 
             "Dragon"
             ],
+            "level": [],
         "stats": {
             "Hp": 180,
             "Attack": 98,
@@ -52,6 +55,7 @@ class Mons(Enum):
     Flamepup = {
         "name": "Flamepup",
         "type": "Fire",
+        "level": [],
         "stats": {
             "Hp": 165,
             "Attack": 78,
@@ -66,6 +70,7 @@ class Mons(Enum):
     Blazejaw = {
         "name": "Blazejaw",
         "type": "Fire",
+        "level": [],
         "stats": {
             "Hp": 175,
             "Attack": 90,
@@ -83,6 +88,7 @@ class Mons(Enum):
             "Fire", 
             "Beast"
         ],
+        "level": [],
         "stats": {
             "Hp": 185,
             "Attack": 110,
@@ -97,6 +103,7 @@ class Mons(Enum):
     Mudlope = {
         "name": "Mudlope",
         "type": "Water",
+        "level": [],
         "stats": {
             "Hp": 173,
             "Attack": 83,
@@ -111,6 +118,7 @@ class Mons(Enum):
     Mudskipper = {
         "name": "Mudskipper",
         "type": "Water",
+        "level": [],
         "stats": {
             "Hp": 184,
             "Attack": 93,
@@ -128,6 +136,7 @@ class Mons(Enum):
             "Water",
             "Ground"
         ],
+        "level": [],
         "stats": {
             "Hp": 200,
             "Attack": 110,
@@ -142,6 +151,7 @@ class Mons(Enum):
     Breezowl = {
         "name": "Breezowl",
         "type": "Flying",
+        "level": [],
         "stats": {
             "Hp": 164,
             "Attack": 70,
@@ -156,6 +166,7 @@ class Mons(Enum):
     Gustwing = {
         "name": "Gustwing",
         "type": "Flying",
+        "level": [],
         "stats": {
             "Hp": 172,
             "Attack": 85,
@@ -173,6 +184,7 @@ class Mons(Enum):
             "Flying",
             "Electric"
             ],
+        "level": [],
         "stats": {
             "Hp": 185,
             "Attack": 100,
@@ -187,6 +199,7 @@ class Mons(Enum):
     Rochling = {
         "name": "Rochling",
         "type": "Bug",
+        "level": [],
         "stats": {
             "Hp": 140,
             "Attack": 65,
@@ -199,8 +212,9 @@ class Mons(Enum):
         
     }
     Shedroch = {
-        "name": "Shedroch",
+        "name": "Shedroc",
         "type": "Bug",
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 80,
@@ -218,6 +232,7 @@ class Mons(Enum):
             "Bug", 
             "Dark"
             ],
+        "level": [],
         "stats": {
             "Hp": 195,
             "Attack": 120,
@@ -232,6 +247,7 @@ class Mons(Enum):
     Normulin = {
         "name": "Normulin",
         "type": "Normal",
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 70,
@@ -246,6 +262,7 @@ class Mons(Enum):
     Normuza = {
         "name": "Normuza",
         "type": "Normal",
+        "level": [],
         "stats": {
             "Hp": 180,
             "Attack": 85,
@@ -261,7 +278,8 @@ class Mons(Enum):
         "type": [
             "Normal",
             "Steel"
-            ]
+            ],
+        "level": [],
         "stats": {
             "Hp": 195,
             "Attack" : 100,
@@ -278,6 +296,7 @@ class Mons(Enum):
             "Fighting",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 185,
             "Attack": 110,
@@ -292,6 +311,7 @@ class Mons(Enum):
     Siphonbite = {
         "name": "Siphonbite",
         "type": "Dark",
+        "level": [],
         "stats": {
             "Hp": 168,
             "Attack": 70,
@@ -309,6 +329,7 @@ class Mons(Enum):
             "Dark",
             "Beast"
             ],
+        "level": [],
         "stats": {
             "Hp": 190,
             "Attack": 85,
@@ -326,6 +347,7 @@ class Mons(Enum):
             "Dark",
             "Beast"
             ],
+        "level": [],
         "stats" : {
             "Hp": 180,
             "Attack": 100,
@@ -342,7 +364,8 @@ class Mons(Enum):
         "type": [
             "Normal",
             "Ground"
-            ]
+            ],
+        "level": [],
         "stats": {
             "Hp": 165,
             "Attack": 75,
@@ -358,7 +381,8 @@ class Mons(Enum):
         "type": [
             "Normal",
             "Ground"
-            ]
+            ],
+        "level": [],
         "stats": {
             "Hp": 175,
             "Attack": 88,
@@ -373,7 +397,9 @@ class Mons(Enum):
         "name": "Coatlum",
         "type": [
             "Normal",
-            "Ground"]
+            "Ground"
+            ],
+        "level": [],
         "stats": {
             "Hp": 190,
             "Attack": 103,
@@ -387,6 +413,7 @@ class Mons(Enum):
     Sparkitt = {
         "name": "Sparkitt",
         "type": "Electric",
+        "level": [],
         "stats": {
             "Hp": 165,
             "Attack": 75,
@@ -401,6 +428,7 @@ class Mons(Enum):
     Joltflash = {
         "name": "Joltflash",
         "type": "Electric",
+        "level": [],
         "stats": {
             "Hp": 175,
             "Attack": 85,
@@ -418,6 +446,7 @@ class Mons(Enum):
             "Water",
             "Dark"
             ],
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 100,
@@ -435,6 +464,7 @@ class Mons(Enum):
             "Electric",
             "Fairy"
             ],
+        "level": [],
         "stats": {
             "Hp": 175,
             "Attack": 93,
@@ -452,6 +482,7 @@ class Mons(Enum):
             "Bug",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 95,
@@ -469,6 +500,7 @@ class Mons(Enum):
             "Ground",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 165,
             "Attack": 98,
@@ -486,6 +518,7 @@ class Mons(Enum):
             "Ground",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 180,
             "Attack": 105,
@@ -502,7 +535,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Ground"
-            ]
+            ],
+        "level": [],
         "stats": {
             "Hp": 165,
             "Attack": 75,
@@ -518,7 +552,8 @@ class Mons(Enum):
         "type" : [
             "Dark",
             "Ground"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -534,7 +569,8 @@ class Mons(Enum):
         "type" : [
             "Dark",
             "Ground"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -548,6 +584,7 @@ class Mons(Enum):
     Mossclaw = {
         "name": "Mossclaw",
         "type": "Grass",
+        "level": [],
         "stats": {
             "Hp": 168,
             "Attack": 83,
@@ -562,6 +599,7 @@ class Mons(Enum):
     Thornpaw = {
         "name": "Thornpaw",
         "type": "Grass",
+        "level": [],
             "stats": {
             "Hp": 183,
             "Attack": 110,
@@ -579,6 +617,7 @@ class Mons(Enum):
             "Ghost",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 187,
             "Attack": 91,
@@ -595,7 +634,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Flying"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -611,7 +651,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Flying"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -627,7 +668,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Flying"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -644,6 +686,7 @@ class Mons(Enum):
             "Ghost",
             "Grass"
             ],
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 100,
@@ -658,6 +701,7 @@ class Mons(Enum):
     Mistlion = {
         "name": "Mistlion",
         "type": "Ice",
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 80,
@@ -675,6 +719,7 @@ class Mons(Enum):
             "Ice",
             "Steel"
             ],
+        "level": [],
         "stats": {
             "Hp": 188,
             "Attack" : 98,
@@ -689,6 +734,7 @@ class Mons(Enum):
     Stormlion = {
         "name": "Stormlion"
         "type": "Electric",
+        "level": [],
         "stats": {
             "Hp": 172,
             "Attack" : 83,
@@ -706,6 +752,7 @@ class Mons(Enum):
             "Electric",
             "Steel"
             ],
+        "level": [],
         "stats": {
             "Hp": 185,
             "Attack": 95,
@@ -723,6 +770,7 @@ class Mons(Enum):
             "Fairy",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 188,
             "Attack": 85,
@@ -740,6 +788,7 @@ class Mons(Enum):
             "Grass",
             "Poison"
             ],
+        "level": [],
         "stats": {
             "Hp": 190,
             "Attack" : 105,
@@ -756,7 +805,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Grass"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -772,7 +822,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Grass"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -788,7 +839,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Dragon"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -804,7 +856,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Bug"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -820,7 +873,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Bug"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -836,7 +890,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Bug"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -853,6 +908,7 @@ class Mons(Enum):
             "Electric",
             "Water"
             ],
+        "level": [],
         "stats":{
             "Hp": 195,
             "Attack": 80,
@@ -867,6 +923,7 @@ class Mons(Enum):
     Frostpaw = {
         "name": "Frostpaw",
         "type": "Ice",
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack" : 75,
@@ -881,6 +938,7 @@ class Mons(Enum):
     Hailclaw = {
         "name" : "Hailclaw",
         "type" : "Ice",
+        "level": [],
         "stats" : {
             "Hp" : 185,
             "Attack" : 85,
@@ -898,6 +956,7 @@ class Mons(Enum):
             "Ice",
             "Water"
             ],
+        "level": [],
         "stats" : {
             "Hp" : 168,
             "Attack" : 73,
@@ -915,6 +974,7 @@ class Mons(Enum):
             "Ice",
             "Water"
             ],
+        "level": [],
       "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -932,6 +992,7 @@ class Mons(Enum):
             "Ice",
             "Water"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -949,6 +1010,7 @@ class Mons(Enum):
             "Grass",
             "Ground"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -966,6 +1028,7 @@ class Mons(Enum):
             "Ghost",
             "Fire"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -983,6 +1046,7 @@ class Mons(Enum):
             "Ghost",
             "Rock"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1000,6 +1064,7 @@ class Mons(Enum):
             "Fighting",
             "Fire"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1017,6 +1082,7 @@ class Mons(Enum):
             "Fire",
             "Poison"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1034,6 +1100,7 @@ class Mons(Enum):
             "Fire",
             "Poison"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1051,6 +1118,7 @@ class Mons(Enum):
             "Fire",
             "Poison"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1065,6 +1133,7 @@ class Mons(Enum):
     Tlacota = {
         "name" : "Tlacota",
         "type" : "Normal",
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1078,6 +1147,7 @@ class Mons(Enum):
     Tlacotor = {
         "name" : "Tlacotor",
         "type" : "Normal",
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1093,7 +1163,8 @@ class Mons(Enum):
         "type" : [
             "Normal",
             "Fighting"
-            ]
+            ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1110,6 +1181,7 @@ class Mons(Enum):
             "Fighting",
             "Ice"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1124,6 +1196,7 @@ class Mons(Enum):
     Effigy = {
         "name" : "Effigy",
         "type" : "Ghost",
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1141,6 +1214,7 @@ class Mons(Enum):
             "Ghost",
             "Psychic"
             ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1158,6 +1232,7 @@ class Mons(Enum):
         "Ghost",
         "Dark"
         ],
+        "level": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1170,10 +1245,11 @@ class Mons(Enum):
         
     }
     Aqualith = {
-        "name" : "Aqualith",
-        "type" : "Water",
-        "stats" : {
-            "Hp" : ,
+        "name": "Aqualith",
+        "type": "Water",
+        "level": [],
+        "stats": {
+            "Hp": ,
             "Attack" : ,
             "Defense" : ,
             "Sp_Atk" : ,
@@ -1184,12 +1260,13 @@ class Mons(Enum):
         
     }
     Aquadon = {
-        "name" : "Aquadon",
-        "type" : [
+        "name": "Aquadon",
+        "type": [
             "Water",
             "Beast"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1201,12 +1278,13 @@ class Mons(Enum):
         
     }
     Plesyodrake =  {
-        "name" : "Plesyodrake",
-        "type" : [
+        "name": "Plesyodrake",
+        "type": [
             "Dragon",
             "Beast"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1217,10 +1295,11 @@ class Mons(Enum):
         }
         
     }
-    Veloscale {
+    Veloscale = {
         "name" : "Veloscale",
         "type" : "Grass",
-        "stats" {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1232,12 +1311,13 @@ class Mons(Enum):
         
     }
     Predaptor = {
-        "name" : "Predaptor",
-        "type" : [
+        "name": "Predaptor",
+        "type": [
             "Grass",
             "Beast"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1249,12 +1329,13 @@ class Mons(Enum):
         
     }
     Velocydrake = {
-        "name" : "Velocydrake",
-        "type" : [
+        "name": "Velocydrake",
+        "type": [
             "Dragon",
             "Beast"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1266,9 +1347,10 @@ class Mons(Enum):
         
     }
     Sprinkleaf = {
-        "name" : "Sprinkleaf",
-        "type" : "Fairy",
-        "stats" : {
+        "name": "Sprinkleaf",
+        "type": "Fairy",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1280,12 +1362,13 @@ class Mons(Enum):
         
     }
     Glitterose = {
-        "name" : "Glitterose",
-        "type" : [
+        "name": "Glitterose",
+        "type": [
             "Fairy",
             "Psychic"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1297,9 +1380,10 @@ class Mons(Enum):
         
     }
     Pebbleon = {
-        "name" : "Pebbleon",
-        "type" : "Rock",
-        "stats" : {
+        "name": "Pebbleon",
+        "type": "Rock",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1311,12 +1395,13 @@ class Mons(Enum):
         
     }
     Granitear = {
-        "name" : "Granitear",
-        "type" : [
+        "name": "Granitear",
+        "type": [
             "Rock",
             "Ground"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1328,12 +1413,13 @@ class Mons(Enum):
         
     }
     Vena = {
-        "name" : "Vena",
-        "type" : [
+        "name": "Vena",
+        "type": [
             "Normal",
             "Grass"
-            ]
-        "stats" : {
+            ],
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1344,12 +1430,13 @@ class Mons(Enum):
         }
     }
     Venatus = {
-        "name" : "Venatus",
-        "type" : [
+        "name": "Venatus",
+        "type": [
             "Normal",
             "Psychic"
-            ]
-        "stats" : {
+            ],
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1360,12 +1447,13 @@ class Mons(Enum):
         }
     }
     Venomalo = {
-        "name" : "Venomalo",
-        "type" : [
+        "name": "Venomalo",
+        "type": [
             "Normal",
             "Dark"
-            ]
-        "stats" : {
+            ],
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1376,9 +1464,10 @@ class Mons(Enum):
         }
     }
     Ratil = {
-        "name" : "Ratil",
-        "type" : "Normal",
-        "stats" : {
+        "name": "Ratil",
+        "type": "Normal",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1389,9 +1478,10 @@ class Mons(Enum):
         }
     }
     Ratal = {
-        "name" : "Ratal",
-        "type" : "Normal",
-        "stats" : {
+        "name": "Ratal",
+        "type": "Normal",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1402,9 +1492,10 @@ class Mons(Enum):
         }
     }
     Ratonar = {
-        "name" : "raton",
-        "type" : "Normal",
-        "stats" : {
+        "name": "raton",
+        "type": "Normal",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1415,12 +1506,13 @@ class Mons(Enum):
         }
     }
     Crysantis = {
-        "name" : "Crysantis",
-        "type" : [
+        "name": "Crysantis",
+        "type": [
             "Ice",
             "Bug"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1432,9 +1524,10 @@ class Mons(Enum):
         
     }
     Slapshling = {
-        "name" : "Slapshling",
-        "type" : "Water",
-        "stats" : {
+        "name": "Slapshling",
+        "type": "Water",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1446,12 +1539,13 @@ class Mons(Enum):
         
     }
     Wavelet = {
-        "name" : "Wavelet",
-        "type" : [
+        "name": "Wavelet",
+        "type": [
             "Water",
             "Psychic"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1463,9 +1557,10 @@ class Mons(Enum):
         
     }
     Venofang = {
-        "name" : "Venofang",
-        "type" : "Poison",
-        "stats" : {
+        "name": "Venofang",
+        "type": "Poison",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1477,12 +1572,13 @@ class Mons(Enum):
         
     }
     Serpentide = {
-        "name" : "Serpentide",
-        "type" : [
+        "name": "Serpentide",
+        "type": [
             "Poison",
             "Dragon"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1494,12 +1590,13 @@ class Mons(Enum):
         
     }
     Colibin = {
-        "name" : "Colibin",
-        "type" : [
+        "name": "Colibin",
+        "type": [
             "Normal",
             "Flying"
-            ]
-        "stats" : {
+            ],
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1510,12 +1607,13 @@ class Mons(Enum):
         }
     }
     Colibra = {
-        "name" : "Colibra",
-        "type" : [
+        "name": "Colibra",
+        "type": [
             "Normal",
             "Flying"
-            ]
-        "stats" : {
+            ],
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1526,12 +1624,13 @@ class Mons(Enum):
         }
     }
     Colibrio = {
-        "name" : "Colibrio",
-        "type" : [
+        "name": "Colibrio",
+        "type": [
             "Normal",
             "Flying"
-            ]
-        "stats" : {
+            ],
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1542,12 +1641,13 @@ class Mons(Enum):
         }
     }
     Zyephblade = {
-        "name" : "Zyephblade",
-        "type" : [
+        "name": "Zyephblade",
+        "type": [
             "Steel",
             "Rock"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1559,12 +1659,13 @@ class Mons(Enum):
         
     }
     Aurostride = {
-        "name" : "Aurostride",
-        "type" : [
+        "name": "Aurostride",
+        "type": [
             "Ice",
             "Rock"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1576,12 +1677,13 @@ class Mons(Enum):
         
     }
     Embstrike = {
-        "name" : "Embstrike",
-        "type" : [
+        "name": "Embstrike",
+        "type": [
             "Fire",
             "Rock"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1593,12 +1695,13 @@ class Mons(Enum):
         
     }
     Webbing = {
-        "name" : "Webbing",
-        "type" : [
+        "name": "Webbing",
+        "type": [
             "Poison",
             "Dark"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1610,12 +1713,13 @@ class Mons(Enum):
         
     }
     Plaguefly = {
-        "name" : "Plaguefly",
-        "type" : [
+        "name": "Plaguefly",
+        "type": [
             "Poison",
             "Flying"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1627,12 +1731,13 @@ class Mons(Enum):
         
     }
     Whimsiren = {
-        "name" : "Whimsiren",
-        "type" : [
+        "name": "Whimsiren",
+        "type": [
             "Fairy",
             "Steel"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1644,9 +1749,10 @@ class Mons(Enum):
         
     }
     Glailhorn = {
-        "name" : "Glailhorn",
-        "type" : "Ice",
-        "stats" : {
+        "name": "Glailhorn",
+        "type": "Ice",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1658,12 +1764,13 @@ class Mons(Enum):
         
     }
     Frosthorn = {
-        "name" : "Frosthorn",
-        "type" : [
+        "name": "Frosthorn",
+        "type": [
             "Ice",
             "Steel"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1675,12 +1782,13 @@ class Mons(Enum):
         
     }
     Duskbat = {
-        "name" : "Duskbat",
-        "type" : [
+        "name": "Duskbat",
+        "type": [
             "Dark",
             "Flying"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1692,12 +1800,13 @@ class Mons(Enum):
         
     }
     Eclipsbat = {
-        "name" : "Eclipsbat",
-        "type" : [
+        "name": "Eclipsbat",
+        "type": [
             "Dark",
             "Flying"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1709,12 +1818,13 @@ class Mons(Enum):
         
     }
     Xtabay = {
-        "name" : "Xtabay",
-        "type" : [
+        "name": "Xtabay",
+        "type": [
             "Fairy",
             "Grass"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1726,12 +1836,13 @@ class Mons(Enum):
         
     }
     Spectrabane = {
-        "name" : "Spectrabane",
-        "type" : [
+        "name": "Spectrabane",
+        "type": [
             "Ghost",
             "Fairy"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1743,12 +1854,13 @@ class Mons(Enum):
         
     }
     Nightmane = {
-        "name" : "Nightmane",
-        "type" : [
+        "name": "Nightmane",
+        "type": [
             "Ghost",
             "Fire"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1760,12 +1872,13 @@ class Mons(Enum):
         
     }
     Tuskdrill = {
-        "name" : "Tuskdrill",
-        "type" : [
+        "name": "Tuskdrill",
+        "type": [
             "Ground",
             "Steel"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1777,9 +1890,10 @@ class Mons(Enum):
         
     }
     Sylphora = {
-        "name" : "Sylphora",
-        "type" : "Fairy",
-        "stats" : {
+        "name": "Sylphora",
+        "type": "Fairy",
+        "level": [],
+        "stats": {
             "Hp" : ,
             "Attack" : ,
             "Defense" : ,
@@ -1790,12 +1904,13 @@ class Mons(Enum):
         }
         
     }
-    Galepetal {
+    Galepetal = {
         "name": "Galepetal",
         "type": [
             "Fairy",
             "Psychic"
             ],
+        "level": [],
         "stats": {
             "Hp": ,
             "Attack": ,
@@ -1808,11 +1923,12 @@ class Mons(Enum):
         
     }
     Sylvantrix = {
-        "name" : "Sylvantrix",
-        "type" : [
+        "name": "Sylvantrix",
+        "type": [
             "Fairy",
             "Psychic"
             ],
+        "level": [],
         "stats": {
             "Hp": 205,
             "Attack": 100,
@@ -1830,6 +1946,7 @@ class Mons(Enum):
             "Ground",
             "Rock"
             ],
+        "level": [],
         "stats": {
             "Hp": 175,
             "Attack": 85,
@@ -1846,7 +1963,8 @@ class Mons(Enum):
         "type": [
             "Ground",
             "Grass"
-            ],  
+            ],
+        "level": [],
         "stats": {
             "Hp": 190,
             "Attack": 95,
@@ -1864,6 +1982,7 @@ class Mons(Enum):
             "Ground",
             "Psychic"
             ],
+        "level": [],
         "stats": {
             "Hp": 210,
             "Attack": 110,
@@ -1878,6 +1997,7 @@ class Mons(Enum):
     Teraguard = {
         "name": "Teraguard",
         "type": "Ground",
+        "level": [],
         "stats": {
             "Hp": 170,
             "Attack": 85,
@@ -1890,11 +2010,12 @@ class Mons(Enum):
         
     }
     Fistquake = {
-        "name" : "Fistquake",
-        "type" : [
+        "name": "Fistquake",
+        "type": [
             "Ground",
             "Fighting"
             ],
+        "level": [],
         "stats": {
             "Hp": 193,
             "Attack": 125,
@@ -1907,11 +2028,12 @@ class Mons(Enum):
         
     }
     Tectoknight = {
-        "name" : "Tectoknight",
-        "type" : [
+        "name": "Tectoknight",
+        "type": [
             "Fighting",
             "Steel"
             ],
+        "level": [],
         "stats": {
             "Hp": 205,
             "Attack": 140,
@@ -1924,12 +2046,13 @@ class Mons(Enum):
         
     }
     Earthrend = {
-        "name" : "Earthrend",
-        "type" : [
+        "name": "Earthrend",
+        "type": [
             "Ground",
             "Dragon"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp": 185,
             "Attack": 125,
             "Defense": 125,
@@ -1946,6 +2069,7 @@ class Mons(Enum):
             "Dragon",
             "Steel"
             ],
+        "level": [],
         "stats": {
             "Hp": 200,
             "Attack": 135,
@@ -1959,10 +2083,11 @@ class Mons(Enum):
     }
     Astralynx = {
         "name": "Astralynx",
-        "type" : [
+        "type": [
             "Psychic",
             "Fighting"
             ],
+        "level": [],
         "stats": {
             "Hp": 235,
             "Attack": 145,
@@ -1980,6 +2105,7 @@ class Mons(Enum):
             "Fire",
             "Flying"
             ],
+        "level": [],
         "stats": {
             "Hp": 230,
             "Attack" : 138,
@@ -1997,6 +2123,7 @@ class Mons(Enum):
             "Beast",
             "Electric"
             ],
+        "level": [],
         "stats": {
             "Hp": 200,
             "Attack": 145,
@@ -2009,11 +2136,12 @@ class Mons(Enum):
         
     }
     Lunaryx {
-        "name" : "Lunaryx",
-        "type" : [
+        "name": "Lunaryx",
+        "type": [
             "Ice",
             "Dark"
             ],
+        "level": [],
         "stats" : {
             "Hp" : 240,
             "Attack" : 155,
@@ -2027,11 +2155,12 @@ class Mons(Enum):
     }
     Solaris = {
         "name": "Solaris",
-        "type" : [
+        "type": [
             "Fire",
             "Psychic"
             ],
-        "stats" : {
+        "level": [],
+        "stats": {
             "Hp": 240,
             "Attack": 130,
             "Defense": 140,
@@ -2043,11 +2172,12 @@ class Mons(Enum):
     
   }
     Serpentix = {
-        "name" : "Serpentix",
-        "type" : [
+        "name": "Serpentix",
+        "type": [
             "Dragon",
             "Fairy"
             ],
+        "level": [],
         "stats": {
             "Hp": 245,
             "Attack": 145,
@@ -2060,9 +2190,10 @@ class Mons(Enum):
         
     }
     Shadow = {
-        "name" : "Shadow",
-        "type" : "Ghost",
-        "stats" : {
+        "name": "Shadow",
+        "type": "Ghost",
+        "level": [],
+        "stats": {
             "Hp": 235,
             "Attack": 140,
             "Defense": 130,

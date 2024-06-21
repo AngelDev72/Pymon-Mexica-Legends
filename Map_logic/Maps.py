@@ -2,7 +2,7 @@ import sys
 import pygame as pg
 from enum import Enum
 
-class Map(enum):
+class Cities(Enum):
     def Cities:
         Tenochtitlan = {
             "name": "Tenochtitlán",
@@ -57,6 +57,7 @@ class Map(enum):
         
         }
 
+class Towns(Enum):
     def Towns:
         Tepoztlan = {
             "name": "Tepoztlán",
@@ -112,20 +113,15 @@ class Map(enum):
             "map image": []
             
         }
-        Zacatecas = {
-            "name": "Zacatecas"
-            "music theme": [],
-            "map image": []
-            
-        }
 
+class Main_Routes(Enum)
     def MainRoutes:
         Blossom_Path = {
             "name":"Blossom Path",
             "music theme": [],
             "map image": [],
             "route Mons": [
-                
+                ""
                 ]
             
         }
@@ -134,101 +130,175 @@ class Map(enum):
             "music theme": [],
             "map image": [],
             "route Mons": [
-                
+                ""
                 ]
             
         }
         Ancient_Trial = {
-        "name": "Ancient Trail",
-        "theme":
-        
-    }
+            "name": "Ancient Trail",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+            }
         Whispering_Woods = {
-        "Whispering Woods",
-        "theme":
-        
-    }
+            "name": "Whispering Woods",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Dragons_Pass = {
-        "Dragons Pass",
-        "theme":
-        
-    }
+            "name": "Dragons Pass",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Sunset_Boulevard = {
-        "Sunset Boulevard",
-        "theme":
-        
-    }
+            "name": "Sunset Boulevard",
+            "music theme": : [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Frostpeak_Path = {
-        "Frostpeak Path",
-        "theme":
-        
-    }
+            "name": "Frostpeak Path",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Silent_Ruins = {
-        "Silent Ruins",
-        "theme":
-        
-    }
+            "name": "Silent Ruins",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Crystal_Cascades = {
-        "Crystal Cascades",
-        "theme":
-        
-    }
+            "name": "Crystal Cascades",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Starlight_Path = {
-        "Starlight Path"
-        "theme":
-        
-    }
-    
+            "name": "Starlight Path"
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
+
+class Side_routes(Enum):
     def SideRoutes:
         Isle_of_Dolls = {
-        "Isle of Dolls",
-        "theme":
-        
+            "name": "Isle of Dolls",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
         }
         Ember_Ridge = {
-        "Ember Ridge",
-        "theme":
-        
+            "name": "Ember Ridge",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
         }
         Enchanted_Gorve = {
-        "Enchanted Grove",
-        "theme":
-        
-    }
+            "name": "Enchanted Grove",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Coral_Reef_Path = {
-        "Coral Reef Path",
-        "theme":
-        
-    }
+            "name": "Coral Reef Path",
+            "music theme": [],
+            "map image": [],
+            "route Mons"[
+                ""
+                ]
+            
+        }
         Celestial_Bridge = {
-        "Celestial Bridge",
-        "theme":
-        
-    }
-    
+            "name": "Celestial Bridge",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
+
+class Cave(Enum):
     def Caves:
         Secret_Chasm {
-        "Secret Chasm",
-        "theme":
-        
-    }
+            "name": "Secret Chasm",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Unexplored_Abyss = {
-        "Unexplored Abyss",
-        "theme":
-        
-    }
+            "name": "Unexplored Abyss",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
+            
+        }
         Enigmatic_Passage = {
-        "Enigmatic Passage",
-        "theme":
+            "name": "Enigmatic Passage",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
         
-    }
+        }
         Challenge_Cave = {
-        "Challenge Cave",
-        "theme":
+            "name": "Challenge Cave",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
         
-    }
+        }
         Quetzalcoatl_Ruins = {
-        "Quetzalcoatl Ruins",
-        "theme":
+            "name": "Quetzalcoatl Ruins",
+            "music theme": [],
+            "map image": [],
+            "route Mons": [
+                ""
+                ]
         
-    }
+        }

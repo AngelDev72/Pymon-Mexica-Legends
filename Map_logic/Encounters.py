@@ -1,5 +1,6 @@
 import pygame as pg
 import sys
+import secrets
 from enum import Enum
 from Mons_logic.Mons_base import Mons
 from Maps import Map
@@ -13,7 +14,8 @@ class Route_Encounters(Enum):
     Static = [
         "Embstrike",
         "Aurostride",
-        "Crysantis"
+        "Crysantis",
+        "Serpentix"
         ]
     Special_Gift = []
     Legendary = [
