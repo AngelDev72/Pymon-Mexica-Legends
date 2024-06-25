@@ -8,6 +8,10 @@ class Mons(Enum):
         "name": "Leaflet",
         "type": "Grass",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": { 
             "Hp": 160,
             "Attack": 78,
@@ -23,6 +27,10 @@ class Mons(Enum):
         "name: "Floraleaf",
         "type": "Grass",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack":  83,
@@ -41,6 +49,10 @@ class Mons(Enum):
             "Dragon"
             ],
             "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 180,
             "Attack": 98,
@@ -56,6 +68,10 @@ class Mons(Enum):
         "name": "Flamepup",
         "type": "Fire",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 165,
             "Attack": 78,
@@ -71,6 +87,10 @@ class Mons(Enum):
         "name": "Blazejaw",
         "type": "Fire",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 175,
             "Attack": 90,
@@ -89,6 +109,10 @@ class Mons(Enum):
             "Beast"
         ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 185,
             "Attack": 110,
@@ -104,6 +128,10 @@ class Mons(Enum):
         "name": "Mudlope",
         "type": "Water",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 173,
             "Attack": 83,
@@ -119,6 +147,10 @@ class Mons(Enum):
         "name": "Mudskipper",
         "type": "Water",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 184,
             "Attack": 93,
@@ -137,6 +169,10 @@ class Mons(Enum):
             "Ground"
         ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 200,
             "Attack": 110,
@@ -152,6 +188,10 @@ class Mons(Enum):
         "name": "Breezowl",
         "type": "Flying",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 164,
             "Attack": 70,
@@ -167,6 +207,10 @@ class Mons(Enum):
         "name": "Gustwing",
         "type": "Flying",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 172,
             "Attack": 85,
@@ -185,6 +229,10 @@ class Mons(Enum):
             "Electric"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 185,
             "Attack": 100,
@@ -200,6 +248,10 @@ class Mons(Enum):
         "name": "Rochling",
         "type": "Bug",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 140,
             "Attack": 65,
@@ -215,6 +267,10 @@ class Mons(Enum):
         "name": "Shedroc",
         "type": "Bug",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 80,
@@ -233,6 +289,10 @@ class Mons(Enum):
             "Dark"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 195,
             "Attack": 120,
@@ -248,6 +308,10 @@ class Mons(Enum):
         "name": "Normulin",
         "type": "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 70,
@@ -263,6 +327,10 @@ class Mons(Enum):
         "name": "Normuza",
         "type": "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 180,
             "Attack": 85,
@@ -280,6 +348,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 195,
             "Attack" : 100,
@@ -297,6 +369,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 185,
             "Attack": 110,
@@ -312,6 +388,10 @@ class Mons(Enum):
         "name": "Siphonbite",
         "type": "Dark",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 168,
             "Attack": 70,
@@ -330,6 +410,10 @@ class Mons(Enum):
             "Beast"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 190,
             "Attack": 85,
@@ -348,6 +432,10 @@ class Mons(Enum):
             "Beast"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp": 180,
             "Attack": 100,
@@ -366,6 +454,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 165,
             "Attack": 75,
@@ -383,6 +475,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 175,
             "Attack": 88,
@@ -400,6 +496,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 190,
             "Attack": 103,
@@ -414,6 +514,10 @@ class Mons(Enum):
         "name": "Sparkitt",
         "type": "Electric",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 165,
             "Attack": 75,
@@ -429,6 +533,10 @@ class Mons(Enum):
         "name": "Joltflash",
         "type": "Electric",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 175,
             "Attack": 85,
@@ -447,6 +555,10 @@ class Mons(Enum):
             "Dark"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 100,
@@ -465,6 +577,10 @@ class Mons(Enum):
             "Fairy"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 175,
             "Attack": 93,
@@ -483,6 +599,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 95,
@@ -501,6 +621,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 165,
             "Attack": 98,
@@ -519,6 +643,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 180,
             "Attack": 105,
@@ -537,6 +665,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 165,
             "Attack": 75,
@@ -554,6 +686,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -571,6 +707,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -585,6 +725,10 @@ class Mons(Enum):
         "name": "Mossclaw",
         "type": "Grass",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 168,
             "Attack": 83,
@@ -600,6 +744,10 @@ class Mons(Enum):
         "name": "Thornpaw",
         "type": "Grass",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
             "stats": {
             "Hp": 183,
             "Attack": 110,
@@ -618,6 +766,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 187,
             "Attack": 91,
@@ -636,6 +788,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -653,6 +809,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -670,6 +830,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -687,6 +851,10 @@ class Mons(Enum):
             "Grass"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 100,
@@ -702,6 +870,10 @@ class Mons(Enum):
         "name": "Mistlion",
         "type": "Ice",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 80,
@@ -720,6 +892,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 188,
             "Attack" : 98,
@@ -735,6 +911,10 @@ class Mons(Enum):
         "name": "Stormlion"
         "type": "Electric",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 172,
             "Attack" : 83,
@@ -753,6 +933,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 185,
             "Attack": 95,
@@ -771,6 +955,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 188,
             "Attack": 85,
@@ -789,6 +977,10 @@ class Mons(Enum):
             "Poison"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 190,
             "Attack" : 105,
@@ -807,6 +999,10 @@ class Mons(Enum):
             "Grass"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -824,6 +1020,10 @@ class Mons(Enum):
             "Grass"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -841,6 +1041,10 @@ class Mons(Enum):
             "Dragon"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -858,6 +1062,10 @@ class Mons(Enum):
             "Bug"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -875,6 +1083,10 @@ class Mons(Enum):
             "Bug"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -892,6 +1104,10 @@ class Mons(Enum):
             "Bug"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -909,6 +1125,10 @@ class Mons(Enum):
             "Water"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats":{
             "Hp": 195,
             "Attack": 80,
@@ -924,6 +1144,10 @@ class Mons(Enum):
         "name": "Frostpaw",
         "type": "Ice",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack" : 75,
@@ -939,6 +1163,10 @@ class Mons(Enum):
         "name" : "Hailclaw",
         "type" : "Ice",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : 185,
             "Attack" : 85,
@@ -957,6 +1185,10 @@ class Mons(Enum):
             "Water"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : 168,
             "Attack" : 73,
@@ -975,6 +1207,10 @@ class Mons(Enum):
             "Water"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
       "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -993,6 +1229,10 @@ class Mons(Enum):
             "Water"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1011,6 +1251,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1029,6 +1273,10 @@ class Mons(Enum):
             "Fire"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1047,6 +1295,10 @@ class Mons(Enum):
             "Rock"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1065,6 +1317,10 @@ class Mons(Enum):
             "Fire"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1083,6 +1339,10 @@ class Mons(Enum):
             "Poison"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1101,6 +1361,10 @@ class Mons(Enum):
             "Poison"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1119,6 +1383,10 @@ class Mons(Enum):
             "Poison"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1134,6 +1402,10 @@ class Mons(Enum):
         "name" : "Tlacota",
         "type" : "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1148,6 +1420,10 @@ class Mons(Enum):
         "name" : "Tlacotor",
         "type" : "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1165,6 +1441,10 @@ class Mons(Enum):
             "Fighting"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1182,6 +1462,10 @@ class Mons(Enum):
             "Ice"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1197,6 +1481,10 @@ class Mons(Enum):
         "name" : "Effigy",
         "type" : "Ghost",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1215,6 +1503,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1233,6 +1525,10 @@ class Mons(Enum):
         "Dark"
         ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : ,
             "Attack" : ,
@@ -1248,6 +1544,10 @@ class Mons(Enum):
         "name": "Aqualith",
         "type": "Water",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": ,
             "Attack" : ,
@@ -1266,6 +1566,10 @@ class Mons(Enum):
             "Beast"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1284,6 +1588,10 @@ class Mons(Enum):
             "Beast"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1299,6 +1607,10 @@ class Mons(Enum):
         "name" : "Veloscale",
         "type" : "Grass",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1317,6 +1629,10 @@ class Mons(Enum):
             "Beast"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1335,6 +1651,10 @@ class Mons(Enum):
             "Beast"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1350,6 +1670,10 @@ class Mons(Enum):
         "name": "Sprinkleaf",
         "type": "Fairy",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1368,6 +1692,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1383,6 +1711,10 @@ class Mons(Enum):
         "name": "Pebbleon",
         "type": "Rock",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1401,6 +1733,10 @@ class Mons(Enum):
             "Ground"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1419,6 +1755,10 @@ class Mons(Enum):
             "Grass"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1436,6 +1776,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1453,6 +1797,10 @@ class Mons(Enum):
             "Dark"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1467,6 +1815,10 @@ class Mons(Enum):
         "name": "Ratil",
         "type": "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1481,6 +1833,10 @@ class Mons(Enum):
         "name": "Ratal",
         "type": "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1495,6 +1851,10 @@ class Mons(Enum):
         "name": "raton",
         "type": "Normal",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1512,6 +1872,10 @@ class Mons(Enum):
             "Bug"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1527,6 +1891,10 @@ class Mons(Enum):
         "name": "Slapshling",
         "type": "Water",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1545,6 +1913,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1560,6 +1932,10 @@ class Mons(Enum):
         "name": "Venofang",
         "type": "Poison",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1578,6 +1954,10 @@ class Mons(Enum):
             "Dragon"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1596,6 +1976,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1613,6 +1997,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1630,6 +2018,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1647,6 +2039,10 @@ class Mons(Enum):
             "Rock"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1665,6 +2061,10 @@ class Mons(Enum):
             "Rock"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1683,6 +2083,10 @@ class Mons(Enum):
             "Rock"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1701,6 +2105,10 @@ class Mons(Enum):
             "Dark"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1719,6 +2127,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1737,6 +2149,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1752,6 +2168,10 @@ class Mons(Enum):
         "name": "Glailhorn",
         "type": "Ice",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1770,6 +2190,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1788,6 +2212,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1806,6 +2234,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1824,6 +2256,10 @@ class Mons(Enum):
             "Grass"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1842,6 +2278,10 @@ class Mons(Enum):
             "Fairy"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1860,6 +2300,10 @@ class Mons(Enum):
             "Fire"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1878,6 +2322,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1893,6 +2341,10 @@ class Mons(Enum):
         "name": "Sylphora",
         "type": "Fairy",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp" : ,
             "Attack" : ,
@@ -1911,6 +2363,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": ,
             "Attack": ,
@@ -1929,6 +2385,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 205,
             "Attack": 100,
@@ -1947,6 +2407,10 @@ class Mons(Enum):
             "Rock"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 175,
             "Attack": 85,
@@ -1965,6 +2429,10 @@ class Mons(Enum):
             "Grass"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 190,
             "Attack": 95,
@@ -1983,6 +2451,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 210,
             "Attack": 110,
@@ -1998,6 +2470,10 @@ class Mons(Enum):
         "name": "Teraguard",
         "type": "Ground",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 170,
             "Attack": 85,
@@ -2016,6 +2492,10 @@ class Mons(Enum):
             "Fighting"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 193,
             "Attack": 125,
@@ -2033,6 +2513,10 @@ class Mons(Enum):
             "Fighting",
             "Steel"
             ],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "level": [],
         "stats": {
             "Hp": 205,
@@ -2052,6 +2536,10 @@ class Mons(Enum):
             "Dragon"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 185,
             "Attack": 125,
@@ -2070,6 +2558,10 @@ class Mons(Enum):
             "Steel"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 200,
             "Attack": 135,
@@ -2088,6 +2580,10 @@ class Mons(Enum):
             "Fighting"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 235,
             "Attack": 145,
@@ -2106,6 +2602,10 @@ class Mons(Enum):
             "Flying"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 230,
             "Attack" : 138,
@@ -2124,6 +2624,10 @@ class Mons(Enum):
             "Electric"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 200,
             "Attack": 145,
@@ -2142,6 +2646,10 @@ class Mons(Enum):
             "Dark"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats" : {
             "Hp" : 240,
             "Attack" : 155,
@@ -2160,6 +2668,10 @@ class Mons(Enum):
             "Psychic"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 240,
             "Attack": 130,
@@ -2178,6 +2690,10 @@ class Mons(Enum):
             "Fairy"
             ],
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 245,
             "Attack": 145,
@@ -2193,6 +2709,10 @@ class Mons(Enum):
         "name": "Shadow",
         "type": "Ghost",
         "level": [],
+        "sprites": [],
+        "encounter": [],
+        "moves": [],
+        "movepool": [],
         "stats": {
             "Hp": 235,
             "Attack": 140,
