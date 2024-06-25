@@ -20,11 +20,6 @@ class Cities(Enum):
             "name": "Teotihuacán",
             "music theme": [],
             "map image": []
-            "starter Mons": [
-                "Leaflet",
-                "Flamepup",
-                "Mudlope"
-                ]
         }
         Xochimilco = {
             "name": "Xochimilco",
@@ -119,91 +114,61 @@ class Main_Routes(Enum)
         Blossom_Path = {
             "name":"Blossom Path",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Misty_River = {
             "name": "Misty River",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Ancient_Trial = {
             "name": "Ancient Trail",
             "music theme": [],
             "map image": [],
-            "route Mons": [
-                ""
-                ]
             
             }
         Whispering_Woods = {
             "name": "Whispering Woods",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Dragons_Pass = {
             "name": "Dragons Pass",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Sunset_Boulevard = {
             "name": "Sunset Boulevard",
             "music theme": : [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Frostpeak_Path = {
             "name": "Frostpeak Path",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Silent_Ruins = {
             "name": "Silent Ruins",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Crystal_Cascades = {
             "name": "Crystal Cascades",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Starlight_Path = {
             "name": "Starlight Path"
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
 
@@ -212,46 +177,31 @@ class Side_routes(Enum):
         Isle_of_Dolls = {
             "name": "Isle of Dolls",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Ember_Ridge = {
             "name": "Ember Ridge",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Enchanted_Gorve = {
             "name": "Enchanted Grove",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Coral_Reef_Path = {
             "name": "Coral Reef Path",
             "music theme": [],
-            "map image": [],
-            "route Mons"[
-                ""
-                ]
+            "map image": []
             
         }
         Celestial_Bridge = {
             "name": "Celestial Bridge",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
 
@@ -260,45 +210,30 @@ class Cave(Enum):
         Secret_Chasm {
             "name": "Secret Chasm",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Unexplored_Abyss = {
             "name": "Unexplored Abyss",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
             
         }
         Enigmatic_Passage = {
             "name": "Enigmatic Passage",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
         
         }
         Challenge_Cave = {
             "name": "Challenge Cave",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
         
         }
         Quetzalcoatl_Ruins = {
             "name": "Quetzalcoatl Ruins",
             "music theme": [],
-            "map image": [],
-            "route Mons": [
-                ""
-                ]
+            "map image": []
         
         }

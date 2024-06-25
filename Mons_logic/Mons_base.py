@@ -320,7 +320,7 @@ class Mons(Enum):
             "Sp_Def": 85,
             "Speed": 100
             
-        }
+        },
         
     }
     Souldevoir = {
