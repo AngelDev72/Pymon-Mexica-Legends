@@ -257,104 +257,499 @@ class Special(Enum):
 
 #Shadobest  hold
 class Shadow(Enum):
-    Blank Emblem
-    Darco Emblem
-    Dread Emblem
-    Earth Emblem
-    Fist Emblem
-    Flame Emblem
-    Icicle Emblem
-    Insect Emblem
-    Iron Emblem
-    Legend Emblem
-    Meadow Emblem
-    Mind Emblem
-    Pixie Emblem
-    Salvage Emblem
-    Sky Emblem
-    Splash Emblem
-    Spooky Emblem
-    Stone Emblem
-    Toxic Emblem
-    Zap Emblem
-
+    Blank_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Darco_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Dread_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Earth_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Fist_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Flame_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Icicle_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Insect_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Iron_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Legend_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Meadow_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Mind_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Pixie_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Salvage_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Sky_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Splash_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Spooky_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Stone_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Toxic_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Zap_Emblem = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
 
 #Nightmane hold
 class Nightmane(Enum):
-    Beast Earring
-    Bug Earring
-    Dark Earring
-    Dragon Earring
-    Fighting Earring
-    Fire Earring
-    Ice Earring
-    Electric Earring
-    Fairy Earring
-    Flying Earring
-    Ghost Earring
-    Ground Earring
-    Grass Earring
-    Poison Earring
-    Psychic Earring
-    Rock Earring
-    Steel Earring
-    Water Earring
-    
+    Fang_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Scarab_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Dread_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Mythic_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Power_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Flame_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Icicle_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Zap_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Cute_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Plume_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Skull_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Precipice_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Leaf_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Toxic_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Mystic_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Rock_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Iron_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Wave_Earring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
 
 # Sprectrabane hold
 class Spectrabane(Enum):
-    Shock Ring
-    Chill Ring
-    Burn Ring
-    Douse Ring
+    Zap_Ring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Frost_Ring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Blaze_Ring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Soak_Ring = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
 
 #Fruit
 class Fruit(Enum):
-    Orange
-    Cherry
-    Peach
-    Banana
-    Strawberry
-    Pineapple
-    Pear
-    Grape
-    Guava
-    Blueberry
+    Orange = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Cherry = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Peach = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Banana = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Strawberry = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Pineapple = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Pear = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Grape = {
+        
+    }
+    Guava = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Blueberry = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
 
 #Evolution
 class Evolution(Enum):
-    Leaf Mark
-    Flame Mark
-    Water Mark
-    Moon Mark
-    Thunder Mark
-    Sun Mark
-    Night Mark
-    Shiny Mark
-    Dawn Mark
-    Ice Mark
+    Leaf_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Flame_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Wave_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Moon_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Thunder_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Sun_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Night_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Shiny_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Dawn_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
+    Ice_Mark = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+    }
 
 #Crystals
 class Crystals(Enum):
-    Red Crystal
-    Blue Crystal
-    Yellow Crystal
-    Green Crystal
-    White Crystal
-    Black Crystal
-    Diamond
-    Aquamarine
-    Jade
-    Turquoise
-    Amathist
-    Ruby
-    Sapphire
-    Emerald
-    Topaz
+    Red_Crystal = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Blue_Crystal = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Yellow_Crystal = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Green_Crystal = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    White_Crystal = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Black_Crystal = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Diamond = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Aquamarine = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Jade = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Turquoise = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Amathist = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Ruby = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Sapphire = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Emerald = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
+    Topaz = {
+        "name":
+        "description":
+        "quantity":
+        "effect":
+        "catch rate":
+    }
     
-    capture_rate = {
+capture_rate = {
     "White Crystal": 0.1,
-	"Yellow Crystal": 0.15
+    "Yellow Crystal": 0.15
 	"Black Crystal": 0.2,
 	"Red Crystal": 0.3, # High chance Fire
 	"Blue Crystal": 0.3, # High chance Water
@@ -372,14 +767,41 @@ class Crystals(Enum):
 
 #Key Items
 class key_items(Enum):
-    Instant Raft
-    Lantern
-    Quartzite
-    Fruit Pouch
-    Sharp Tooth
-    Fin Bone
-    Rod
-    Spirit Band
+    Instant_Raft = {
+        "name":
+        "description":
+        "effect":
+    }
+    Lantern = {
+        "name":
+        "description":
+        "effect":
+    }
+    Fruit_Pouch = {
+        "name":
+        "description":
+        "effect":
+    }
+    Sharp_Fang = {
+        "name":
+        "description":
+        "effect":
+    }
+    Fin_Bone = {
+        "name":
+        "description":
+        "effect":
+    }
+    Rod = {
+        "name":
+        "description":
+        "effect":
+    }
+    Spirit_Band = {
+        "name":
+        "description":
+        "effect":
+    }
 
         "name":
         "description":
