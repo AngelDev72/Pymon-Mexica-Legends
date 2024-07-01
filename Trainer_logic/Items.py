@@ -7,43 +7,43 @@ from enum import Enum
 class Heal(Enum):
     Potion = {
         "name": "Potion",
-        "description": "",
+        "description": "A simple house remedy. Restores 20 HP ",
         "quantity": [],
         "effect": []
     }
     Super_Potion = {
         "name": "Super Potion",
-        "description": "",
+        "description": "A somewhat elaborated mix of herbs. Restores 50 HP",
         "quantity": [],
         "effect": []
     }
     Hyper_Potion = {
         "name": "Hyper Potion",
-        "description": "",
+        "description": "A more elaborated mix of herbs. Restores 150 HP",
         "quantity": [],
         "effect": []
     }
     Max_Potion = {
         "name": "Max Potion",
-        "description": "",
+        "description": "A complex mix of herbs. Restores full HP",
         "quantity": [],
         "effect": []
     }
     Full_Restore = {
         "name": "Full Restore"
-        "description": "",
+        "description": "A complicated mix of nutritious herbs. Restores full HP and eliminates Status conditions",
         "quantity": [],
         "effect": []
     }
     Simple_Water = {
         "name": "Simple Water",
-        "description": "",
+        "description": "Simple tap water from the mountains. Restores 25 HP",
         "quantity": [],
         "effect":[]
     }
     Tea = {
         "name": "Tea",
-        "description": "",
+        "description": "A nutricious tea. Restores 50 ",
         "quantity": [],
         "effect": []
     }
