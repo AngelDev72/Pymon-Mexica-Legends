@@ -7,19 +7,19 @@ from enum import Enum
 class Heal(Enum):
     Potion = {
         "name": "Potion",
-        "description": "A simple house remedy. Restores 20 HP ",
+        "description": "A simple house remedy. Restores 20 HP.",
         "quantity": [],
         "effect": []
     }
     Super_Potion = {
         "name": "Super Potion",
-        "description": "A somewhat elaborated mix of herbs. Restores 50 HP",
+        "description": "A somewhat elaborated mix of herbs. Restores 50 HP.",
         "quantity": [],
         "effect": []
     }
     Hyper_Potion = {
         "name": "Hyper Potion",
-        "description": "A more elaborated mix of herbs. Restores 150 HP",
+        "description": "A more elaborated mix of herbs. Restores 150 HP.",
         "quantity": [],
         "effect": []
     }
@@ -29,101 +29,95 @@ class Heal(Enum):
         "quantity": [],
         "effect": []
     }
-    Full_Restore = {
-        "name": "Full Restore"
+    Secret_Medicine = {
+        "name": "Secret Medicine"
         "description": "A complicated mix of nutritious herbs. Restores full HP and eliminates Status conditions",
         "quantity": [],
         "effect": []
     }
     Simple_Water = {
         "name": "Simple Water",
-        "description": "Simple tap water from the mountains. Restores 25 HP",
+        "description": "Refreshing water from the mountains. Restores 25 HP.",
         "quantity": [],
         "effect":[]
     }
     Tea = {
         "name": "Tea",
-        "description": "A nutricious tea. Restores 50 ",
+        "description": "A nutritious tea. Restores 50 HP.",
         "quantity": [],
         "effect": []
     }
     Cocoa = {
         "name": "Cocoa",
-        "description": "",
+        "description": "A delicious hot drink. Restores Status conditions back to normal.",
         "quantity": [],
         "effect": []
     }
     Antidote = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Antidote",
+        "description": "A mix of herbs used to cure Poisons.",
+        "quantity": [],
+        "effect": []
     }
-    Ice_heal ={
-        "name":
-        "description":
-        "quantity":
-        "effect":
+    Thermal_Rock ={
+        "name": "Thermal Rock",
+        "description": "Preheated rocks used to cure colds.",
+        "quantity": [],
+        "effect":[]
     }
-    Burn_Heal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+    Fresh_Pomade = {
+        "name": "Fresh Pomade",
+        "description": "A mix of menthol herbs ised to refresh burns.",
+        "quantity": [],
+        "effect": []
     }
-    Paralyze_Heal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+    Complexed_Pomade = {
+        "name": "Complexed Pomade",
+        "description": "A highly elaborated pomade that heals any Status condition.",
+        "quantity": [],
+        "effect": []
     }
     Awakening = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Awakening",
+        "description": "A rare type of salt that that snaps awake real quick.",
+        "quantity": [],
+        "effect": []
     }
     Bitter_Powder = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Bitter Powder",
+        "description": "A very bitter substance that restores 50 HP.",
+        "quantity": [],
+        "effect": []
     }
     Energy_Root = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Energy Root",
+        "description": "A very rare and nutritious root that restores 150 HP. Very bitter also.",
+        "quantity": [],
+        "effect": []
     }
     Miracle_Herb = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Miracle Herb",
+        "description": "A rare herb that revives a fainted Pymon by 1/2 its HP.",
+        "quantity": [],
+        "effect": []
     }
-    Revive = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-    }
-    Max_Revive = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+    Secret_Remedy = {
+        "name": "Secret Remedy",
+        "description": "A miraculous beverage. Fully revives a fainted Pymon.",
+        "quantity": [],
+        "effect": []
     }
     Elixir = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Elixir"
+        "description": "A home made beverage. Retores 10 SP.",
+        "quantity": [],
+        "effect": []
     }
     Max_Elixir = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Max Elixir",
+        "description": " An ancient remedy passed down by generations. Restores full SP.",
+        "quantity": [],
+        "effect": []
     }
 
 #Boost Items		
