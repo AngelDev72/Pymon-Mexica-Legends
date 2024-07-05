@@ -2,6 +2,7 @@ import sys
 import pygame
 import random
 from enum import Enum
+from Item_logic import Item_Effects as IE
 
 #Items list
 class Heal(Enum):
@@ -113,8 +114,8 @@ class Heal(Enum):
         "quantity": [],
         "effect": []
     }
-    Max_Elixir = {
-        "name": "Max Elixir",
+    Super_Elixir = {
+        "name": "Super Elixir",
         "description": " An ancient remedy passed down by generations. Restores full SP.",
         "quantity": [],
         "effect": []
@@ -123,116 +124,122 @@ class Heal(Enum):
 #Boost Items		
 class Boost(Enum):
     Miracle_Seed = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Miracle Seed",
+        "description": "A Godly gift from Xochipilli. Boosts the power of Grass type moves.",
+        "quantity": [],
+        "effect": []
     }
     Honorable_Flame = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Honorable Flame",
+        "description": "A Godly gift from Tonatiuh. Boosts the power of Fire type moves.",
+        "quantity": [],
+        "effect": []
     }
     Celestial_Water = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Celestial Water",
+        "description": "A Godly gift from Tlaloc. Boosts the power of Water type moves.",
+        "quantity": [],
+        "effect": []
     }
     Sensitive_Claw = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Sensitive Claw",
+        "description": "A Godly gift from Chicomecoatl. Boosts the power of Bug type moves.",
+        "quantity": [],
+        "effect": []
     }
     Sharp_Feather = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Sharp Feather",
+        "description": "A Godly gift from Huitzilopochtli. Boosts the power of Flying type moves.",
+        "quantity": [],
+        "effect": []
     }
     Soft_Huipil = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Soft Huipil",
+        "description": "A Godly gift from Tezcatlipoca. Boosts the power of Normal type moves.",
+        "quantity": [],
+        "effect": []
     }
     Obsidian_Stone = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Obsidian Stone",
+        "description": "A Godly gift from Tlaltecuhtli. Boosts the power of Rock type moves.",
+        "quantity": [],
+        "effect": []
     }
     Ancient_Sand = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Ancient Sand",
+        "description": "A Godly gift from Tlalzolteotl. Boosts the power of Ground type moves.",
+        "quantity": [],
+        "effect": []
     }
     Forbbiden_Scrolls = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Forbbiden Scrolls",
+        "description": "A Godly corrupted gift from Mictlantecuhtli. Boosts the power of Dark type moves.",
+        "quantity": [],
+        "effect": []
     }
     Warrior_Cloth = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "warrior Cloth",
+        "description": "A Godly gift from Huitzilopochtli. Boosts the power of Fighting type moves.",
+        "quantity": [],
+        "effect":[]
     }
     Gifted_Eye = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Gifted Eye",
+        "description": "A Godly gift from Quetzalcoatl. Boosts the power of Psychic type moves.",
+        "quantity": [],
+        "effect": []
     }
     Poison_Dart = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Poison Dart",
+        "description": "A Godly gift from Itzpapalotl. Boosts the power of Poison type moves.",
+        "quantity": [],
+        "effect": []
     }
     Sharp_Fang = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Sharp Fang",
+        "description": "A Godly gift from Quetzalcoatl. Boosts the power of Dragon type moves.",
+        "quantity": [],
+        "effect": []
+    }
+    Enchanted_Scroll = {
+        "name": "Enchanted Scroll",
+        "description": "A Godly gift from Tlalzolteotl. Boosts the power of Fairy type moves.",
+        "quantity": [],
+        "effect": []
     }
     Iron_Chunk = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Iron Chunk",
+        "description": "A Godly gift from Xipe Totec. Boosts the power of Steel type moves.",
+        "quantity": [],
+        "effect": []
     }
     Eternal_Ice = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Eternal Ice",
+        "description": "A Godly gift from Tonantzin. Boosts the power of Ice type moves.",
+        "quantity": [],
+        "effect": []
     }
     Omninuos_Scroll = {
         "name":
-        "description":
+        "description": "A Godly corrupted gift from Mictlantecuhtli. Boosts the power of Ghost type moves.",
         "quantity":
         "effect":
     }
     Magnetic_Rock = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Magnetic Rock",
+        "description": "A Godly gift from Tlaloc. Boosts the power of Electric type moves.",
+        "quantity": [],
+        "effect": []
     }
     Fang Collar = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "Fang Collar",
+        "description": "A Godly gift from Xolotl. Boosts the power of Beast type moves.",
+        "quantity": [],
+        "effect": []
     }
-    
+
 #Various hold
-class Special(Enum):
+class Orbs(Enum):
     Sun_Orb = {
         "name":
         "description":
@@ -571,7 +578,7 @@ class Fruit(Enum):
     }
 
 #Evolution
-class Evolution(Enum):
+class Evolution_Marks(Enum):
     Leaf_Mark = {
         "name":
         "description":
@@ -760,7 +767,7 @@ capture_rate = {
 	}
 
 #Key Items
-class key_items(Enum):
+class Key_items(Enum):
     Instant_Raft = {
         "name":
         "description":
