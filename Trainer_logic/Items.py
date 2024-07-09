@@ -220,10 +220,10 @@ class Boost(Enum):
         "effect": []
     }
     Omninuos_Scroll = {
-        "name":
+        "name": "Omninuos Scroll",
         "description": "A Godly corrupted gift from Mictlantecuhtli. Boosts the power of Ghost type moves.",
-        "quantity":
-        "effect":
+        "quantity": [],
+        "effect": []
     }
     Magnetic_Rock = {
         "name": "Magnetic Rock",
@@ -238,514 +238,517 @@ class Boost(Enum):
         "effect": []
     }
 
-#Various hold
+#Lunaryx Solaris Serpentix summoning items
 class Orbs(Enum):
     Sun_Orb = {
-        "name":
-        "description":
-        "effect":
+        "name": "Sun Orb",
+        "description": "A mystirious golden Orb that exhales a soothing heat. Legend says it is connected to Solaris",
+        "effect": []
     }
     Moon_Orb = {
-        "name":
-        "description":
-        "effect":
+        "name": "Moon Orb",
+        "description": "A mystirious silver Orb that emites a soothing light. Legend says it is connected to Lunaryx",
+        "effect": []
     }
-    Rain_Orb = {
-        "name":
-        "description":
-        "effect":
+    Scaled_Orb = {
+        "name": "Scaled Orb",
+        "description": "A mystirious Orb with scales. An ancient folktale says that the spirit of Serpentix  is connected to this Orb.",
+        "effect": []
     }
 
-#Shadobest  hold
-class Shadow(Enum):
+#Shadow exclusive
+class Emblems(Enum):
     Blank_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Darco_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Dread_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Earth_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Fist_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Flame_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Icicle_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Insect_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Iron_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Legend_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Meadow_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Mind_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Pixie_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Salvage_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Sky_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Splash_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Spooky_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Stone_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Toxic_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Zap_Emblem = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
 
-#Nightmane hold
-class Nightmane(Enum):
+#Nightmane exclusive
+class Earring(Enum):
     Fang_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Scarab_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Dread_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Mythic_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Power_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Flame_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Icicle_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Zap_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
-    Cute_Earring = {
+    Love_Earring = {
         "name":
         "description":
         "quantity":
         "effect":
     }
     Plume_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Skull_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
-    Precipice_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+    Stalactite_Earring = {
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Leaf_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Toxic_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Mystic_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Rock_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Iron_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Wave_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
 
-# Sprectrabane hold
-class Spectrabane(Enum):
+# Sprectrabane exclusive
+class Ring(Enum):
     Zap_Ring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Frost_Ring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Blaze_Ring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Soak_Ring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
 
 #Fruit
 class Fruit(Enum):
     Orange = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Cherry = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Peach = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Banana = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Strawberry = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Pineapple = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Pear = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Grape = {
-        
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Guava = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Blueberry = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
 
 #Evolution
 class Evolution_Marks(Enum):
     Leaf_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Flame_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Wave_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Moon_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Thunder_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Sun_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Night_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Shiny_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Dawn_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
     Ice_Mark = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "",
+        "quantity": [],
+        "effect": []
     }
 
 #Crystals
 class Crystals(Enum):
     Red_Crystal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Red Crystal",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Blue_Crystal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Blue Crystal",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Yellow_Crystal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Yellow Crystal",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Green_Crystal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Green Crystal",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     White_Crystal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "White Crystal",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Black_Crystal = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Black Crystal",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Diamond = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Diamond",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Aquamarine = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Aquamarine",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Jade = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Jade",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Turquoise = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Turquoise",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Amathist = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Amathist",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Ruby = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Ruby",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Sapphire = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Sapphire",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Emerald = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Emerald",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     Topaz = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
-        "catch rate":
+        "name": "Topaz",
+        "description": "",
+        "quantity": [],
+        "effect": [],
+        "catch rate": []
     }
     
 capture_rate = {
@@ -769,39 +772,39 @@ capture_rate = {
 #Key Items
 class Key_items(Enum):
     Instant_Raft = {
-        "name":
-        "description":
-        "effect":
+        "name": "",
+        "description": "",
+        "effect": []
     }
     Lantern = {
-        "name":
-        "description":
-        "effect":
+        "name": "",
+        "description": "",
+        "effect": []
     }
     Fruit_Pouch = {
-        "name":
-        "description":
-        "effect":
+        "name": "",
+        "description": "",
+        "effect": []
     }
-    Sharp_Fang = {
-        "name":
-        "description":
-        "effect":
+    Sharp_Claw = {
+        "name": "",
+        "description": "",
+        "effect": []
     }
     Fin_Bone = {
-        "name":
-        "description":
-        "effect":
+        "name": "",
+        "description": "",
+        "effect": []
     }
     Rod = {
-        "name":
-        "description":
-        "effect":
+        "name": "",
+        "description": "",
+        "effect": []
     }
     Spirit_Band = {
-        "name":
-        "description":
-        "effect":
+        "name": "",
+        "description": "",
+        "effect": []
     }
 
         "name":
