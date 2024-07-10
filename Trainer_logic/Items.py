@@ -68,7 +68,7 @@ class Heal(Enum):
     }
     Fresh_Pomade = {
         "name": "Fresh Pomade",
-        "description": "A mix of menthol herbs ised to refresh burns.",
+        "description": "A mix of menthol herbs used to refresh burns.",
         "quantity": [],
         "effect": []
     }
@@ -121,7 +121,7 @@ class Heal(Enum):
         "effect": []
     }
 
-#Boost Items		
+#Boost Items
 class Boost(Enum):
     Miracle_Seed = {
         "name": "Miracle Seed",
@@ -259,122 +259,122 @@ class Orbs(Enum):
 #Shadow exclusive
 class Emblems(Enum):
     Blank_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Blank Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Normal type moves.",
         "quantity": [],
         "effect": []
     }
     Darco_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Draco Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Dragon type moves.",
         "quantity": [],
         "effect": []
     }
     Dread_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Dread Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Dark type moves",
         "quantity": [],
         "effect": []
     }
     Earth_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Earth Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Ground tyoe moves.",
         "quantity": [],
         "effect": []
     }
     Fist_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Fist Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Fighting type moves.",
         "quantity": [],
         "effect": []
     }
     Flame_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Flame Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Fire tyoe moves.",
         "quantity": [],
         "effect": []
     }
     Icicle_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Icicle Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Ice type moves.",
         "quantity": [],
         "effect": []
     }
     Insect_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Insect Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Bug type moves.",
         "quantity": [],
         "effect": []
     }
     Iron_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Iron_Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Steel type moves.",
         "quantity": [],
         "effect": []
     }
     Legend_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Legend Emblem",
+        "description": "A star-shaped badge from an ancient era. It wields an unseen power.",
         "quantity": [],
         "effect": []
     }
     Meadow_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Meadow Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Grass type moves.",
         "quantity": [],
         "effect": []
     }
     Mind_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Mind Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Psychic type moves.",
         "quantity": [],
         "effect": []
     }
     Pixie_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Pixie Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Fairy type moves.",
         "quantity": [],
         "effect": []
     }
     Salvage_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Salvage Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Beast type moves.",
         "quantity": [],
         "effect": []
     }
     Sky_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Sky Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Flying type moves.",
         "quantity": [],
         "effect": []
     }
     Splash_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Splash Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Water type moves.",
         "quantity": [],
         "effect": []
     }
     Spooky_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Spooky Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Ghost type moves.",
         "quantity": [],
         "effect": []
     }
     Stone_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Stone Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Rock type moves.",
         "quantity": [],
         "effect": []
     }
     Toxic_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Toxic Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Poison type moves.",
         "quantity": [],
         "effect": []
     }
     Zap_Emblem = {
-        "name": "",
-        "description": "",
+        "name": "Zap Emblem",
+        "description": "A badge from an ancient era. Boosts the power of Electric type moves.",
         "quantity": [],
         "effect": []
     }
@@ -382,110 +382,110 @@ class Emblems(Enum):
 #Nightmane exclusive
 class Earring(Enum):
     Fang_Earring = {
-        "name": "",
-        "description": "",
+        "name": "Fang Earring",
+        "description": "A mythical object related to an ancient folktale. It has a fang hanging from it.",
         "quantity": [],
         "effect": []
     }
     Scarab_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Dread_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Mythic_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Power_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Flame_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Icicle_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Zap_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Love_Earring = {
-        "name":
-        "description":
-        "quantity":
-        "effect":
+        "name": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "quantity": [],
+        "effect": []
     }
     Plume_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Skull_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Stalactite_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Leaf_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Toxic_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Mystic_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Rock_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Iron_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
     Wave_Earring = {
         "name": "",
-        "description": "",
+        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
         "quantity": [],
         "effect": []
     }
@@ -494,25 +494,25 @@ class Earring(Enum):
 class Ring(Enum):
     Zap_Ring = {
         "name": "",
-        "description": "",
+        "description": "A ring crafted from pure gold. It has a Lightning engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
     Frost_Ring = {
         "name": "",
-        "description": "",
+        "description": "A ring crafted from pure gold. It has a  engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
     Blaze_Ring = {
         "name": "",
-        "description": "",
+        "description": "A ring crafted from pure gold. It has a  engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
-    Soak_Ring = {
+    Wave_Ring = {
         "name": "",
-        "description": "",
+        "description": "A ring crafted from pure gold. It has a  engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
@@ -753,43 +753,38 @@ class Crystals(Enum):
 
 #Key Items
 class Key_items(Enum):
-    Instant_Raft = {
-        "name": "",
-        "description": "",
+    Raft_Plots = {
+        "name": "Raft Plots",
+        "description": "The instructions to build a raft.",
         "effect": []
     }
     Lantern = {
-        "name": "",
-        "description": "",
+        "name": "Lantern",
+        "description": "A petrolium based instrument to give light.",
         "effect": []
     }
     Fruit_Pouch = {
-        "name": "",
-        "description": "",
+        "name": "Fruit Pouch",
+        "description": "A knitted bag to store fruit. Very elastic. and resistant.",
         "effect": []
     }
     Sharp_Claw = {
-        "name": "",
-        "description": "",
+        "name": "Sharp Claw",
+        "description": "A very sharp claw stuck into stone. Looks very old.",
         "effect": []
     }
     Fin_Bone = {
-        "name": "",
-        "description": "",
+        "name": " Fin Bone",
+        "description": "A fin bone traped in stone. Looks very old.",
         "effect": []
     }
     Rod = {
-        "name": "",
-        "description": "",
+        "name": "Rod",
+        "description": "A rod elaborated to fish.",
         "effect": []
     }
     Spirit_Band = {
-        "name": "",
-        "description": "",
+        "name": "Spirit Band",
+        "description": "A spiritual object. Has the power to communicate with certain deities.",
         "effect": []
     }
-
-        "name":
-        "description":
-        "quantity":
-        "effect":
