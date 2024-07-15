@@ -388,104 +388,104 @@ class Earring(Enum):
         "effect": []
     }
     Scarab_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Scarab Earring",
+        "description": "A mythical object related to an ancient folktale. It has a scarab hanging from it.",
         "quantity": [],
         "effect": []
     }
     Dread_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Dread Earring",
+        "description": "A mythical object related to an ancient folktale. It has a black moon hanging from it.",
         "quantity": [],
         "effect": []
     }
     Mythic_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Mythic Earring",
+        "description": "A mythical object related to an ancient folktale. It has big scales hanging from it.",
         "quantity": [],
         "effect": []
     }
     Power_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Power Earring",
+        "description": "A mythical object related to an ancient folktale. It has a fist hanging from it.",
         "quantity": [],
         "effect": []
     }
     Flame_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Flame Earring",
+        "description": "A mythical object related to an ancient folktale. It has a flame hanging from it.",
         "quantity": [],
         "effect": []
     }
     Icicle_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Icicle Earring",
+        "description": "A mythical object related to an ancient folktale. It has an icicle hanging from it.",
         "quantity": [],
         "effect": []
     }
     Zap_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Zap Earring",
+        "description": "A mythical object related to an ancient folktale. It has a lightning hanging from it.",
         "quantity": [],
         "effect": []
     }
     Love_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Love Earring",
+        "description": "A mythical object related to an ancient folktale. It has a heart hanging from it.",
         "quantity": [],
         "effect": []
     }
     Plume_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Plume Earring",
+        "description": "A mythical object related to an ancient folktale. It has a feather hanging from it.",
         "quantity": [],
         "effect": []
     }
     Skull_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Skull Earring",
+        "description": "A mythical object related to an ancient folktale. It has a skull hanging from it.",
         "quantity": [],
         "effect": []
     }
     Stalactite_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Stalactite Earring",
+        "description": "A mythical object related to an ancient folktale. It has a stalactite hanging from it.",
         "quantity": [],
         "effect": []
     }
     Leaf_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Leaf Earring",
+        "description": "A mythical object related to an ancient folktale. It has a leaf hanging from it.",
         "quantity": [],
         "effect": []
     }
     Toxic_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Toxic Earring",
+        "description": "A mythical object related to an ancient folktale. It has an purple bubble hanging from it.",
         "quantity": [],
         "effect": []
     }
     Mystic_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Mystic Earring",
+        "description": "A mythical object related to an ancient folktale. It has an eye hanging from it.",
         "quantity": [],
         "effect": []
     }
-    Rock_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+    Obsidian_Earring = {
+        "name": "Obsidian Earring",
+        "description": "A mythical object related to an ancient folktale. It has a pice of obsidian hanging from it.",
         "quantity": [],
         "effect": []
     }
     Iron_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Iron Earring",
+        "description": "A mythical object related to an ancient folktale. It has a pice of iron hanging from it.",
         "quantity": [],
         "effect": []
     }
     Wave_Earring = {
-        "name": "",
-        "description": "A mythical object related to an ancient folktale. It has a  hanging from it.",
+        "name": "Wave Earring",
+        "description": "A mythical object related to an ancient folktale. It has a seashell hanging from it.",
         "quantity": [],
         "effect": []
     }
@@ -493,26 +493,26 @@ class Earring(Enum):
 # Sprectrabane exclusive
 class Ring(Enum):
     Zap_Ring = {
-        "name": "",
+        "name": "Zap Ring",
         "description": "A ring crafted from pure gold. It has a Lightning engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
     Frost_Ring = {
-        "name": "",
-        "description": "A ring crafted from pure gold. It has a  engraved on it with a powerful spell.",
+        "name": "Frost Ring",
+        "description": "A ring crafted from pure gold. It has a snowflake engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
     Blaze_Ring = {
-        "name": "",
-        "description": "A ring crafted from pure gold. It has a  engraved on it with a powerful spell.",
+        "name": "Blaze Ring",
+        "description": "A ring crafted from pure gold. It has a flame engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
     Wave_Ring = {
-        "name": "",
-        "description": "A ring crafted from pure gold. It has a  engraved on it with a powerful spell.",
+        "name": "Wave Ring",
+        "description": "A ring crafted from pure gold. It has a waved pattern engraved on it with a powerful spell.",
         "quantity": [],
         "effect": []
     }
@@ -520,62 +520,62 @@ class Ring(Enum):
 #Fruit
 class Fruit(Enum):
     Orange = {
-        "name": "",
-        "description": "",
+        "name": "Orange",
+        "description": "A delicious citric fruit. Restores 10 HP.",
         "quantity": [],
         "effect": []
     }
     Cherry = {
-        "name": "",
-        "description": "",
+        "name": "Cherry",
+        "description": "A delicious small, round stone fruit. Helps heal paralisis.",
         "quantity": [],
         "effect": []
     }
     Peach = {
-        "name": "",
-        "description": "",
+        "name": "Peach",
+        "description": "A soft round fruit. Helps heal poisoning.",
         "quantity": [],
         "effect": []
     }
     Banana = {
-        "name": "",
-        "description": "",
+        "name": "Banana",
+        "description": "A soft and nutritious fruit. Helps heal Confusion. It is also used to elaborate the Secret Remedy.",
         "quantity": [],
         "effect": []
     }
     Strawberry = {
-        "name": "",
-        "description": "",
+        "name": "Strawberry",
+        "description": "A small, sweet and delicious red berry. Helps cure burns.",
         "quantity": [],
         "effect": []
     }
     Pineapple = {
-        "name": "",
-        "description": "",
+        "name": "Pineapple",
+        "description": "A big sweet and juicy fruit. It is used to elaborate Secret Remedy.",
         "quantity": [],
         "effect": []
     }
     Pear = {
-        "name": "",
-        "description": "",
+        "name": "Pear",
+        "description": "A dry, juicy fruit. Helps cure colds.",
         "quantity": [],
         "effect": []
     }
     Grape = {
-        "name": "",
-        "description": "",
+        "name": "Grape",
+        "description": "A small round and juicy fruit. Helps to wake up sleeping Pymon. It is an ingrediant to elaborate the Secret Remedy.",
         "quantity": [],
         "effect": []
     }
     Guava = {
-        "name": "",
-        "description": "",
+        "name": "Guava",
+        "description": "A round, sweet  fruit used to elaborate Secret Remedy.",
         "quantity": [],
         "effect": []
     }
     Blueberry = {
-        "name": "",
-        "description": "",
+        "name": "Blueberry",
+        "description": "A small round berry. Heal any Status condition",
         "quantity": [],
         "effect": []
     }
@@ -583,62 +583,62 @@ class Fruit(Enum):
 #Evolution
 class Evolution_Marks(Enum):
     Leaf_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Leaf Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Grass element on it.",
         "quantity": [],
         "effect": []
     }
     Flame_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Flame Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Fire element on it.",
         "quantity": [],
         "effect": []
     }
     Wave_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Wave Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Water element on it.",
         "quantity": [],
         "effect": []
     }
     Moon_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Moon Mark",
+        "description":"A mystic mark encarved within a rare stone. It has the Moon marked on it.",
         "quantity": [],
         "effect": []
     }
     Thunder_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Thunder Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Electric element on it.",
         "quantity": [],
         "effect": []
     }
     Sun_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Sun_Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Sun marked on it.",
         "quantity": [],
         "effect": []
     }
     Night_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Night Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Dark element on it.",
         "quantity": [],
         "effect": []
     }
     Shiny_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Shiny Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Fairy element on it.",
         "quantity": [],
         "effect": []
     }
     Dawn_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Dawn Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Psychic element on it.",
         "quantity": [],
         "effect": []
     }
     Ice_Mark = {
-        "name": "",
-        "description": "",
+        "name": "Ice_Mark",
+        "description": "A mystic mark encarved within a rare stone. It has the Ice element on it.",
         "quantity": [],
         "effect": []
     }

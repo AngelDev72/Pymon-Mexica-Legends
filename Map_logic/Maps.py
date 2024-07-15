@@ -3,54 +3,54 @@ import pygame as pg
 from enum import Enum
 
 class Cities(Enum):
-    def Cities:
-        Tenochtitlan = {
-            "name": "Tenochtitlán",
-            "music theme": [],
-            "map image": []
-            
-        }
-        Tlalocan = {
-            "name": "Tlalocan",
-            "music theme": [],
-            "map image": []
-            
-        }
-        Teotihuacan = {
-            "name": "Teotihuacán",
-            "music theme": [],
-            "map image": []
-        }
-        Xochimilco = {
-            "name": "Xochimilco",
-            "music theme": [],
-            "map image": []
-            
-        }
-        Chichen_Itza = {
-            "name": "Chichén Itzá",
-            "music theme": [],
-            "map image": []
+    Tenochtitlan = {
+        "name": "Tenochtitlán",
+        "music theme": [],
+        "map image": []
         
-        }
-        Tlatelolco = {
-            "name": "Tlatelolco",
-            "music theme": [],
-            "map image": [] 
+    }
+    Xaltocan = {
+        "name": "Xaltocan",
+        "music theme": [],
+        "map image": []
         
-        }
-        Cuzco = {
-            "name": "Cuzco",
-            "music theme": [],
-            "map image": []
+    }
+    Teotihuacan = {
+        "name": "Teotihuacán",
+        "music theme": [],
+        "map image": []
+    
+    }
+    Xochimilco = {
+        "name": "Xochimilco",
+        "music theme": [],
+        "map image": []
         
-        }
-        Tenayuca = {
-            "name": "Tenayuca",
-            "music theme": [],
-            "map image": []
+    }
+    Chalco = {
+        "name": "Chalco",
+        "music theme": [],
+        "map image": []
         
-        }
+    }
+    Tlacopan = {
+        "name": "Tlacopan",
+        "music theme": [],
+        "map image": []
+        
+    }
+    Culhuacan = {
+        "name": "Culhuacan",
+        "music theme": [],
+        "map image": []
+        
+    }
+    Tenayuca = {
+        "name": "Tenayuca",
+        "music theme": [],
+        "map image": []
+        
+    }
 
 class Towns(Enum):
     def Towns:
@@ -102,8 +102,8 @@ class Towns(Enum):
             "map image": []
             
         }
-        Tulum = {
-            "name": "Tulum",
+        Mixcoac = {
+            "name": "Mixcoac",
             "music theme": [],
             "map image": []
             
