@@ -521,7 +521,13 @@ class Ring(Enum):
 class Fruit(Enum):
     Orange = {
         "name": "Orange",
-        "description": "A delicious citric fruit. Restores 10 HP.",
+        "description": "A delicious citric fruit. Restores 30 HP.",
+        "quantity": [],
+        "effect": []
+    }
+    Lemon = {
+        "name": "Lemon",
+        "description": "A delicious sour citric fruit. Just a few drops wakes a Pymon instantly.",
         "quantity": [],
         "effect": []
     }
@@ -563,7 +569,7 @@ class Fruit(Enum):
     }
     Grape = {
         "name": "Grape",
-        "description": "A small round and juicy fruit. Helps to wake up sleeping Pymon. It is an ingrediant to elaborate the Secret Remedy.",
+        "description": "A small round and juicy fruit. Restores 10 HP. It is an ingrediant to elaborate the Secret Remedy.",
         "quantity": [],
         "effect": []
     }
@@ -647,42 +653,42 @@ class Evolution_Marks(Enum):
 class Crystals(Enum):
     Red_Crystal = {
         "name": "Red Crystal",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Blue_Crystal = {
         "name": "Blue Crystal",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Yellow_Crystal = {
         "name": "Yellow Crystal",
-        "description": "",
+        "description": "A somewhat better crystal used to capture the spirit of wild Pymon. has a higher catch rate than a White Crystal.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Green_Crystal = {
         "name": "Green Crystal",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     White_Crystal = {
         "name": "White Crystal",
-        "description": "",
+        "description": "An oridnary crystal used to capture the spirit of wild Pymon.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Black_Crystal = {
         "name": "Black Crystal",
-        "description": "",
+        "description": "A better crystal used to capture the spirit of wild Pymon. has a higher catch rate than a Yellow Crystal.",
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -696,56 +702,56 @@ class Crystals(Enum):
     }
     Aquamarine = {
         "name": "Aquamarine",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Jade = {
         "name": "Jade",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Turquoise = {
         "name": "Turquoise",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Amathist = {
         "name": "Amathist",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Ruby = {
         "name": "Ruby",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Sapphire = {
         "name": "Sapphire",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Emerald = {
         "name": "Emerald",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
     }
     Topaz = {
         "name": "Topaz",
-        "description": "",
+        "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
         "quantity": [],
         "effect": [],
         "catch rate": []
