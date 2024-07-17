@@ -654,6 +654,7 @@ class Crystals(Enum):
     White_Crystal = {
         "name": "White Crystal",
         "description": "An oridnary crystal used to capture the spirit of wild Pymon.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -661,6 +662,7 @@ class Crystals(Enum):
     Yellow_Crystal = {
         "name": "Yellow Crystal",
         "description": "A somewhat better crystal used to capture the spirit of wild Pymon. Has a higher catch rate than a White Crystal.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -668,6 +670,7 @@ class Crystals(Enum):
     Black_Crystal = {
         "name": "Black Crystal",
         "description": "A better crystal used to capture the spirit of wild Pymon. Has a higher catch rate than a Yellow Crystal.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -675,6 +678,7 @@ class Crystals(Enum):
     Green_Crystal = {
         "name": "Green Crystal",
         "description": "A spiritual crystal. It shines with a blazing green and calming light. Better chance at Grass type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -682,6 +686,7 @@ class Crystals(Enum):
     Red_Crystal = {
         "name": "Red Crystal",
         "description": "A spiritual crystal. It shines with a blazing red and warm light. Better chance at Fire type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -689,6 +694,7 @@ class Crystals(Enum):
     Blue_Crystal = {
         "name": "Blue Crystal",
         "description": "A spiritual crystal. It shines with a blazing blue and soothing light. Better chance at Water type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -696,6 +702,7 @@ class Crystals(Enum):
     Aquamarine = {
         "name": "Aquamarine",
         "description": "A spiritual crystal. It shines with a dazzling blueish green light. Better chance at Ice type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -703,6 +710,7 @@ class Crystals(Enum):
     Jade = {
         "name": "Jade",
         "description": "A spiritual crystal. It shines with an intense greenish light. Better chance at Bug type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -710,6 +718,7 @@ class Crystals(Enum):
     Turquoise = {
         "name": "Turquoise",
         "description": "A spiritual crystal. It shines with a beautiful blueish light with metalic glares. Better chance at Dragon and Steel type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -717,6 +726,7 @@ class Crystals(Enum):
     Topaz = {
         "name": "Topaz",
         "description": "A spiritual crystal. It shimmers with a dazzling yellow and energetic light. Better chance at Electric type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -724,6 +734,7 @@ class Crystals(Enum):
     Amathist = {
         "name": "Amathist",
         "description": "A spiritual crystal. It shimmers with a beautiful violet light. Better chance at Ghost type Pymons.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -731,6 +742,7 @@ class Crystals(Enum):
     Ruby = {
         "name": "Ruby",
         "description": "A mystical gem. It shines with a blazing red and intense light. Wields the power of the Sun.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -738,6 +750,7 @@ class Crystals(Enum):
     Sapphire = {
         "name": "Sapphire",
         "description": "A mystical gem. It shines with a blazing blue and intense light. Wields the power of the Moon.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -745,6 +758,7 @@ class Crystals(Enum):
     Emerald = {
         "name": "Emerald",
         "description": "A mystical gem. It shines with a blazing green and intense light. Wields the power of the Earth.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
@@ -752,6 +766,7 @@ class Crystals(Enum):
     Diamond = {
         "name": "Diamond",
         "description": "A beautiful mystical gem. It shines with an intense and brilliant light. Its aura soothes any spirit to be caught.",
+        "image": [],
         "quantity": [],
         "effect": [],
         "catch rate": []
