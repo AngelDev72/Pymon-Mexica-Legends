@@ -57,14 +57,8 @@ class GameState:
 start_menu = Start_Menu("Continuar", "Nueva partida", "Opciones")
 start_menu.show_menu()
 
-
-
-
-     
-
-
 class Pymon_Menu:
-  def view_pymon(self):
+    def view_pymon(self):
         if len(self.pymon) > 0:
             for pymon in self.pymon.values():
                 print("Nombre:", pymon.name)
@@ -76,11 +70,11 @@ class Pymon_Menu:
                 print("  - Velocidad:", pymon.stats.speed)
 
 class Bag:
-	def __init__(self, Bag):
-		super.__init__(Bag)
+    def __init__(self, Bag):
+        super.__init__(Bag):
 
 #InGame Menu
-class In-game:
-	def __init__(self)
-	  super.__init__()
-            
+class In_game:
+    def __init__(self):
+        super.__init__():
+            pass
