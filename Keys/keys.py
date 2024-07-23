@@ -1,14 +1,15 @@
 import pygame as pg
 import os
+from enum import Enum
 
 class Keys:
-    class Attack_Keys:
+    class Attack_Keys(Enum):
         a = pg.K_a
         s = pg.K_s
         d = pg.K_d
         f = pg.K_f
 
-    class Item_Key:
+    class Item_Key(Enum):
         c = pg.K_c
         b = pg.K_b
         q = pg.K_q
@@ -16,12 +17,14 @@ class Keys:
         e = pg.K_e
         r = pg.K_r
 
-    class Menu_Key:
+    class Menu_Key(Enum):
         m = pg.K_m
 
-    class Direction_Keys:
+    class Direction_Keys(Enum):
         up = pg.K_UP
         down = pg.K_DOWN
         left = pg.K_LEFT
         right = pg.K_RIGHT
 
+    class Confirm(Enum):
+        enter = pg.

@@ -3,126 +3,135 @@ import sys
 from enum import Enum
 
 class Attack(Enum):
-    def physical(self):
-        Earthquake = {
-            "name": "Earthquake",
-            "type": ,
-            "description": ,
-            "power": 100,
-            "accuracy": 1,
-            "usage": 15,
-            "effect": #hits all targets on the field except Flying types
-            
-        }
-        Chop = {
-            "name": "Chop",
-            "type": "Fighting",
-            "description": ,
-            "power": 75,
-            "accuracy": 85,
-            "usage": 15,
-            
-        }
-        Wing_Strike = {
-            "name": "Wing Strike",
-            "type": ,
-            "description": ,
-            "power": 70,
-            "accuracy": 90,
-            "usage": 15,
-            
-        }
-        Leech = {
-            "name": "Leech",
-            "type": "Bug",
-            "description": ,
-            "power": 55,
-            "accuracy": 85,
-            "usage": 20,
-            "effect": #restores 1/8 the damage inflicted 
-        }
-        Bite = {
-            "name": "Bite",
-            "type": ,
-            "description": ,
-            "power": 65,
-            "accuracy": 90,
-            "usage": 15,
-            "effect": #20% chance to make the target flinch
-            
-        }
-        Water_Stride = {
-            "name": "Water Stride",
-            "type": ,
-            "description": [
-                "The user charges at the foe with enough force to walk over water."
+    Earthquake = {
+        "name": "Earthquake",
+        "type": "Ground",
+        "description": "",
+        "power": 100,
+        "accuracy": 1,
+        "usage": 15,
+        "effect": []#hits all targets on the field except Flying types
+        
+    }
+    Chop = {
+        "name": "Chop",
+        "type": "Fighting",
+        "description": "",
+        "power": 75,
+        "accuracy": 85,
+        "usage": 15,
+        
+    }
+    Wing_Strike = {
+        "name": "Wing Strike",
+        "type": "Flying",
+        "description": "",
+        "power": 70,
+        "accuracy": 90,
+        "usage": 15,
+        
+    }
+    Leech = {
+        "name": "Leech",
+        "type": "Bug",
+        "description": "",
+        "power": 55,
+        "accuracy": 85,
+        "usage": 20,
+        "effect": []#restores 1/8 the damage inflicted 
+    }
+    Bite = {
+        "name": "Bite",
+        "type": "Dark",
+        "description": "",
+        "power": 65,
+        "accuracy": 90,
+        "usage": 15,
+        "effect": []#20% chance to make the target flinch
+        
+    }
+    Water_Stride = {
+        "name": "Water Stride",
+        "type": "Water",
+        "description": [
+            "The user charges at the foe with enough force to walk over water."
                 ],
-            "power": 95,
-            "accuracy": 90,
-            "usage": 15,
-            
-        }
-        Draco_Slash = {
-            "name": "Draco Slash",
-            "type": ,
-            "description": ,
-            "power": 95,
-            "accuracy": 90,
-            "usage": 15,
-            
-        }
-        Flame_Rush = {
-            "name": "Flame Rush",
-            "type": ,
-            "description": ,
-            "power": 100,
-            "accuracy": 85,
-            "usage": 10,
-            "effect": #30% chance to inlfict a Burn
-        }
-        Frost_Rush = {
-            "name": "Frost Rush",
-            "type": ,
-            "description": ,
-            "power": 100,
-            "accuracy": 85,
-            "usage": 10,
-            "effect": #30% chance to Freeze the target
-        }
-        Avalanche = {
-            "name": "Avalanche",
-            "type": ,
-            "description": ,
-            "power": 95,
-            "accuracy": 90,
-            "usage": 15,
-            "effect": #changes type depanding on the terrain. 30% chance to make the target flinch
-        }
-        Veno_Fang = {
-            "name": "Veno Fang",
-            "type": ,
-            "description": ,
-            "power": 70,
-            "accuracy": 90,
-            "usage": 15,
-            "effect": #15% chance to Poison the target
-        }
-        Stone_Blade = {
-            "name": "Stone Blade",
-            "type": ,
-            "description": ,
-            "power": 85,
-            "accuracy": 80,
-            "usage": 15,
-        }
-        Frost_Blade = {
-            "name": "Frost Blade",
-            "type": ,
-            "description": ,
-            "power": 85,
-            "accuracy": 80,
-            "usage": 15,
-            "effect": #15% chance to freeze the target
+        "power": 95,
+        "accuracy": 90,
+        "usage": 15,
+        
+    }
+    Draco_Slash = {
+        "name": "Draco Slash",
+        "type": "Dragon",
+        "description": [""],
+        "power": 95,
+        "accuracy": 90,
+        "usage": 15,
+        
+    }
+    Flame_Rush = {
+        "name": "Flame Rush",
+        "type": "Fire",
+        "description": [
+            ""
+            ],
+        "power": 100,
+        "accuracy": 85,
+        "usage": 10,
+        "effect": []#30% chance to inlfict a Burn
+    }
+    Frost_Rush = {
+        "name": "Frost Rush",
+        "type": "Ice",
+        "description": [""],
+        "power": 100,
+        "accuracy": 85,
+        "usage": 10,
+        "effect": []#30% chance to Freeze the target
+    }
+    Avalanche = {
+        "name": "Avalanche",
+        "type": "Rock",
+        "description": [
+            ""
+            ],
+        "power": 95,
+        "accuracy": 90,
+        "usage": 15,
+        "effect": []#changes type depanding on the terrain. 30% chance to make the target flinch
+    }
+    Veno_Fang = {
+        "name": "Veno Fang",
+        "type": "Poison",
+        "description": [
+            ""
+            ],
+        "power": 70,
+        "accuracy": 90,
+        "usage": 15,
+        "effect": []#15% chance to Poison the target
+    }
+    Stone_Blade = {
+        "name": "Stone Blade",
+        "type": "Rock",
+        "description": [
+            ""
+            ],
+        "power": 85,
+        "accuracy": 80,
+        "usage": 15,
+    }
+    Frost_Blade = {
+        "name": "Frost Blade",
+        "type": "Ice",
+        "description": [
+            ""
+            ],
+        "power": 85,
+        "accuracy": 80,
+        "usage": 15,
+        "effect": []#15% chance to freeze the target
         }
         Vine_Lash = {
             "name": "Vine Lash",
