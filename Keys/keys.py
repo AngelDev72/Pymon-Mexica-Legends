@@ -26,5 +26,6 @@ class Keys:
         left = pg.K_LEFT
         right = pg.K_RIGHT
 
-    class Confirm(Enum):
-        enter = pg.
+    class Confirm_Cancel(Enum):
+        enter = pg.K_RETURN
+        back_space = pg.K_BACKSPACE

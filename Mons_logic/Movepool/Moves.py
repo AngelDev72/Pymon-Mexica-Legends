@@ -3,195 +3,224 @@ import sys
 from enum import Enum
 
 class Attack(Enum):
-    Earthquake = {
-        "name": "Earthquake",
-        "type": "Ground",
-        "description": "",
-        "power": 100,
-        "accuracy": 1,
-        "usage": 15,
-        "effect": []#hits all targets on the field except Flying types
-        
-    }
-    Chop = {
-        "name": "Chop",
-        "type": "Fighting",
-        "description": "",
-        "power": 75,
-        "accuracy": 85,
-        "usage": 15,
-        
-    }
-    Wing_Strike = {
-        "name": "Wing Strike",
-        "type": "Flying",
-        "description": "",
-        "power": 70,
-        "accuracy": 90,
-        "usage": 15,
-        
-    }
-    Leech = {
-        "name": "Leech",
-        "type": "Bug",
-        "description": "",
-        "power": 55,
-        "accuracy": 85,
-        "usage": 20,
-        "effect": []#restores 1/8 the damage inflicted 
-    }
-    Bite = {
-        "name": "Bite",
-        "type": "Dark",
-        "description": "",
-        "power": 65,
-        "accuracy": 90,
-        "usage": 15,
-        "effect": []#20% chance to make the target flinch
-        
-    }
-    Water_Stride = {
-        "name": "Water Stride",
-        "type": "Water",
-        "description": [
-            "The user charges at the foe with enough force to walk over water."
+    def Physical(self):
+        Earthquake = {
+            "name": "Earthquake",
+            "type": "Ground",
+            "description": [
+                ""
                 ],
-        "power": 95,
-        "accuracy": 90,
-        "usage": 15,
+            "power": 100,
+            "accuracy": 1,
+            "usage": 15,
+            "effect": []#hits all targets on the field except Flying types
+        }
+        Chop = {
+            "name": "Chop",
+            "type": "Fighting",
+            "description": [
+                ""
+                ],
+            "power": 75,
+            "accuracy": 85,
+            "usage": 15,
+            
+        }
+        Wing_Strike = {
+            "name": "Wing Strike",
+            "type": "Flying",
+            "description": [
+                ""
+                ],
+            "power": 70,
+            "accuracy": 90,
+            "usage": 15,
         
-    }
-    Draco_Slash = {
-        "name": "Draco Slash",
-        "type": "Dragon",
-        "description": [""],
-        "power": 95,
-        "accuracy": 90,
-        "usage": 15,
+        }
+        Leech = {
+            "name": "Leech",
+            "type": "Bug",
+            "description": [
+                ""
+                ],
+            "power": 55,
+            "accuracy": 85,
+            "usage": 20,
+            "effect": []#restores 1/8 the damage inflicted 
+        }
+        Bite = {
+            "name": "Bite",
+            "type": "Dark",
+            "description": [
+                ""
+                ],
+            "power": 65,
+            "accuracy": 90,
+            "usage": 15,
+            "effect": []#20% chance to make the target flinch
         
+        }
+        Water_Stride = {
+            "name": "Water Stride",
+            "type": "Water",
+            "description": [
+                "The user charges at the foe with enough force to walk over water."
+                ],
+            "power": 95,
+            "accuracy": 90,
+            "usage": 15,
+        
+        }
+        Draco_Slash = {
+            "name": "Draco Slash",
+            "type": "Dragon",
+            "description": [
+                ""
+                ],
+            "power": 95,
+            "accuracy": 90,
+            "usage": 15,
+        
+        }
+        Flame_Rush = {
+            "name": "Flame Rush",
+            "type": "Fire",
+            "description": [
+                ""
+                ],
+            "power": 100,
+            "accuracy": 85,
+            "usage": 10,
+            "effect": []#30% chance to inlfict a Burn
+        }
+        Frost_Rush = {
+            "name": "Frost Rush",
+            "type": "Ice",
+            "description": [
+                ""
+                ],
+            "power": 100,
+            "accuracy": 85,
+            "usage": 10,
+            "effect": []#30% chance to Freeze the target
+        }
+        Avalanche = {
+            "name": "Avalanche",
+            "type": "Rock",
+            "description": [
+                ""
+                ],
+            "power": 95,
+            "accuracy": 90,
+            "usage": 15,
+            "effect": []#changes type depanding on the terrain. 30% chance to make the target flinch
+        }
+        Veno_Fang = {
+            "name": "Veno Fang",
+            "type": "Poison",
+            "description": [
+                ""
+                ],
+            "power": 70,
+            "accuracy": 90,
+            "usage": 15,
+            "effect": []#15% chance to Poison the target
     }
-    Flame_Rush = {
-        "name": "Flame Rush",
-        "type": "Fire",
-        "description": [
-            ""
-            ],
-        "power": 100,
-        "accuracy": 85,
-        "usage": 10,
-        "effect": []#30% chance to inlfict a Burn
-    }
-    Frost_Rush = {
-        "name": "Frost Rush",
-        "type": "Ice",
-        "description": [""],
-        "power": 100,
-        "accuracy": 85,
-        "usage": 10,
-        "effect": []#30% chance to Freeze the target
-    }
-    Avalanche = {
-        "name": "Avalanche",
-        "type": "Rock",
-        "description": [
-            ""
-            ],
-        "power": 95,
-        "accuracy": 90,
-        "usage": 15,
-        "effect": []#changes type depanding on the terrain. 30% chance to make the target flinch
-    }
-    Veno_Fang = {
-        "name": "Veno Fang",
-        "type": "Poison",
-        "description": [
-            ""
-            ],
-        "power": 70,
-        "accuracy": 90,
-        "usage": 15,
-        "effect": []#15% chance to Poison the target
-    }
-    Stone_Blade = {
-        "name": "Stone Blade",
-        "type": "Rock",
-        "description": [
-            ""
-            ],
-        "power": 85,
-        "accuracy": 80,
-        "usage": 15,
-    }
-    Frost_Blade = {
-        "name": "Frost Blade",
-        "type": "Ice",
-        "description": [
-            ""
-            ],
-        "power": 85,
-        "accuracy": 80,
-        "usage": 15,
-        "effect": []#15% chance to freeze the target
+        Stone_Blade = {
+            "name": "Stone Blade",
+            "type": "Rock",
+            "description": [
+                ""
+                ],
+            "power": 85,
+            "accuracy": 80,
+            "usage": 15,
+            
+        }
+        Frost_Blade = {
+            "name": "Frost Blade",
+            "type": "Ice",
+            "description": [
+                ""
+                ],
+            "power": 85,
+            "accuracy": 80,
+            "usage": 15,
+            "effect": []#15% chance to freeze the target
         }
         Vine_Lash = {
             "name": "Vine Lash",
-            "type": ,
-            "description": ,
+            "type": "Grass",
+            "description": [
+                ""
+                ],
             "power": 75,
             "accuracy": 90,
             "usage": 20,
-            "effect": #hits the target within a certain range
-        }
+            "effect": []#hits the target within a certain range
+    }
         Headbutt = {
             "name": "Headbutt",
-            "type": ,
-            "description": ,
+            "type": "Normal",
+            "description": [
+            ""
+            ],
             "power": 85,
             "accuracy": 80,
             "usage": 20,
-            "effect": #25% chance to make the target flinch
-        }
+            "effect": []#25% chance to make the target flinch
+    }
         Leaf_Scythe = {
             "name": "Leaf Scythe",
-            "type": ,
-            "description": ,
+            "type": "Grass",
+            "description": [
+                ""
+                ],
             "power": 90,
             "accuracy": 85,
             "usage": 15
         }
         Ice_Fist = {
             "name": "Ice Fist",
-            "type": ,
-            "description": ,
+            "type": "Ice",
+            "description": [
+                ""
+                ],
             "power": 80,
             "accuracy": 80,
             "usage": 15,
-            "effect": #20% chance to Freeze the target
+            "effect": []#20% chance to Freeze the target
         }
         Scratch = {
             "name": "Scratch",
-            "type": ,
-            "description": ,
+            "type": "Normal",
+            "description": [
+                ""
+                ],
             "power": 40,
             "accuracy": 80,
             "usage": 20
         }
         Tackle = {
             "name": "Tackle",
-            "type": ,
-            "description": ,
+            "type": "Normal",
+            "description": [
+                ""
+                ],
             "power": 40,
             "accuracy": 80,
             "usage": 20
         }
         Multi_Scratch = {
             "name": "Multi Scratch",
-            "type": ,
-            "description": ,
+            "type": "Normal",
+            "description": [
+                ""
+                ],
             "power": 20,
             "accuracy": 80,
             "usage": 25,
-            "effect": #may hit the target up to 6 times
+            "effect": []#may hit the target up to 6 times
         }
         Shatter = {
             "name": "Shatter",
@@ -297,7 +326,7 @@ class Attack(Enum):
             "effect": # when close enough to Steel types it won't miss
         }
 
-    def special(self):
+    def Special(self):
         Fright= {
             "name": "Fright",
             "type": "Ghost",
@@ -462,12 +491,12 @@ class Attack(Enum):
         }
         EM_Storm = {
             "name": " EM Storm",
-            "type":  "",# adjusts to the users type, Electric/Steel
+            "type": [],# adjusts to the users type, Electric/Steel
             "description": ,
             "power": 120,
             "accuracy": 1,
             "usage": 5,
-            "effect": # effect varies to the users type
+            "effect": []# effect varies to the users type
         }
         EMP_Cannon = {
             "name": " EMP Cannon",
@@ -476,7 +505,7 @@ class Attack(Enum):
             "power": 110,
             "accuracy": 1,
             "usage": 7,
-            "effect": # locks the targets tile to ensure the hit
+            "effect": []# locks the targets tile to ensure the hit
         }
         Sonic_Palm = {
             "name": "Sonic Palm",
@@ -485,7 +514,7 @@ class Attack(Enum):
             "power": 60,
             "accuracy": 1,
             "usage": 20,
-            "effect": # 10% chance to cuase Confusion
+            "effect": []# 10% chance to cuase Confusion
         }
 
 class Field(Enum):
@@ -558,11 +587,11 @@ class Defense(Enum):
     def shield(self):
         Protect = {
             "name": "Protect",
-            "type": ,
+            "type": "Normal",
             "description": [
                 "Creates an energy field to protect the user from attaks and effects"],
             "usage": 10,
-            "effect": #negates damage, stat reduction or status inflection.
+            "effect": []#negates damage, stat reduction or status inflection.
             
         }
         Aura_Veil = {
@@ -570,40 +599,41 @@ class Defense(Enum):
             "type": "Fairy",
             "description": ,
             "usage": 20,
-            "effect": #protects the user from stat and status conditions
+            "effect": []#protects the user from stat and status conditions
         }
 
 class Stats(Enum):
     def increase(self):
         Howl = {
             "name": "Howl",
-            "type": ,
+            "type": "Beast",
             "description": ,
             "usage": 20,
-            "effect": #raises the users attack 10%
+            "effect": []#raises the users attack 10%
             }
         Reflect = {
             "name": "Reflect",
-            "type": ,
-            "description": ,
+            "type": "Psychic",
+            "description": [
+                ""
+                ],
             "usage": 20,
-            "effect": #raises the users defense 10%
+            "effect": []#raises the users defense 10%
             }
         Light_Wall = {
             "name": "Light Wall",
             "type": ,
             "description": ,
             "usage": 20,
-            "effect":#raises the users Special Defense
+            "effect": []#raises the users Special Defense
         }
         Fairy_Light = {
             "name": "Fairy Light",
             "type": "Fairy",
             "description": ,
             "usage": 15,
-            "effect": # heightens the users Special attack and Special Defense 10%. lowers the enemy accuracy 5%
+            "effect": []# heightens the users Special attack and Special Defense 10%. lowers the enemy accuracy 5%
         }
-        
 
     def lower(self):
         Growl = {
@@ -633,42 +663,42 @@ class Stats(Enum):
         }
 
 class Status(Enum):
-    def condition (self):
-        Burn = {
-            "name": "Burn",
-            "effect": #deals damage every 30s, reduces attack and may cause flinch(if flinched, 15s deley to recover)
-            }
-        Freeze = {
-            "name": "Freeze",
-            "effect": #freezes the target for 50s, after defrost target's speed falls 30s
-            }
-        Paralyze = {
-            "name": "Paralyze",
-            "effect": #paralizes the target, low chance to attack. Speed falls 10%
-            }
-        Poison = {
-            "name": "Poison",
-            "effect": #Target losess HP every 10s in battle. Outside battle losess HP every 6 steps.
-        }
-        Confusion = {
-            "name": "Confused",
-            "effect": #swaps the movementent keys for 60s, 50% chance to hit itself
-            }
-        Sleep = {
-            "name": "Sleep",
-            "effect": #makes the target fall into a deep sleep, 10% to awake while in battle. 90s to wake up after battle.
-            }
+    Burn = {
+        "name": "Burn",
+        "effect": []#deals damage every 30s, reduces attack and may cause flinch(if flinched, 15s deley to recover)
+    }
+    Freeze = {
+        "name": "Freeze",
+        "effect": []#freezes the target for 50s, after defrost target's speed falls 30s
+    }
+    Paralyze = {
+        "name": "Paralyze",
+        "effect": []#paralizes the target, low chance to attack. Speed falls 10%
+    }
+    Poison = {
+        "name": "Poison",
+        "effect": []#Target losess HP every 10s in battle. Outside battle losess HP every 6 steps.
+    }
+    Confusion = {
+        "name": "Confused",
+        "effect": []#swaps the movementent keys for 60s, 50% chance to hit itself
+    }
+    Sleep = {
+        "name": "Sleep",
+        "effect": []#makes the target fall into a deep sleep, 10% to awake while in battle. 90s to wake up after battle.
+    }
+    
 
-            "name": "",
-            "type": ,
-            "description": ,
-            "power": ,
-            "accuracy": ,
-            "usage": ,
+        "name": "",
+        "type": ,
+        "description": ,
+        "power": ,
+        "accuracy": ,
+        "usage": ,
 
-            "name": "",
-            "type": ,
-            "description": ,
-            "accuracy": ,
-            "usage": ,
-            "effect":
+        "name": "",
+        "type": ,
+        "description": ,
+        "accuracy": ,
+        "usage": ,
+        "effect":
