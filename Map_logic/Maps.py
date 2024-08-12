@@ -78,8 +78,8 @@ class Towns(Enum):
             "map image": []
             
         }
-        Xochicalco = {
-            "name": "Xochicalco",
+        Chimalhuacan = {
+            "name": "Chimalhuacan",
             "music theme": [],
             "map image": []
             
@@ -96,8 +96,8 @@ class Towns(Enum):
             "map image": []
             
         }
-        Paquime = {
-            "name": "Paquimé",
+        Texcoco = {
+            "name": "Texcoco",
             "music theme": [],
             "map image": []
             
