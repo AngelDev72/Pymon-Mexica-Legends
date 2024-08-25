@@ -16,11 +16,14 @@ class Temple(Enum):
             ],
         "Leaders team": [
             Kickora,
-            Scorpinch,
-            Brawlion
+            Inferchomp,
+            Searageist,
+            Pyrotox,
+            Fistquake,
+            Brawlion,
             ]
     }
-    # Tlalocan
+    #Xaltocan
     Rain_Temple = {
         "name": "Rain Temple", 
         "Type": [
@@ -64,13 +67,10 @@ class Temple(Enum):
         "Temple Diciple": [
             ],
         "Leaders team": [
-            Plaguefly,
-            Veloscale,
-            Terrathorn,
-            Verdantus
+            
             ]
     }
-    # Chichen Itza
+    #
     Snake_Temple = {
         "name": "Snake Temple", 
         "Type": [
@@ -89,7 +89,7 @@ class Temple(Enum):
             Terrascale
             ]
     }
-    #Tlatelolco
+    #Culhuacan
     Plazas_Temple = {
         "name": "Plazas Temple", 
         "Type": [
@@ -107,7 +107,7 @@ class Temple(Enum):
             Glitterose
             ]
     }
-    #Cuzco
+    #Chalco
     Mountain_Temple = {
         "name": "Mountain Temple", 
         "Type": [
@@ -119,8 +119,9 @@ class Temple(Enum):
             ],
         "Leaders team": [
             Aquadon,
+            Predaptor,
             Essenfest,
-            Chillber,
+            Polarclaw,
             Crysantis,
             Fangrend
             ]
@@ -139,7 +140,7 @@ class Temple(Enum):
             Webbing,
             Nightmane,
             Souldevoir,
-            Spectrora,
+            Coyestro,
             Vexweav,
             Beheroach
             ]

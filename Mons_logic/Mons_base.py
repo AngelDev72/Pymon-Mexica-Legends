@@ -24,7 +24,7 @@ class Mons(Enum):
         
     }
     Floraleaf = {
-        "name: "Floraleaf",
+        "name": "Floraleaf",
         "type": "Grass",
         "level": [],
         "sprites": [],
@@ -1100,7 +1100,7 @@ class Mons(Enum):
     Camaximo = {
         "name" : "Camaximo",
         "type" : [
-            "Normal",
+            "Water",
             "Bug"
             ],
         "level": [],
@@ -2654,7 +2654,7 @@ class Mons(Enum):
             "Hp" : 240,
             "Attack" : 155,
             "Defense" : 135,
-            "Sp_Atk" : 150,
+            "Sp_Atk" : 155,
             "Sp_Def" : 140,
             "Speed" : 145
             
@@ -2696,11 +2696,11 @@ class Mons(Enum):
         "movepool": [],
         "stats": {
             "Hp": 245,
-            "Attack": 145,
-            "Defense" : 140,
+            "Attack": 150,
+            "Defense" : 143,
             "Sp_Atk" : 150,
-            "Sp_Def" : 145,
-            "Speed" : 150
+            "Sp_Def" : 148,
+            "Speed" : 155
             
         }
         

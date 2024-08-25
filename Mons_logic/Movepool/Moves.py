@@ -106,9 +106,9 @@ class Attack(Enum):
         }
         Avalanche = {
             "name": "Avalanche",
-            "type": "Rock",
+            "type": ["Rock" or "Ice"],
             "description": [
-                ""
+                "Large boulders are thrown at the foe. If used on icy terrain, snow is used instead. May cause flinch."
                 ],
             "power": 95,
             "accuracy": 90,
@@ -211,7 +211,7 @@ class Attack(Enum):
             "accuracy": 80,
             "usage": 20
         }
-        Multi_Scratch = {
+        Multi_Swipe = {
             "name": "Multi Scratch",
             "type": "Normal",
             "description": [
@@ -324,6 +324,16 @@ class Attack(Enum):
             "accuracy": 85,
             "usage": 15,
             "effect": # when close enough to Steel types it won't miss
+        }
+        Moon_Strike = {
+            "name": "Moon Strike",
+            "type": ["Ice" or "Dark"],
+            "description": [
+                "Hits the foe with enough force to make a crater on the moon. The user takes damage."
+                ],
+            "power": 120,
+            "accuracy": 95,
+            "usage": 7,
         }
 
     def Special(self):
@@ -515,6 +525,17 @@ class Attack(Enum):
             "accuracy": 1,
             "usage": 20,
             "effect": []# 10% chance to cuase Confusion
+        }
+        Lunar_Beam = {
+            "name": "Lunar Beam",
+            "type": "Ice",
+            "description": [
+                "The user attacks the foe with the Moon's energy to strike the foe with an incredible burst of light."
+                ],
+            "power": 110,
+            "accuracy": 1,
+            "usage": 8,
+            "effect": [] #Takes time to luanch the attack. 30s
         }
 
 class Field(Enum):
