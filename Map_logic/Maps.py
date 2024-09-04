@@ -72,8 +72,8 @@ class Towns(Enum):
             "map image": []
             
         }
-        Tepotzotlan = {
-            "name": "Tepotzotlán",
+        Tlatelolco = {
+            "name": "Tlatelolco",
             "music theme": [],
             "map image": []
             
