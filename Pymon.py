@@ -1,7 +1,5 @@
 import sys
 import pygame
-#import scikit-learn as scik
-#import tkinter as tk
 
 pygame.init()
 screen = pygame.display.set_mode((800,800))
