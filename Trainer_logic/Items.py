@@ -1,8 +1,4 @@
-import sys
-import pygame
-import random
 from enum import Enum
-from Item_logic import Item_Effects as IE
 
 #Items list
 class Heal(Enum):
@@ -773,7 +769,8 @@ class Crystals(Enum):
     }
 
 #Key Items
-class Key_items(Enum):s = {
+class Key_items(Enum):
+    Raft_Plots= {
         "name": "Raft Plots",
         "description": "The instructions to build a raft.",
         "effect": []
