@@ -773,8 +773,7 @@ class Crystals(Enum):
     }
 
 #Key Items
-class Key_items(Enum):
-    Raft_Plots = {
+class Key_items(Enum):s = {
         "name": "Raft Plots",
         "description": "The instructions to build a raft.",
         "effect": []
