@@ -779,9 +779,9 @@ class Key_items(Enum):
         "description": "The instructions to build a raft.",
         "effect": []
     }
-    Lantern = {
-        "name": "Lantern",
-        "description": "A petrolium based instrument to give light.",
+    Torch = {
+        "name": "Torch",
+        "description": "A simple torch used to give light in dark areas.",
         "effect": []
     }
     Fruit_Pouch = {
