@@ -257,3 +257,4 @@ class Cave(Enum):
             "map image": []
         
         }
+    print(Cave.caves.Secret_Chasm)
