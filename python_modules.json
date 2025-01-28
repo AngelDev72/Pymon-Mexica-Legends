@@ -1,0 +1,10 @@
+[
+    "enum",
+    "sys",
+    "sqllite3",
+    "sqlalchemy",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikitlearn"
+]

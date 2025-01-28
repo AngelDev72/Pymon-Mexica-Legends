@@ -8,14 +8,15 @@ class Keys:
         s = pg.K_s
         d = pg.K_d
         f = pg.K_f
+        g = pg.K_g #probably melee attacj
 
     class Item_Key(Enum):
-        c = pg.K_c
+        c = pg.K_c #in battle crystal use
         b = pg.K_b
         q = pg.K_q
         w = pg.K_w
         e = pg.K_e
-        r = pg.K_r
+        r = pg.K_r #instant raft 
 
     class Menu_Key(Enum):
         m = pg.K_m

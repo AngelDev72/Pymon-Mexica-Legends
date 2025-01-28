@@ -1,0 +1,8 @@
+sqlalchemy
+numpy
+pandas
+scipy
+scikitlearn
+keras
+secrets
+reflex
