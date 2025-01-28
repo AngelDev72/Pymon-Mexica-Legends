@@ -22,10 +22,10 @@ class Trainers:
         "Scribe",
         "Camper",
         "Infant",
-        "Gardener"
+        "Farmer"
         ]
     Temple_Trainer= [
-        "Temple Diciple"
+        "Temple Diciple "
         ]
     Temple_Leader =[
         "Tonatiuh",
@@ -45,6 +45,12 @@ class Trainers:
     Team_Leader = [
         "Sect Leader Mictla"
     ]
+    Heralds = [
+        "Wind Herald ",
+        "Water Herald ",
+        "Fire Herald ",
+        "Earth Herald"
+        ]
     female_t = [
         "Citlali",
         "Xochitl",
