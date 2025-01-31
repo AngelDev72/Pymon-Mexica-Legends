@@ -1,9 +1,20 @@
 import sys
 import pygame
+from enum import Enum
 
-#Team 	
-class Team:
-    def __init__(self):
+#Team Monsters
+class Team (Enum):
+    Team_Slot = {
+        "Slot_1: ",
+        "Slot_2: "
+        "Slot_3: "
+        "Slot_4: "
+        "Slot_5: "
+        "Slot_6: "
+        "Slot_7: "
+    }
+    def Members(self):
+        
 
 #Player
 class Player:
