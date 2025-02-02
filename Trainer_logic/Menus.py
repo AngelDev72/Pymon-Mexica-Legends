@@ -1,25 +1,24 @@
 import sys
-import pygame
 import shelve
 
 
 # Guardar la partida en un archivo
-class Save :
-def save_game(game_state, filename):
-    with shelve.open(filename) as db:
-        db['game_state'] = game_state
+class Save(self):
+    def save_game(game_state, filename):
+        with shelve.open(filename) as db:
+            db['game_state'] = game_state
 
 
 # Cargar la partida desde un archivo
-class Continue:
-def load_game(filename):
-    with shelve.open(filename) as db:
-        game_state = db['game_state']
-    return game_state
+class Continue():
+    def load_game(filename):
+        with shelve.open(filename) as db:
+            game_state = db['game_state']
+        return game_state
     
 
 # Clase para el menú de inicio
-class Main_Menu:
+class Main_Menu():
     def __init__(self, continue_option, new_game, options):
         self.continue_option = Continue
         self.new_game = new_game
@@ -46,7 +45,7 @@ class Main_Menu:
         # ...
 
 # Clase para representar el estado de la partida
-class GameState:
+class GameState():
     def __init__(self):
         # Inicializar atributos del estado de la partida
         # ...

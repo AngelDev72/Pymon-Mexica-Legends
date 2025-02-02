@@ -1,5 +1,4 @@
 import sys
-import pygame as pg
 from enum import Enum
 
 class Spirits(Enum):

@@ -24,7 +24,8 @@ class Player:
         self.npc = NPC
 
 #Trainers
-class Trainers:
+class Trainers(Player):
+class Trainers(Player):
     Route_Trainer = [
         "Worker",
         "Chandler",
@@ -126,5 +127,5 @@ class Trainers:
         "Tlachinolli",
         "Tzompantli"
         ]
-    def Trainer_name(self):
-        
+    def __init__(self,Player):
+        super.__init__(self, Player)
