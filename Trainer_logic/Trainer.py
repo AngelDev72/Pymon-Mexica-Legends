@@ -1,19 +1,15 @@
 import sys
 import pygame
-from enum import Enum
 
 #Team Monsters
-class Team (Enum):
-    Team_Slot = {
-        "Slot_1: ",
-        "Slot_2: "
-        "Slot_3: "
-        "Slot_4: "
-        "Slot_5: "
-        "Slot_6: "
-        "Slot_7: "
-    }
-    def Members(self):
+class Team:
+    def __init__(self):
+        self.slots = [None] * 7
+    def add_member(self, pymon, slot):
+        
+    def remove_member():
+        
+    def get_team():
         
 
 #Player
@@ -24,7 +20,6 @@ class Player:
         self.npc = NPC
 
 #Trainers
-class Trainers(Player):
 class Trainers(Player):
     Route_Trainer = [
         "Worker",
