@@ -33,7 +33,7 @@ class Route_Encounters(Enum):
 
     def __init__(self, starter_index):
         if starter_index < 0 or starter_index >= len(self.starters):
-        raise ValueError("Starter index out of range")
+            raise ValueError("Starter index out of range")
 
         self.starter = self.starters[starter_index]
 
