@@ -5,8 +5,7 @@ class Cities(Enum):
         "name": "Tenochtitlán",
         "music theme": [],
         "map image": []
-        
-    }
+        },
     Xaltocan = {
         "name": "Xaltocan",
         "music theme": [],
@@ -51,129 +50,123 @@ class Cities(Enum):
     }
 
 class Towns(Enum):
-    def Towns:
-        Tepoztlan = {
-            "name": "Tepoztlán",
-            "music theme": [],
-            "map image": []
-            
+    Tepoztlan = {
+        "name": "Tepoztlán",
+        "music theme": [],
+        "map image": []
+    },
+    Coatlinchan = {
+        "name": "Coatlinchán",
+        "music theme": [],
+        "map image": []
+        },
+    Malinalco = {
+        "name": "Malinalco",
+        "music theme": [],
+        "map image": []
         }
-        Coatlinchan = {
-            "name": "Coatlinchán",
-            "music theme": [],
-            "map image": []
-            
+    Tlatelolco = {
+        "name": "Tlatelolco",
+        "music theme": [],
+        "map image": []
         }
-        Malinalco = {
-            "name": "Malinalco",
-            "music theme": [],
-            "map image": []
-            
-        }
-        Tlatelolco = {
-            "name": "Tlatelolco",
-            "music theme": [],
-            "map image": []
-            
-        }
-        Chimalhuacan = {
+    Chimalhuacan = {
             "name": "Chimalhuacan",
             "music theme": [],
             "map image": []
             
         }
-        Mitla = {
+    Mitla = {
             "name": "Mitla",
             "music theme": [],
             "map image": []
             
         }
-        Izamal = {
+    Izamal = {
             "name": "Izamal",
             "music theme": [],
             "map image": []
             
         }
-        Texcoco = {
+    Texcoco = {
             "name": "Texcoco",
             "music theme": [],
             "map image": []
             
         }
-        Mixcoac = {
+    Mixcoac = {
             "name": "Mixcoac",
             "music theme": [],
             "map image": []
             
         }
 
-class Main_Routes(Enum)
-    def MainRoutes:
-        Blossom_Path = {
+class Main_Routes(Enum):
+    Blossom_Path = {
             "name":"Blossom Path",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Misty_River = {
+    Misty_River = {
             "name": "Misty River",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Ancient_Trial = {
+    Ancient_Trial = {
             "name": "Ancient Trail",
             "level multiplier": [],
             "music theme": [],
             "map image": [],
             
             }
-        Whispering_Woods = {
+    Whispering_Woods = {
             "name": "Whispering Woods",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Dragons_Pass = {
+    Dragons_Pass = {
             "name": "Dragons Pass",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Sunset_Boulevard = {
+    Sunset_Boulevard = {
             "name": "Sunset Boulevard",
             "level multiplier": [],
-            "music theme": : [],
+            "music theme": [],
             "map image": []
             
         }
-        Frostpeak_Path = {
+    Frostpeak_Path = {
             "name": "Frostpeak Path",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Silent_Ruins = {
+    Silent_Ruins = {
             "name": "Silent Ruins",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Crystal_Cascades = {
+    Crystal_Cascades = {
             "name": "Crystal Cascades",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Starlight_Path = {
-            "name": "Starlight Path"
+    Starlight_Path = {
+            "name": "Starlight Path",
             "level multiplier": [],
             "music theme": [],
             "map image": []
@@ -181,36 +174,35 @@ class Main_Routes(Enum)
         }
 
 class Side_routes(Enum):
-    def SideRoutes:
-        Isle_of_Dolls = {
+    Isle_of_Dolls = {
             "name": "Isle of Dolls",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Ember_Ridge = {
+    Ember_Ridge = {
             "name": "Ember Ridge",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Enchanted_Gorve = {
+    Enchanted_Gorve = {
             "name": "Enchanted Grove",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Coral_Reef_Path = {
+    Coral_Reef_Path = {
             "name": "Coral Reef Path",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Celestial_Bridge = {
+    Celestial_Bridge = {
             "name": "Celestial Bridge",
             "level multiplier": [],
             "music theme": [],
@@ -219,40 +211,38 @@ class Side_routes(Enum):
         }
 
 class Cave(Enum):
-    def Caves:
-        Secret_Chasm {
+    Secret_Chasm = {
             "name": "Secret Chasm",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Unexplored_Abyss = {
+    Unexplored_Abyss = {
             "name": "Unexplored Abyss",
             "level multiplier": [],
             "music theme": [],
             "map image": []
             
         }
-        Enigmatic_Passage = {
+    Enigmatic_Passage = {
             "name": "Enigmatic Passage",
             "level multiplier": [],
             "music theme": [],
             "map image": []
         
         }
-        Challenge_Cave = {
+    Challenge_Cave = {
             "name": "Challenge Cave",
             "level multiplier": [],
             "music theme": [],
             "map image": []
         
         }
-        Quetzalcoatl_Ruins = {
+    Quetzalcoatl_Ruins = {
             "name": "Quetzalcoatl Ruins",
             "level multiplier": [],
             "music theme": [],
             "map image": []
         
         }
-    print(Cave.caves.Secret_Chasm)
