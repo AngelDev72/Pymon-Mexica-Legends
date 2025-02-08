@@ -1,12 +1,12 @@
 from enum import Enum
 
 class Cities(Enum):
-    Tenochtitlan = {
+    tenochtitlan = {
         "name": "Tenochtitlán",
         "music theme": [],
         "map image": []
     }
-    Xaltocan = {
+    xaltocan = {
         "name": "Xaltocan",
         "music theme": [],
         "map image": []
@@ -90,7 +90,7 @@ class Towns(Enum):
         "map image": []
     }
 
-class Main_Routes(Enum):
+class MainRoutes(Enum):
     Blossom_Path = {
         "name":"Blossom Path",
         "level multiplier": [],
@@ -184,7 +184,7 @@ class Side_routes(Enum):
         "map image": []
     }
 
-class Cave(Enum):
+class Caves(Enum):
     Secret_Chasm = {
         "name": "Secret Chasm",
         "level multiplier": [],
