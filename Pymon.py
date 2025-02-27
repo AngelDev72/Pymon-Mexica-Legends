@@ -1,13 +1,13 @@
 import sys
-import pygame
+import pygame as pg
 
-pygame.init()
-screen = pygame.display.set_mode((800,800))
-pygame.display.set_caption("Pymon")
+pg.init()
+screen = pg.display.set_mode((800,800))
+pg.display.set_caption("Pymon")
 #experiment 
 
 while True:
-    for event in pygame.event.get():
-        if event.type == QUIT:
-            pygame.quit()
+    for event in pg.event.get():
+        if event.type == pg.QUIT:
+            pg.quit()
             sys.exit()
